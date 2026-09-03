@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "vision": "La Vision",
+    "methode": "La Méthode Flédéric™",
+    "investors": "Investisseurs",
+    "testimonials": "Témoignages",
+    "dealroom": "Accès Deal Room"
+  },
+  "hero": {
+    "tag": "Bien-être Essentials — Un Nouveau Paradigme",
+    "title": "Optimiser la Santé du Corps, de l'Esprit et de l'Âme",
+    "subtitle": "Un centre de régénération et de restauration globale propulsé par la thérapie Flédéric™ intégrée à une intelligence artificielle.",
+    "cta_investors": "Découvrir la Levée de Fonds",
+    "cta_methode": "Découvrir la Méthode Flédéric™"
+  },
+  "founder": {
+    "tag": "Créateur & Fondateur",
+    "title": "Flédéric Payet",
+    "subtitle": "Architecte en Performance Métabolique (Plus de 20 ans de recherche)",
+    "bio_1": "À la suite d'un accident de montagne ayant gravement touché ses genoux, Flédéric Payet a développé une méthode d'auto-guérison et de performance métabolique axée sur la stimulation cardiovasculaire, la respiration intentionnelle et la régulation neuro-hormonale.",
+    "bio_2": "Sa méthode Flédéric™ vise à déclencher l'intelligence adaptative de guérison du corps en créant une cohérence parfaite entre le cœur, l'esprit, le corps et l'âme."
+  },
+  "pillars": {
+    "tag": "Fondements de la Méthode",
+    "title": "Cohérence Cœur - Esprit - Corps - Âme",
+    "p1_title": "Engagement Cardiovasculaire Cerné",
+    "p1_desc": "Tout pivote autour du cœur. Aucune routine statique ni cardio linéaire : une modulation constante de l'intensité, du rythme et de la résistance.",
+    "p2_title": "Réponse Endocrinienne & Neuro-Hormonale",
+    "p2_desc": "Stimulation naturelle de la dopamine, des endorphines et de la sérotonine tout en contrôlant le cortisol pour réduire l'inflammation et soulager les douleurs.",
+    "p3_title": "Coaching par IA & Machine Learning",
+    "p3_desc": "Une application interactive qui adapte le programme en temps réel à partir de la biométrie (Apple Health, Google Fit) et de l'effort ressenti."
+  },
+  "methodePage": {
+    "tag": "Science du Mouvement",
+    "title": "La Thérapie Flédéric™ (Metabolic-Masso Deconstruction)",
+    "subtitle": "Déconstruire le stress métabolique et stimuler les mécanismes auto-guérisseurs de l'organisme.",
+    "sec1Title": "1. Déconstruction Métabolique & Modulation Cardiaque",
+    "sec1Desc": "À l'inverse de l'épuisement maximal ou des entraînements classiques, la méthode alterne des phases de poussée et de récupération. Elle utilise la pleine conscience, la respiration intentionnelle et la résilience émotionnelle pour mettre le système nerveux dans un état d'adaptabilité maximale.",
+    "sec2Title": "2. Déclenchement Neuro-Hormonal & Immunitaire",
+    "sec2Desc": "Le mouvement modulé stimule la sécrétion naturelle d'endorphines, de dopamine et d'hormones de croissance, tout en orientant la réponse des cytokines pour réparer les tissus et limiter l'inflammation chronique.",
+    "sec2Highlight": "Résultat : Alignement du corps, du cœur et de l'esprit pour une endurance optimale, une récupération accélérée et un apaisement des douleurs.",
+    "sec3Title": "3. Reconnaissance & Partenariats",
+    "sec3Desc": "Spécialité en cours d'enregistrement de certification (dossier VAE en France) issue de plus de 20 ans de recherche personnelle. La méthode bénéficie notamment d'une lettre de recommandation du Dr. Leon E. Paulos, MD, chirurgien orthopédiste de renommée internationale basé à Salt Lake City.",
+    "btnLicensing": "Opportunités de Partenariat & Écoles"
+  },
+  "investorsPage": {
+    "tag": "Levée de Fonds",
+    "title": "Opportunité d'Investissement — Wellbeing Essentials",
+    "subtitle": "Soutenez le lancement du prototype de l'application IA et l'ouverture du premier WE Center.",
+    "formFullName": "Nom & Prénom",
+    "formOrg": "Fonds / Organisation / Profil",
+    "formEmail": "E-mail de contact",
+    "formTicket": "Phase visée (Phase I : $500k / Phase II : $2-2.5M)",
+    "formNda": "J'accepte de recevoir le dossier d'investissement confidentiel (Wellbeing Essentials Deck).",
+    "formSubmit": "Demander l'accès au Pitch Deck"
+  },
+  "testimonials": {
+    "tag": "Recommandation",
+    "title": "L'avis des experts",
+    "items": [
+      {
+        "quote": "Soutien et recommandation pour les travaux de recherche et la méthodologie de performance métabolique développée par Flédéric Payet sur la régénération et la récupération.",
+        "author": "Dr. Leon E. Paulos, MD",
+        "role": "Chirurgien Orthopédiste",
+        "location": "Salt Lake City, Utah (USA)"
+      }
+    ]
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "confidential": "Wellbeing Essentials — Document et opportunité confidentiels."
+  }
+}

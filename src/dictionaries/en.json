@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "vision": "Vision",
+    "methode": "Flederic™ Method",
+    "investors": "Investors",
+    "testimonials": "Testimonials",
+    "dealroom": "Deal Room Access"
+  },
+  "hero": {
+    "tag": "Wellbeing Essentials — A New Paradigm",
+    "title": "Maximizing Health in Mind, Body & Soul",
+    "subtitle": "A total body rejuvenation and restoration center featuring AI-integrated Flederic™ Therapy.",
+    "cta_investors": "Explore Funding Opportunity",
+    "cta_methode": "Understand Flederic™ Method"
+  },
+  "founder": {
+    "tag": "Creator & Founder",
+    "title": "Flederic Payet",
+    "subtitle": "Metabolic Performance Research Expert (20+ Years Development)",
+    "bio_1": "Following a severe mountain climbing accident injuring both knees, Flederic Payet developed a self-healing and metabolic performance approach centered around cardiovascular engagement, intentional breathing, and neuro-hormonal modulation.",
+    "bio_2": "His unique Flederic™ methodology triggers the body's adaptive healing intelligence by establishing pure coherence between heart, mind, body, and soul."
+  },
+  "pillars": {
+    "tag": "Methodology Core",
+    "title": "Mind - Body - Heart - Soul Coherence",
+    "p1_title": "Cardio-Centric Engagement",
+    "p1_desc": "Everything revolves around the heart. No static routines or steady-state cardio: constant modulation of pacing, intensity, and resistance.",
+    "p2_title": "Endocrine & Neuro-Hormonal Boost",
+    "p2_desc": "Triggers natural release of dopamine, endorphins, and serotonin while actively managing cortisol to reduce inflammation and relieve pain.",
+    "p3_title": "AI Coach & Machine Learning Integration",
+    "p3_desc": "An interactive app capturing user biometrics (Apple HealthKit, Google Fit) and exertion levels to dynamically adapt workouts."
+  },
+  "methodePage": {
+    "tag": "Exercise Science",
+    "title": "Flederic™ Therapy (Metabolic-Masso Deconstruction)",
+    "subtitle": "Deconstructing metabolic stress and triggering the body's self-healing mechanisms.",
+    "sec1Title": "1. Metabolic Deconstruction & Cardiac Modulation",
+    "sec1Desc": "Moving away from maximal exhaustion, Flederic constantly modulates between bursts and recovery. It combines mindfulness, intentional breathing, and emotional resilience to place the nervous system in a highly receptive state.",
+    "sec2Title": "2. Endocrine & Immune Response",
+    "sec2Desc": "Modulated exercise stimulates endorphin and growth hormone release while directing cytokines toward tissue repair rather than chronic inflammation.",
+    "sec2Highlight": "Result: Alignment of mind, body, and heart for optimal endurance, accelerated healing, and symptom reduction.",
+    "sec3Title": "3. Credentials & Endorsements",
+    "sec3Desc": "Patent pending certification specialty with the French VAE office resulting from 20 years of research. Supported by a letter of recommendation from world-renowned orthopedic surgeon Dr. Leon E. Paulos, MD (Salt Lake City, Utah).",
+    "btnLicensing": "Explore Partnership & Franchise Options"
+  },
+  "investorsPage": {
+    "tag": "Funding Space",
+    "title": "Investment Opportunity — Wellbeing Essentials",
+    "subtitle": "Support Phase I seed capital ($500k) for prototype development or Phase II ($2-2.5M) launch.",
+    "formFullName": "Full Name",
+    "formOrg": "Fund / Organization / Profile",
+    "formEmail": "Business Email",
+    "formTicket": "Target Phase (Phase I: $500k / Phase II: $2-2.5M)",
+    "formNda": "I agree to receive the confidential investment presentation (Wellbeing Essentials Deck).",
+    "formSubmit": "Request Pitch Deck Access"
+  },
+  "testimonials": {
+    "tag": "Recommendation",
+    "title": "Expert Endorsement",
+    "items": [
+      {
+        "quote": "Letter of recommendation supporting the metabolic performance methodology and research developed by Flederic Payet regarding recovery and healing.",
+        "author": "Dr. Leon E. Paulos, MD",
+        "role": "Orthopedic Surgeon",
+        "location": "Salt Lake City, Utah (USA)"
+      }
+    ]
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "confidential": "Wellbeing Essentials — Confidential investment document."
+  }
+}
