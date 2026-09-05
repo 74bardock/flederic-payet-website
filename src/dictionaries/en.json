@@ -1,73 +1,167 @@
 {
   "nav": {
     "vision": "Vision",
-    "methode": "Flederic™ Method",
+    "methode": "Method",
+    "method": "Metabolic recalibration",
+    "proofs": "Results",
+    "science": "Science",
     "investors": "Investors",
     "testimonials": "Testimonials",
-    "dealroom": "Deal Room Access"
-  },
-  "hero": {
-    "tag": "Wellbeing Essentials — A New Paradigm",
-    "title": "Maximizing Health in Mind, Body & Soul",
-    "subtitle": "A total body rejuvenation and restoration center featuring AI-integrated Flederic™ Therapy.",
-    "cta_investors": "Explore Funding Opportunity",
-    "cta_methode": "Understand Flederic™ Method"
-  },
-  "founder": {
-    "tag": "Creator & Founder",
-    "title": "Flederic Payet",
-    "subtitle": "Metabolic Performance Research Expert (20+ Years Development)",
-    "bio_1": "Following a severe mountain climbing accident injuring both knees, Flederic Payet developed a self-healing and metabolic performance approach centered around cardiovascular engagement, intentional breathing, and neuro-hormonal modulation.",
-    "bio_2": "His unique Flederic™ methodology triggers the body's adaptive healing intelligence by establishing pure coherence between heart, mind, body, and soul."
-  },
-  "pillars": {
-    "tag": "Methodology Core",
-    "title": "Mind - Body - Heart - Soul Coherence",
-    "p1_title": "Cardio-Centric Engagement",
-    "p1_desc": "Everything revolves around the heart. No static routines or steady-state cardio: constant modulation of pacing, intensity, and resistance.",
-    "p2_title": "Endocrine & Neuro-Hormonal Boost",
-    "p2_desc": "Triggers natural release of dopamine, endorphins, and serotonin while actively managing cortisol to reduce inflammation and relieve pain.",
-    "p3_title": "AI Coach & Machine Learning Integration",
-    "p3_desc": "An interactive app capturing user biometrics (Apple HealthKit, Google Fit) and exertion levels to dynamically adapt workouts."
-  },
-  "methodePage": {
-    "tag": "Exercise Science",
-    "title": "Flederic™ Therapy (Metabolic-Masso Deconstruction)",
-    "subtitle": "Deconstructing metabolic stress and triggering the body's self-healing mechanisms.",
-    "sec1Title": "1. Metabolic Deconstruction & Cardiac Modulation",
-    "sec1Desc": "Moving away from maximal exhaustion, Flederic constantly modulates between bursts and recovery. It combines mindfulness, intentional breathing, and emotional resilience to place the nervous system in a highly receptive state.",
-    "sec2Title": "2. Endocrine & Immune Response",
-    "sec2Desc": "Modulated exercise stimulates endorphin and growth hormone release while directing cytokines toward tissue repair rather than chronic inflammation.",
-    "sec2Highlight": "Result: Alignment of mind, body, and heart for optimal endurance, accelerated healing, and symptom reduction.",
-    "sec3Title": "3. Credentials & Endorsements",
-    "sec3Desc": "Patent pending certification specialty with the French VAE office resulting from 20 years of research. Supported by a letter of recommendation from world-renowned orthopedic surgeon Dr. Leon E. Paulos, MD (Salt Lake City, Utah).",
-    "btnLicensing": "Explore Partnership & Franchise Options"
-  },
-  "investorsPage": {
-    "tag": "Funding Space",
-    "title": "Investment Opportunity — Wellbeing Essentials",
-    "subtitle": "Support Phase I seed capital ($500k) for prototype development or Phase II ($2-2.5M) launch.",
-    "formFullName": "Full Name",
-    "formOrg": "Fund / Organization / Profile",
-    "formEmail": "Business Email",
-    "formTicket": "Target Phase (Phase I: $500k / Phase II: $2-2.5M)",
-    "formNda": "I agree to receive the confidential investment presentation (Wellbeing Essentials Deck).",
-    "formSubmit": "Request Pitch Deck Access"
-  },
-  "testimonials": {
-    "tag": "Recommendation",
-    "title": "Expert Endorsement",
-    "items": [
-      {
-        "quote": "Letter of recommendation supporting the metabolic performance methodology and research developed by Flederic Payet regarding recovery and healing.",
-        "author": "Dr. Leon E. Paulos, MD",
-        "role": "Orthopedic Surgeon",
-        "location": "Salt Lake City, Utah (USA)"
-      }
-    ]
+    "dealroom": "Dealroom",
+    "contact": "Contact Flédéric",
+    "home": "← Home"
   },
   "footer": {
     "rights": "All rights reserved.",
-    "confidential": "Wellbeing Essentials — Confidential investment document."
+    "confidential": "Confidential document for internal use only."
+  },
+  "testimonials": {
+    "tag": "Testimonials",
+    "title": "What Our Users Say",
+    "subtitle": "Discover the daily impact of MetaboSync.",
+    "items": [
+      {
+        "quote": "The MMD method allowed me to precisely understand my body's needs.",
+        "author": "Dr. Elodie Martin",
+        "role": "Nutritionist",
+        "location": "Paris, France"
+      },
+      {
+        "quote": "A rigorous, data-driven approach essential for personalized tracking.",
+        "author": "Marc Lemaire",
+        "role": "Biohacker & Founder",
+        "location": "Lyon, France"
+      }
+    ]
+  },
+  "hero": {
+    "badge": "Metabolic Health & Physiology",
+    "titleLine1": "Optimize your health through",
+    "titleLine2": "Metabolic recalibration",
+    "description": "A scientific and personalized approach based on physiological data analysis to restore metabolic flexibility and optimize your vitality.",
+    "ctaPrimary": "Explore the science",
+    "ctaSecondary": "View results"
+  },
+  "contrast": {
+    "title": "A fundamentally different approach",
+    "tradTitle": "Traditional approaches",
+    "tradPoint1": "Restrictive and generic diets",
+    "tradPoint2": "Yo-yo effect and chronic fatigue",
+    "tradPoint3": "Superficial symptom analysis",
+    "tradPoint4": "Lack of targeted physiological tracking",
+    "fledericTitle": "Metabolic recalibration",
+    "fledericPoint1": "In-depth analysis of physiological markers",
+    "fledericPoint2": "Optimization of metabolic flexibility",
+    "fledericPoint3": "Data-driven personalized adjustments",
+    "fledericPoint4": "Sustainable results without extreme diets"
+  },
+  "stories": {
+    "badge": "Testimonials",
+    "title": "Observed Results",
+    "subtitle": "Discover how Metabolic recalibration transforms everyday vitality.",
+    "card1": {
+      "tag": "Energy & Vitality",
+      "text": "Thanks to Metabolic recalibration, I restored stable energy levels throughout the day without typical energy crashes.",
+      "name": "Marc D.",
+      "role": "Entrepreneur"
+    },
+    "card2": {
+      "tag": "Performance",
+      "text": "Significantly improved mental clarity and recovery by accounting for my personal physiological data.",
+      "name": "Sophie L.",
+      "role": "Executive"
+    }
+  },
+  "science": {
+    "badge": "Scientific Foundations",
+    "title": "The Science Behind Metabolic Recalibration",
+    "description": "Our methodology relies on precise analysis of metabolic markers to deliver a tailor-made optimization strategy.",
+    "step1Title": "1. Initial Assessment",
+    "step1Text": "In-depth collection and analysis of your physiological data and lifestyle habits.",
+    "step2Title": "2. Personalized Adjustment",
+    "step2Text": "Implementation of the Metabolic recalibration plan tailored to your unique needs.",
+    "step3Title": "3. Monitoring & Optimization",
+    "step3Text": "Measuring progress and fine-tuning to ensure lasting results."
+  },
+  "ctaBottom": {
+    "title": "Ready to optimize your metabolic health?",
+    "subtitle": "Get in touch with Flédéric Payet to learn more about Metabolic recalibration.",
+    "button": "Contact Flédéric"
+  },
+  "methodePage": {
+    "tag": "Our Methodology",
+    "title": "The MMD Method",
+    "subtitle": "A structured scientific approach to optimizing metabolic health.",
+    "description": "The MMD (Metabolic Measurement & Data) method relies on tracking physiological indicators to tailor your lifestyle in a personalized way.",
+    "sec1Title": "Our Scientific Approach",
+    "sec1Desc": "We combine continuous tracking of physiological data and algorithmic analysis to deliver targeted, measurable interventions.",
+    "sec2Title": "Personalization & Tracking",
+    "sec2Desc": "Because every metabolism is unique, our platform dynamically adjusts recommendations based on your real-time physiological response.",
+    "sec2Highlight": "Continuous data analysis allows us to anticipate metabolic changes before symptoms appear.",
+    "sec3Title": "Results & Impact",
+    "sec3Desc": "Measurable improvements in metabolic flexibility, sustained energy regain, and proactive health risk prevention.",
+    "btnLicensing": "Explore licensing options",
+    "stepsTitle": "Method Steps",
+    "step1": {
+      "title": "1. Measurement & Assessment",
+      "description": "Targeted analysis of your physiological data and metabolic health markers."
+    },
+    "step2": {
+      "title": "2. Recalibration",
+      "description": "Progressive and personalized adjustments to nutrition and lifestyle."
+    },
+    "step3": {
+      "title": "3. Continuous Optimization",
+      "description": "Tracking key indicators to ensure long-term vitality and metabolic flexibility."
+    }
+  },
+  "investorsPage": {
+    "tag": "Opportunities & Partnerships",
+    "title": "Investors Space",
+    "subtitle": "Discover our vision and growth opportunities.",
+    "description": "MetaboSync develops data-driven metabolic health tech solutions.",
+    "formTitle": "Access the Dealroom",
+    "formSubtitle": "Fill out the form below to receive our pitch deck and financial information.",
+    "formFullName": "Full Name *",
+    "formFullNamePlaceholder": "John Doe",
+    "formEmail": "Work Email *",
+    "formEmailPlaceholder": "john.doe@company.com",
+    "formOrg": "Fund / Organization *",
+    "formOrgPlaceholder": "Your fund or company name",
+    "formRole": "Role / Position",
+    "formRolePlaceholder": "Partner, Analyst, Business Angel...",
+    "formMessage": "Message / Specific Interest",
+    "formMessagePlaceholder": "Detail your investment thesis or questions...",
+    "formSubmit": "Request Access",
+    "successTitle": "Request Sent!",
+    "successText": "Thank you for your interest. We will review your request and get back to you shortly."
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Contact Flédéric Payet",
+    "subtitle": "Questions about Metabolic recalibration, partnership opportunities, or consultation inquiries?",
+    "info": {
+      "role": "MetaboSync Founder",
+      "bio": "Specialist in metabolic health and data-driven Metabolic recalibration.",
+      "emailLabel": "Direct Email",
+      "locationLabel": "Location",
+      "locationValue": "France / Remote",
+      "responseTimeTitle": "Response Time",
+      "responseTimeText": "Inquiries are typically reviewed within 24 to 48 business hours."
+    },
+    "form": {
+      "nameLabel": "Full Name *",
+      "namePlaceholder": "John Doe",
+      "emailLabel": "Email Address *",
+      "emailPlaceholder": "john.doe@example.com",
+      "subjectLabel": "Subject *",
+      "subjectPlaceholder": "Information request / Partnership",
+      "messageLabel": "Your Message *",
+      "messagePlaceholder": "Describe your inquiry or project...",
+      "submitButton": "Send Message",
+      "successTitle": "Message Sent!",
+      "successText": "Thank you for your message. Flédéric will get back to you shortly.",
+      "resetButton": "Send another message"
+    }
   }
 }

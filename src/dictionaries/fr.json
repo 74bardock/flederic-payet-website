@@ -1,73 +1,167 @@
 {
   "nav": {
-    "vision": "La Vision",
-    "methode": "La Méthode Flédéric™",
+    "vision": "Vision",
+    "methode": "Méthode",
+    "method": "Recalibration métabolique",
+    "proofs": "Résultats",
+    "science": "Science",
     "investors": "Investisseurs",
     "testimonials": "Témoignages",
-    "dealroom": "Accès Financement"
+    "dealroom": "Dealroom",
+    "contact": "Contacter Flédéric",
+    "home": "← Accueil"
   },
-  "hero": {
-    "tag": "Bien-être Essentials — Un Nouveau Paradigme",
-    "title": "Optimiser la Santé du Corps, de l'Esprit et de l'Âme",
-    "subtitle": "Un centre de régénération et de restauration globale propulsé par la thérapie Flédéric™ intégrée à une intelligence artificielle.",
-    "cta_investors": "Découvrir la Levée de Fonds",
-    "cta_methode": "Découvrir la Méthode Flédéric™"
-  },
-  "founder": {
-    "tag": "Créateur & Fondateur",
-    "title": "Flédéric Payet",
-    "subtitle": "Architecte en Performance Métabolique (Plus de 20 ans de recherche)",
-    "bio_1": "À la suite d'un accident de montagne ayant gravement touché ses genoux, Flédéric Payet a développé une méthode d'auto-guérison et de performance métabolique axée sur la stimulation cardiovasculaire, la respiration intentionnelle et la régulation neuro-hormonale.",
-    "bio_2": "Sa méthode Flédéric™ vise à déclencher l'intelligence adaptative de guérison du corps en créant une cohérence parfaite entre le cœur, l'esprit, le corps et l'âme."
-  },
-  "pillars": {
-    "tag": "Fondements de la Méthode",
-    "title": "Cohérence Cœur - Esprit - Corps - Âme",
-    "p1_title": "Engagement Cardiovasculaire Cerné",
-    "p1_desc": "Tout pivote autour du cœur. Aucune routine statique ni cardio linéaire : une modulation constante de l'intensité, du rythme et de la résistance.",
-    "p2_title": "Réponse Endocrinienne & Neuro-Hormonale",
-    "p2_desc": "Stimulation naturelle de la dopamine, des endorphines et de la sérotonine tout en contrôlant le cortisol pour réduire l'inflammation et soulager les douleurs.",
-    "p3_title": "Coaching par IA & Machine Learning",
-    "p3_desc": "Une application interactive qui adapte le programme en temps réel à partir de la biométrie (Apple Health, Google Fit) et de l'effort ressenti."
-  },
-  "methodePage": {
-    "tag": "Science du Mouvement",
-    "title": "La Thérapie Flédéric™ (Metabolic-Masso Deconstruction)",
-    "subtitle": "Déconstruire le stress métabolique et stimuler les mécanismes auto-guérisseurs de l'organisme.",
-    "sec1Title": "1. Déconstruction Métabolique & Modulation Cardiaque",
-    "sec1Desc": "À l'inverse de l'épuisement maximal ou des entraînements classiques, la méthode alterne des phases de poussée et de récupération. Elle utilise la pleine conscience, la respiration intentionnelle et la résilience émotionnelle pour mettre le système nerveux dans un état d'adaptabilité maximale.",
-    "sec2Title": "2. Déclenchement Neuro-Hormonal & Immunitaire",
-    "sec2Desc": "Le mouvement modulé stimule la sécrétion naturelle d'endorphines, de dopamine et d'hormones de croissance, tout en orientant la réponse des cytokines pour réparer les tissus et limiter l'inflammation chronique.",
-    "sec2Highlight": "Résultat : Alignement du corps, du cœur et de l'esprit pour une endurance optimale, une récupération accélérée et un apaisement des douleurs.",
-    "sec3Title": "3. Reconnaissance & Partenariats",
-    "sec3Desc": "Spécialité en cours d'enregistrement de certification (dossier VAE en France) issue de plus de 20 ans de recherche personnelle. La méthode bénéficie notamment d'une lettre de recommandation du Dr. Leon E. Paulos, MD, chirurgien orthopédiste de renommée internationale basé à Salt Lake City.",
-    "btnLicensing": "Opportunités de Partenariat & Écoles"
-  },
-  "investorsPage": {
-    "tag": "Levée de Fonds",
-    "title": "Opportunité d'Investissement — Wellbeing Essentials",
-    "subtitle": "Soutenez le lancement du prototype de l'application IA et l'ouverture du premier WE Center.",
-    "formFullName": "Nom & Prénom",
-    "formOrg": "Fonds / Organisation / Profil",
-    "formEmail": "E-mail de contact",
-    "formTicket": "Phase visée (Phase I : $500k / Phase II : $2-2.5M)",
-    "formNda": "J'accepte de recevoir le dossier d'investissement confidentiel (Wellbeing Essentials Deck).",
-    "formSubmit": "Demander l'accès au Pitch Deck"
+ "footer": {
+    "rights": "Tous droits réservés.",
+    "confidential": "Document confidentiel à usage strictement réservé."
   },
   "testimonials": {
-    "tag": "Recommandation",
-    "title": "L'avis des experts",
+    "tag": "Témoignages",
+    "title": "Ce que nos utilisateurs disent",
+    "subtitle": "Découvrez l'impact de MetaboSync au quotidien.",
     "items": [
       {
-        "quote": "Soutien et recommandation pour les travaux de recherche et la méthodologie de performance métabolique développée par Flédéric Payet sur la régénération et la récupération.",
-        "author": "Dr. Leon E. Paulos, MD",
-        "role": "Chirurgien Orthopédiste",
-        "location": "Salt Lake City, Utah (USA)"
+        "quote": "La méthode MMD m'a permis de comprendre précisément les besoins de mon corps.",
+        "author": "Dr. Élodie Martin",
+        "role": "Médecin nutritionniste",
+        "location": "Paris, France"
+      },
+      {
+        "quote": "Une approche rigoureuse et basée sur la donnée, indispensable pour un suivi personnalisé.",
+        "author": "Marc Lemaire",
+        "role": "Biohacker & Fondateur",
+        "location": "Lyon, France"
       }
     ]
   },
-  "footer": {
-    "rights": "Tous droits réservés.",
-    "confidential": "Wellbeing Essentials — Document et opportunité confidentiels."
+  "hero": {
+    "badge": "Santé Métabolique & Physiologie",
+    "titleLine1": "Optimisez votre santé grâce à la",
+    "titleLine2": "Recalibration métabolique",
+    "description": "Une approche scientifique et personnalisée basée sur l'analyse de données physiologiques pour restaurer votre souplesse métabolique et optimiser votre vitalité.",
+    "ctaPrimary": "Découvrir la science",
+    "ctaSecondary": "Voir les résultats"
+  },
+  "contrast": {
+    "title": "Une approche fondamentale différente",
+    "tradTitle": "Approches traditionnelles",
+    "tradPoint1": "Régimes restrictifs et génériques",
+    "tradPoint2": "Effet yo-yo et fatigue chronique",
+    "tradPoint3": "Analyse superficielle des symptômes",
+    "tradPoint4": "Pas de suivi physiologique ciblé",
+    "fledericTitle": "Recalibration métabolique",
+    "fledericPoint1": "Analyse approfondie des marqueurs physiologiques",
+    "fledericPoint2": "Optimisation de la souplesse métabolique",
+    "fledericPoint3": "Ajustements personnalisés basés sur la donnée",
+    "fledericPoint4": "Résultats durables sans régimes extrêmes"
+  },
+  "stories": {
+    "badge": "Retours d'expérience",
+    "title": "Résultats constatés",
+    "subtitle": "Découvrez comment la Recalibration métabolique transforme la vitalité au quotidien.",
+    "card1": {
+      "tag": "Énergie & Vitalité",
+      "text": "Grâce à la Recalibration métabolique, j'ai retrouvé un niveau d'énergie stable tout au long de la journée sans les coups de pompe habituels.",
+      "name": "Marc D.",
+      "role": "Entrepreneur"
+    },
+    "card2": {
+      "tag": "Performances",
+      "text": "Une clarté d'esprit et une récupération nettement améliorées grâce à la prise en compte de mes données physiologiques personnelles.",
+      "name": "Sophie L.",
+      "role": "Cadre dirigeante"
+    }
+  },
+  "science": {
+    "badge": "Fondations scientifiques",
+    "title": "La science derrière la Recalibration métabolique",
+    "description": "Notre méthodologie repose sur l'analyse précise des marqueurs métaboliques pour offrir une stratégie d'optimisation sur mesure.",
+    "step1Title": "1. Évaluation initiale",
+    "step1Text": "Collecte et analyse poussée de vos données physiologiques et habitudes de vie.",
+    "step2Title": "2. Ajustement personnalisé",
+    "step2Text": "Mise en place du plan de Recalibration métabolique adapté à vos besoins uniques.",
+    "step3Title": "3. Suivi & Optimisation",
+    "step3Text": "Mesure des progrès et ajustements fins pour garantir des résultats pérennes."
+  },
+  "ctaBottom": {
+    "title": "Prêt à optimiser votre santé métabolique ?",
+    "subtitle": "Prenez contact avec Flédéric Payet pour en savoir plus sur la Recalibration métabolique.",
+    "button": "Contacter Flédéric"
+  },
+  "methodePage": {
+    "tag": "Notre Méthodologie",
+    "title": "La Méthode MMD",
+    "subtitle": "Une approche scientifique structurée pour optimiser la santé métabolique.",
+    "description": "La méthode MMD (Metabolic Measurement & Data) repose sur le suivi d'indicateurs physiologiques pour adapter votre hygiène de vie de manière personnalisée.",
+    "sec1Title": "Notre approche scientifique",
+    "sec1Desc": "Nous combinons la mesure continue de données physiologiques et l'analyse algorithmique pour proposer des interventions ciblées et mesurables.",
+    "sec2Title": "Personnalisation & Suivi",
+    "sec2Desc": "Chaque métabolisme étant unique, notre plateforme ajuste dynamiquement les recommandations en fonction de vos réponses physiologiques réelles.",
+    "sec2Highlight": "L'analyse continue des données permet d'anticiper les variations métaboliques avant l'apparition des symptômes.",
+    "sec3Title": "Résultats & Impact",
+    "sec3Desc": "Une amélioration mesurable de la flexibilité métabolique, un regain d'énergie durable et une prévention proactive des risques de santé.",
+    "btnLicensing": "Découvrir les options de licence",
+    "stepsTitle": "Les étapes de la méthode",
+    "step1": {
+      "title": "1. Mesure & Diagnostic",
+      "description": "Analyse ciblée de vos données physiologiques et marqueurs de santé métabolique."
+    },
+    "step2": {
+      "title": "2. Recalibration",
+      "description": "Ajustement progressif et personnalisé de la nutrition et du mode de vie."
+    },
+    "step3": {
+      "title": "3. Optimisation Continue",
+      "description": "Suivi des indicateurs clés pour garantir une vitalité et une flexibilité métabolique durables."
+    }
+  },
+  "investorsPage": {
+    "tag": "Opportunités & Partenariats",
+    "title": "Espace Investisseurs",
+    "subtitle": "Découvrez notre vision et nos opportunités de croissance.",
+    "description": "MetaboSync développe des solutions technologiques de santé métabolique basées sur la donnée physiologique.",
+    "formTitle": "Accéder au Dealroom",
+    "formSubtitle": "Remplissez le formulaire ci-dessous pour recevoir notre pitch deck et les informations financières.",
+    "formFullName": "Nom complet *",
+    "formFullNamePlaceholder": "Jean Dupont",
+    "formEmail": "Adresse email professionnelle *",
+    "formEmailPlaceholder": "jean.dupont@entreprise.com",
+    "formOrg": "Fonds / Organisation *",
+    "formOrgPlaceholder": "Nom de votre fonds ou société",
+    "formRole": "Fonction",
+    "formRolePlaceholder": "Partner, Analyste, Business Angel...",
+    "formMessage": "Message / Intérêt particulier",
+    "formMessagePlaceholder": "Précisez votre thèse d'investissement ou vos questions...",
+    "formSubmit": "Demander l'accès",
+    "successTitle": "Demande envoyée !",
+    "successText": "Merci pour votre intérêt. Nous examinerons votre demande et vous contacterons rapidement."
+  },
+  "contact": {
+    "badge": "Prendre contact",
+    "title": "Contacter Flédéric Payet",
+    "subtitle": "Une question sur la Recalibration métabolique, une opportunité de partenariat ou une demande d'accompagnement ?",
+    "info": {
+      "role": "Fondateur MetaboSync",
+      "bio": "Spécialiste de la santé métabolique et de la Recalibration métabolique basée sur la donnée.",
+      "emailLabel": "Email Direct",
+      "locationLabel": "Localisation",
+      "locationValue": "France / Remote",
+      "responseTimeTitle": "Temps de réponse",
+      "responseTimeText": "Les demandes sont généralement traitées sous 24 à 48 heures ouvrées."
+    },
+    "form": {
+      "nameLabel": "Nom complet *",
+      "namePlaceholder": "Jean Dupont",
+      "emailLabel": "Adresse Email *",
+      "emailPlaceholder": "jean.dupont@example.com",
+      "subjectLabel": "Sujet *",
+      "subjectPlaceholder": "Demande d'informations / Partenariat",
+      "messageLabel": "Votre message *",
+      "messagePlaceholder": "Décrivez votre demande ou votre projet...",
+      "submitButton": "Envoyer le message",
+      "successTitle": "Message envoyé !",
+      "successText": "Merci pour votre message. Flédéric vous répondra dans les plus brefs délais.",
+      "resetButton": "Envoyer un autre message"
+    }
   }
 }
