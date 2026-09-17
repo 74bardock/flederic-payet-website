@@ -15,7 +15,7 @@ export default function ContactPage() {
 
       <form className="space-y-6 bg-slate-50 p-8 rounded-2xl border border-slate-200">
         <div>
-          <label className="block text-sm font-medium text-slate-700 mb-2">{contact.form_name}</label>
+          <label className="block text-SM font-medium text-slate-700 mb-2">{contact.form_name}</label>
           <input 
             type="text" 
             className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:outline-none" 
@@ -24,7 +24,7 @@ export default function ContactPage() {
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-slate-700 mb-2">{contact.form_email}</label>
+          <label className="block text-SM font-medium text-slate-700 mb-2">{contact.form_email}</label>
           <input 
             type="email" 
             className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:outline-none" 
@@ -33,7 +33,7 @@ export default function ContactPage() {
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-slate-700 mb-2">{contact.form_message}</label>
+          <label className="block text-SM font-medium text-slate-700 mb-2">{contact.form_message}</label>
           <textarea 
             rows={5} 
             className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:outline-none" 

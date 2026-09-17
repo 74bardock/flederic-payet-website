@@ -26,11 +26,11 @@ export default function Header() {
         </Link>
 
         {/* Navigation principale (4 liens) */}
-        <nav className="hidden md:flex items-center space-x-6 text-sm font-medium text-slate-700">
+        <nav className="hidden md:flex items-center space-x-6 text-SM font-medium text-slate-700">
           <Link href="/a-propos" className="hover:text-blue-600 transition-colors">
             {nav.nav_about}
           </Link>
-          <Link href="/methode-mmd" className="hover:text-blue-600 transition-colors">
+          <Link href="/methode-SM" className="hover:text-blue-600 transition-colors">
             {nav.nav_method}
           </Link>
           <Link href="/temoignages" className="hover:text-blue-600 transition-colors">

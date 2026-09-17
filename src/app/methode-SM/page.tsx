@@ -5,18 +5,18 @@ import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
 import AvatarBicyclette from '@/components/AvatarBicyclette';
 
-export default function MethodeMMDPage() {
+export default function MethodeSMPage() {
   const { lang, t } = useLanguage();
   const method = t.Method;
   const testimonials = t.TestimonialsUI;
   
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100 py-12 px-4 sm:px-6 lg:px-8">
+    <main className="min-h-screen bg-slate-950 text-slate-100 py-12 px-4 SM:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto space-y-16">
         
         {/* En-tête */}
         <section className="text-center space-y-4">
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-blue-400 tracking-tight">
+          <h1 className="text-3xl SM:text-5xl font-extrabold text-blue-400 tracking-tight">
             {method.page_title}
           </h1>
           <p className="text-xl text-slate-300 font-medium">
@@ -30,10 +30,10 @@ export default function MethodeMMDPage() {
         </section>
 
         {/* Biographie du fondateur */}
-        <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 space-y-6">
+        <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 SM:p-8 space-y-6">
           <div className="flex flex-col md:flex-row items-center gap-6">
             <div className="w-32 h-32 rounded-full bg-slate-800 border-2 border-blue-500 overflow-hidden flex-shrink-0 flex items-center justify-center text-slate-400">
-              <span className="text-sm">Coach Avatar</span>
+              <span className="text-SM">Coach Avatar</span>
             </div>
             <div className="space-y-3 text-center md:text-left">
               <h2 className="text-2xl font-bold text-white">
@@ -53,7 +53,7 @@ export default function MethodeMMDPage() {
         </section>
 
         {/* L'Analogie de la Bicyclette */}
-        <section className="bg-gradient-to-br from-slate-900 via-slate-900 to-blue-950/40 border border-blue-900/50 rounded-2xl p-6 sm:p-8 space-y-8 shadow-2xl">
+        <section className="bg-gradient-to-br from-slate-900 via-slate-900 to-blue-950/40 border border-blue-900/50 rounded-2xl p-6 SM:p-8 space-y-8 shadow-2xl">
           <div className="flex items-center gap-4">
             <div className="p-3 bg-blue-600/20 text-blue-400 rounded-xl">
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -61,10 +61,10 @@ export default function MethodeMMDPage() {
               </svg>
             </div>
             <div>
-              <h2 className="text-2xl sm:text-3xl font-bold text-white">
+              <h2 className="text-2xl SM:text-3xl font-bold text-white">
                 {method.analogy?.title || (lang === 'en' ? 'The Bicycle Analogy' : 'L\'Analogie de la Bicyclette')}
               </h2>
-              <p className="text-blue-400 text-sm">
+              <p className="text-blue-400 text-SM">
                 {method.analogy?.why || (lang === 'en' ? 'Understanding metabolic effort' : 'Comprendre l\'effort métabolique')}
               </p>
             </div>
@@ -79,7 +79,7 @@ export default function MethodeMMDPage() {
               <h3 className="font-semibold text-blue-400">
                 {lang === 'en' ? 'The Chain' : 'La Chaîne'}
               </h3>
-              <p className="text-slate-300 text-sm">
+              <p className="text-slate-300 text-SM">
                 {method.analogy?.chain || (lang === 'en' ? 'Represents blood flow' : 'Représente le flux sanguin')}
               </p>
             </div>
@@ -88,7 +88,7 @@ export default function MethodeMMDPage() {
               <h3 className="font-semibold text-blue-400">
                 {lang === 'en' ? 'The Chainring' : 'Le Plateau'}
               </h3>
-              <p className="text-slate-300 text-sm">
+              <p className="text-slate-300 text-SM">
                 {method.analogy?.chainring || (lang === 'en' ? 'Represents cardiac resistance' : 'Représente la résistance cardiaque')}
               </p>
             </div>
@@ -97,7 +97,7 @@ export default function MethodeMMDPage() {
               <h3 className="font-semibold text-blue-400">
                 {lang === 'en' ? 'The Sprockets' : 'Les Pignons'}
               </h3>
-              <p className="text-slate-300 text-sm">
+              <p className="text-slate-300 text-SM">
                 {method.analogy?.cogs || (lang === 'en' ? 'Represent heart rate & pulsation' : 'Représentent la fréquence cardiaque')}
               </p>
             </div>
@@ -111,7 +111,7 @@ export default function MethodeMMDPage() {
         </section>
 
         {/* Équipements */}
-        <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 space-y-4">
+        <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 SM:p-8 space-y-4">
           <h2 className="text-2xl font-bold text-white">
             {method.equipment_title}
           </h2>
@@ -134,16 +134,16 @@ export default function MethodeMMDPage() {
         </section>
 
         {/* Catégories de témoignages */}
-        <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 space-y-6">
+        <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 SM:p-8 space-y-6">
           <h2 className="text-2xl font-bold text-white text-center">
             {testimonials.title}
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 SM:grid-cols-3 gap-3">
             {Object.entries(testimonials.categories).map(([slug, label]) => (
               <Link
                 key={slug}
                 href={`/temoignages?category=${slug}`}
-                className="p-3 bg-slate-950 border border-slate-800 hover:border-blue-500 text-slate-200 hover:text-blue-400 text-center rounded-xl font-medium text-sm transition-all"
+                className="p-3 bg-slate-950 border border-slate-800 hover:border-blue-500 text-slate-200 hover:text-blue-400 text-center rounded-xl font-medium text-SM transition-all"
               >
                 {label} →
               </Link>

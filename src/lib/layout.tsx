@@ -4,7 +4,7 @@ export const dictionaries = {
   fr: {
     nav: {
       vision: "La Vision",
-      methode: "La Méthode MMD™",
+      methode: "La Méthode SM™",
       investors: "Investisseurs",
       dealroom: "Accès Deal Room",
     },
@@ -14,12 +14,12 @@ export const dictionaries = {
       title2: "HEALTHTECH",
       desc: "La première méthodologie de reconditionnement métabolique et de performance globale pilotée par la modulation cardio-endocrinienne.",
       btnDeck: "Demander le Pitch Deck",
-      btnMMD: "Découvrir la Méthode MMD™",
+      btnSM: "Découvrir la Méthode SM™",
     },
     story: {
       tag: "L'Architecte Métabolique",
       title: "D'une blessure majeure à 20 ans d'innovation scientifique",
-      quote: "\"À la suite d'un accident de montagne ayant gravement endommagé mes deux genoux, les diagnostics médicaux m'orientaient vers l'arrêt définitif du sport. Refusant cette fatalité, j'ai consacré plus de deux décennies à concevoir des mécanismes avancés de régénération.\"",
+      quote: "\"À la suite d'un accident de montagne ayant gravement endommagé mes deux genoux, les diagnostics médicaux m'orientaient vers l'arrêt définitif du sport. Refusant cette fatalité, j'ai consacré plus de deux décennies à concevoir des mécaniSMes avancés de régénération.\"",
       stat1Title: "20+ Ans",
       stat1Sub: "D'expérimentation et de recherche empirique",
       stat2Title: "3 Axes",
@@ -31,7 +31,7 @@ export const dictionaries = {
   en: {
     nav: {
       vision: "Vision",
-      methode: "MMD™ Method",
+      methode: "SM™ Method",
       investors: "Investors",
       dealroom: "Deal Room Access",
     },
@@ -41,12 +41,12 @@ export const dictionaries = {
       title2: "HEALTHTECH",
       desc: "The pioneering metabolic reconditioning and performance methodology driven by cardio-endocrine modulation.",
       btnDeck: "Request Pitch Deck",
-      btnMMD: "Discover MMD™ Method",
+      btnSM: "Discover SM™ Method",
     },
     story: {
       tag: "The Metabolic Architect",
       title: "From a major injury to 20 years of scientific innovation",
-      quote: "\"Following a severe mountain accident that heavily damaged both my knees, medical prognosis pointed to a permanent stop to sports. Refusing this outcome, I dedicated over two decades to designing advanced regenerative mechanisms.\"",
+      quote: "\"Following a severe mountain accident that heavily damaged both my knees, medical prognosis pointed to a permanent stop to sports. Refusing this outcome, I dedicated over two decades to designing advanced regenerative mechaniSMs.\"",
       stat1Title: "20+ Years",
       stat1Sub: "Empirical research & experimentation",
       stat2Title: "3 Pillars",

@@ -137,8 +137,8 @@ export default function AvatarBicyclette() {
         <div className="relative flex-1 bg-slate-950 border border-slate-800 p-5 rounded-2xl rounded-tl-none space-y-3">
           <div className="flex items-center justify-between border-b border-slate-800 pb-2">
             <div className="flex items-center gap-2">
-              <span className="text-sm font-bold text-blue-400">
-                {isEn ? 'Flédéric Payet (MMD Coach)' : 'Flédéric Payet (Coach MMD)'}
+              <span className="text-SM font-bold text-blue-400">
+                {isEn ? 'Flédéric Payet (SM Coach)' : 'Flédéric Payet (Coach SM)'}
               </span>
               {isPlaying && (
                 <span className="flex items-center gap-1 text-xs text-blue-400 font-mono">
@@ -153,14 +153,14 @@ export default function AvatarBicyclette() {
             </span>
           </div>
 
-          <p className="text-slate-200 text-sm md:text-base italic leading-relaxed">
+          <p className="text-slate-200 text-SM md:text-base italic leading-relaxed">
             {isEn
               ? '“Imagine your body is a bicycle and that, for it to function properly, it requires regular maintenance. You need to oil the chain, tighten the brakes, change the tires, retighten the bolts, and ensure the suspension is in good condition.”'
               : '« Imaginez que votre corps est une bicyclette et que, pour son bon fonctionnement, il faut un entretien régulier. Il faut huiler la chaîne, resserrer les freins, changer les pneus, revisser les boulons et s\'assurer que les suspensions sont en bon état. »'
             }
           </p>
 
-          <p className="text-slate-300 text-xs md:text-sm leading-relaxed">
+          <p className="text-slate-300 text-xs md:text-SM leading-relaxed">
             {isEn ? (
               <>Why this analogy? Because it brings me back to the body's metabolic mechanics: the <strong>chain</strong> represents blood flow, the <strong>chainring</strong> represents cardiac resistance, and the <strong>sprockets</strong> represent heart rate and pulsation.</>
             ) : (

@@ -10,12 +10,12 @@ export default function AProposPage() {
   const bio = t.Method.biography;
 
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100 py-12 px-4 sm:px-6 lg:px-8">
+    <main className="min-h-screen bg-slate-950 text-slate-100 py-12 px-4 SM:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto space-y-12">
         
         {/* En-tête */}
         <section className="text-center space-y-4">
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-blue-400 tracking-tight">
+          <h1 className="text-3xl SM:text-5xl font-extrabold text-blue-400 tracking-tight">
             {isEn ? 'About Flédéric Payet' : 'À propos de Flédéric Payet'}
           </h1>
           <p className="text-xl text-slate-300 font-medium">
@@ -38,12 +38,12 @@ export default function AProposPage() {
           </div>
 
           {/* Carte Parcours & Engagement à droite */}
-          <section className="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 space-y-6 shadow-xl flex flex-col justify-between">
+          <section className="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 SM:p-8 space-y-6 shadow-xl flex flex-col justify-between">
             <h2 className="text-2xl font-bold text-white border-b border-slate-800 pb-3">
               {isEn ? 'My Commitment & My Journey' : 'Mon Engagement & Mon Parcours'}
             </h2>
             
-            <div className="space-y-4 text-slate-300 leading-relaxed text-base sm:text-lg">
+            <div className="space-y-4 text-slate-300 leading-relaxed text-base SM:text-lg">
               <p>{bio?.p1 || t.Hero.bio}</p>
               {bio?.p2 && <p>{bio.p2}</p>}
               {bio?.p3 && <p>{bio.p3}</p>}
@@ -53,7 +53,7 @@ export default function AProposPage() {
         </div>
 
         {/* Encadré Philosophie */}
-        <section className="bg-gradient-to-r from-blue-950/40 to-slate-900 border border-blue-800/50 rounded-2xl p-6 sm:p-8 space-y-4">
+        <section className="bg-gradient-to-r from-blue-950/40 to-slate-900 border border-blue-800/50 rounded-2xl p-6 SM:p-8 space-y-4">
           <h3 className="text-xl font-bold text-blue-300">
             {isEn ? 'A Preventive Sanctuary' : 'Une approche préventive et curative'}
           </h3>
@@ -68,10 +68,10 @@ export default function AProposPage() {
         {/* Appel à l'action */}
         <div className="text-center pt-4">
           <Link
-            href="/methode-mmd"
+            href="/methode-SM"
             className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-xl shadow-lg transition-all"
           >
-            {isEn ? 'Discover the MMD Method →' : 'Découvrir la Méthode MMD →'}
+            {isEn ? 'Discover the SM Method →' : 'Découvrir la Méthode SM →'}
           </Link>
         </div>
 

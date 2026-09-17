@@ -2,14 +2,14 @@
   "Header": {
     "nav_home": "Accueil",
     "nav_about": "À Propos",
-    "nav_method": "La Méthode MMD",
+    "nav_method": "La Méthode SM",
     "nav_testimonials": "Témoignages"
   },
   "Home": {
     "hero_title": "Synchronisation Métabolique",
     "hero_subtitle": "Une méthodologie innovante qui a fait ses preuves",
-    "hero_description": "Visant à stimuler le système endocrinien et à réactiver et recalibrer le métabolisme pour un niveau d’énergie, de vitalité et d’endurance accru, et une récupération plus rapide.",
-    "key_outcomes": "Équilibre des hormones et libération des neurotransmetteurs."
+    "hero_description": "Visant à stimuler le système endocrinien et à réactiver et recalibrer le métaboliSMe pour un niveau d’énergie, de vitalité et d’endurance accru, et une récupération plus rapide.",
+    "key_outcomes": "Équilibre des hormones et libération des neurotranSMetteurs."
   },
   "About": {
     "page_title": "Biographie du fondateur",
@@ -25,7 +25,7 @@
   },
   "Method": {
     "page_title": "Qu’est-ce que la synchronisation métabolique ?",
-    "definition": "Il s’agit d’un protocole unique conçu pour stimuler naturellement le système endocrinien, entraînant la libération de neurotransmetteurs[cite: 4]. En conséquence, les niveaux d’énergie, d’endurance et de vitalité augmentent de manière significative, et permettent une récupération complète et plus rapide de la fatigue, qu’elle provienne de problèmes de santé ou d’entraînements sportifs intensifs[cite: 4]. Cette méthode peut être suivie universellement et avec succès par des personnes de tout âge ou condition physique[cite: 4].",
+    "definition": "Il s’agit d’un protocole unique conçu pour stimuler naturellement le système endocrinien, entraînant la libération de neurotranSMetteurs[cite: 4]. En conséquence, les niveaux d’énergie, d’endurance et de vitalité augmentent de manière significative, et permettent une récupération complète et plus rapide de la fatigue, qu’elle provienne de problèmes de santé ou d’entraînements sportifs intensifs[cite: 4]. Cette méthode peut être suivie universellement et avec succès par des personnes de tout âge ou condition physique[cite: 4].",
     "innovation": "L’innovation centrale de ce programme est le déclenchement d’une libération naturelle de dopamine, d’endorphine et de sérotonine[cite: 4]. Cette autostimulation du système endocrinien a un impact direct et positif sur la santé des patients ou des athlètes et sur leur capacité à supprimer la fatigue[cite: 4].",
     "disclaimer_title": "Ce que la synchronisation métabolique ne fait pas",
     "disclaimer_body": "La méthode a été conçue pour stimuler naturally le système endocrinien, entraînant des effets positifs sur la santé et les performances[cite: 4]. Il vient en complément, non en remplacement du système médical traditionnel[cite: 4].",
@@ -37,7 +37,7 @@
     "target_forces_title": "Forces spéciales et interventions",
     "target_forces_desc": "Forces Spéciales de Police, Armée, Pompiers exposés à des conditions physiques extrêmes[cite: 4].",
     "objectives_title": "Objectifs de la méthode",
-    "obj_1": "Réactivation du métabolisme[cite: 4]",
+    "obj_1": "Réactivation du métaboliSMe[cite: 4]",
     "obj_2": "Amélioration de l’endurance et de la force[cite: 4]",
     "obj_3": "Amélioration de l’état de santé général[cite: 4]",
     "obj_4": "Séances personnalisées et progressives[cite: 4]",

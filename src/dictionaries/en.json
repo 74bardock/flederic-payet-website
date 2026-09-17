@@ -2,24 +2,24 @@
   "Header": {
     "nav_home": "Home",
     "nav_about": "About",
-    "nav_method": "The MMD Method",
+    "nav_method": "The SM Method",
     "nav_testimonials": "Testimonials",
     "nav_contact": "Contact"
   },
   "Hero": {
-    "subtitle": "Metabolism Specialist & Creator of the Metabolic Effort Method",
-    "bio": "I am a metabolism specialist. I developed a unique method called 'Metabolic Effort' to reactivate and optimize metabolism. I support my clients through tailored sessions based on exercises performed on gym equipment.",
-    "card_method_title": "The MMD Method",
+    "subtitle": "MetaboliSM Specialist & Creator of the Metabolic Effort Method",
+    "bio": "I am a metaboliSM specialist. I developed a unique method called 'Metabolic Effort' to reactivate and optimize metaboliSM. I support my clients through tailored sessions based on exercises performed on gym equipment.",
+    "card_method_title": "The SM Method",
     "card_method_desc": "Discover how Metabolic Effort works and the equipment used.",
     "card_testimonials_title": "Testimonials",
     "card_testimonials_desc": "Targeted feedback by field (Health, Performance, Energy...)",
-    "card_contact_title": "Contact & Assessment",
+    "card_contact_title": "Contact & AssesSMent",
     "card_contact_desc": "Free evaluation for clients or general inquiries."
   },
   "Method": {
-    "page_title": "The MMD Method — Metabolic Effort",
+    "page_title": "The SM Method — Metabolic Effort",
     "subtitle": "Metabolic Synchronization",
-    "definition": "An innovative, proven methodology designed to stimulate the endocrine system and reactivate and recalibrate metabolism for increased energy, vitality, and endurance, as well as faster recovery (balancing hormones and releasing neurotransmitters).",
+    "definition": "An innovative, proven methodology designed to stimulate the endocrine system and reactivate and recalibrate metaboliSM for increased energy, vitality, and endurance, as well as faster recovery (balancing hormones and releasing neurotranSMitters).",
     "biography": {
       "title": "Founder's Biography",
       "name": "Flédéric Payet",
@@ -33,12 +33,12 @@
       "why": "Why this analogy? Because it brings me back to the body's metabolic functioning.",
       "chain": "The chain represents the bloodstream.",
       "chainring": "The chainring represents cardiac resistance.",
-      "cogs": "The small and large cogs represent heart rate or pulse.",
+      "cogs": "The SMall and large cogs represent heart rate or pulse.",
       "conclusion": "This means I modulate the effort so that the body reaches a state of ease—what I call metabolic effort—because it delivers an instant renewal of energy rather than exhaustion."
     },
     "definition_section": {
       "title": "What is Metabolic Synchronization?",
-      "p1": "It is a unique protocol designed to naturally stimulate the endocrine system, triggering the release of neurotransmitters. Consequently, energy, endurance, and vitality levels increase significantly, enabling full and faster recovery from fatigue—whether caused by health issues or intensive sports training. This method can be universally and successfully followed by people of any age or physical condition.",
+      "p1": "It is a unique protocol designed to naturally stimulate the endocrine system, triggering the release of neurotranSMitters. Consequently, energy, endurance, and vitality levels increase significantly, enabling full and faster recovery from fatigue—whether caused by health issues or intensive sports training. This method can be universally and successfully followed by people of any age or physical condition.",
       "p2": "The core innovation of this program is triggering a natural release of dopamine, endorphin, serotonin, etc. This self-stimulation of the endocrine system has a direct and positive impact on the health of patients or athletes and on their ability to eliminate fatigue. This represents a major breakthrough in physical training as it applies to:",
       "targets": {
         "health_title": "People with minor to major health issues",
@@ -53,7 +53,7 @@
     "disclaimer_body": "The method was designed to naturally stimulate the endocrine system, yielding positive effects on health and performance. It serves as a complement to, and not a replacement for, traditional medical care.",
     "objectives_title": "Method Objectives",
     "objectives_list": [
-      "Metabolism reactivation",
+      "MetaboliSM reactivation",
       "Endurance and strength improvement",
       "General health state improvement",
       "Personalized and progressive sessions"
@@ -65,7 +65,7 @@
     "eligibility_title": "Who can access this method?",
     "eligibility_desc": "All profiles from ages 14 to 99, with or without disabilities.",
     "ip_notice": "N.B. For confidentiality reasons, exact protocols remain protected under intellectual property.",
-    "cta": "Ready to restart your metabolism and break free from certain pathologies? Contact me for a free assessment and a custom program.",
+    "cta": "Ready to restart your metaboliSM and break free from certain pathologies? Contact me for a free assesSMent and a custom program.",
     "cta_button": "Get in touch"
   },
 "TestimonialsUI": {

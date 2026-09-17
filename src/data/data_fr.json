@@ -42,7 +42,7 @@
     "location": "Lille",
     "category": "sante",
     "shortText": "Régression des poussées inflammatoires articulaires.",
-    "fullText": "Atteinte d'une pathologie articulaire inflammatoire, chaque entraînement musculaire classique provoquait des crises douloureuses. Grâce à la méthode MMD, l'activation cardiovasculaire à faible impact a réactivé la microcirculation globale et diminué l'inflammation de 70%.",
+    "fullText": "Atteinte d'une pathologie articulaire inflammatoire, chaque entraînement musculaire classique provoquait des crises douloureuses. Grâce à la méthode SM, l'activation cardiovasculaire à faible impact a réactivé la microcirculation globale et diminué l'inflammation de 70%.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=400&auto=format&fit=crop&q=80",
     "documents": [
@@ -60,7 +60,7 @@
     "location": "Montpellier",
     "category": "sante",
     "shortText": "Rééquilibrage endocrinien et soulagement des troubles métaboliques.",
-    "fullText": "Les dérèglements hormonaux perturbaient gravement ma digestion, mon sommeil et ma vitalité. La méthode Effort Métabolique a permis d'optimiser le fonctionnement de mon système endocrinien. Je me sens à nouveau en parfait contrôle de mon organisme.",
+    "fullText": "Les dérèglements hormonaux perturbaient gravement ma digestion, mon sommeil et ma vitalité. La méthode Effort Métabolique a permis d'optimiser le fonctionnement de mon système endocrinien. Je me sens à nouveau en parfait contrôle de mon organiSMe.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=400&auto=format&fit=crop&q=80",
     "documents": [
@@ -133,7 +133,7 @@
     "category": "sante",
     "shortText": "Suppression des céphalées vasculaires et amélioration circulatoire.",
     "shortTextEn": "Suppression of vascular headaches and circulatory improvement.",
-    "fullText": "Des migraines chroniques empoisonnaient mes semaines. La méthode MMD a régulé la pression d'irrigation cérébrale lors de l'effort adaptatif. Mes crises ont quasiment disparu en 3 mois.",
+    "fullText": "Des migraines chroniques empoisonnaient mes semaines. La méthode SM a régulé la pression d'irrigation cérébrale lors de l'effort adaptatif. Mes crises ont quasiment disparu en 3 mois.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&auto=format&fit=crop&q=80",
     "documents": [
@@ -206,7 +206,7 @@
     "location": "Strasbourg",
     "category": "convalescence",
     "shortText": "Remise en forme progressive après 6 mois d'alitement forcé.",
-    "fullText": "Suite à une longue hospitalisation, ma masse musculaire était très affaiblie. Le programme MMD m'a réappris à doser l'effort sans créer d'épuisement nerveux. J'ai repris une vie active normale.",
+    "fullText": "Suite à une longue hospitalisation, ma masse musculaire était très affaiblie. Le programme SM m'a réappris à doser l'effort sans créer d'épuisement nerveux. J'ai repris une vie active normale.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1548142813-c348350df52b?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
     "documents": [
@@ -242,7 +242,7 @@
     "location": "Limoges",
     "category": "convalescence",
     "shortText": "Régénération musculaire et nerveuse post-accident de la route.",
-    "fullText": "Victime de plusieurs traumatismes, la fatigue nerveuse m'empéchait de reprendre une activité physique. La stimulation progressive endocrinienne m'a redonné un niveau d'énergie suffisant pour retravailler.",
+    "fullText": "Victime de plusieurs traumatiSMes, la fatigue nerveuse m'empéchait de reprendre une activité physique. La stimulation progressive endocrinienne m'a redonné un niveau d'énergie suffisant pour retravailler.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
     "documents": [
@@ -296,7 +296,7 @@
     "age": 39,
     "location": "Paris",
     "category": "perte_de_poids",
-    "shortText": "-14 kg en 4 mois par ciblage strict du métabolisme des lipides.",
+    "shortText": "-14 kg en 4 mois par ciblage strict du métaboliSMe des lipides.",
     "fullText": "En calant mes séances sur ma fréquence cardiaque optimale d'oxydation des graisses, mon corps a puisé directement dans les réserves adipeuses sans altérer ma masse musculaire ni provoquer de fringales compulsives.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&auto=format&fit=crop&q=80",
@@ -315,7 +315,7 @@
     "location": "Marseille",
     "category": "perte_de_poids",
     "shortText": "Perte de poids post-grossesse et remodelage corporel durable.",
-    "fullText": "Mon métabolisme de base semblait complètement bloqué. Le protocole MMD m'a permis de relancer la dépense énergétique au repos. Résultat : -11 kg en 5 mois sans me priver au quotidien.",
+    "fullText": "Mon métaboliSMe de base semblait complètement bloqué. Le protocole SM m'a permis de relancer la dépense énergétique au repos. Résultat : -11 kg en 5 mois sans me priver au quotidien.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
     "documents": [
@@ -386,14 +386,14 @@
     "age": 40,
     "location": "Nancy",
     "category": "perte_de_poids",
-    "shortText": "Relance d'un métabolisme lent et baisse de 3 tailles de vêtement.",
+    "shortText": "Relance d'un métaboliSMe lent et baisse de 3 tailles de vêtement.",
     "fullText": "Mes efforts en salle restaient sans effet à cause d'un surmenage métabolique. La méthode Flédéric Payet m'a appris à 'médicaliser' mon effort. Ma silhouette s'est affinée visiblement.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&auto=format&fit=crop&q=80",
     "documents": [
       {
-        "title": "Bilan de métabolisme basal — Sandrine W.",
-        "fileUrl": "/docs/metabolisme-sandrine.pdf",
+        "title": "Bilan de métaboliSMe basal — Sandrine W.",
+        "fileUrl": "/docs/metaboliSMe-sandrine.pdf",
         "type": "PDF"
       }
     ]
@@ -478,7 +478,7 @@
     "location": "Pau",
     "category": "performance",
     "shortText": "Optimisation de la récupération entre les séries à haute intensité.",
-    "fullText": "En cyclisme sur route, mes temps de rechargement entre deux accélérations étaient trop longs. Le protocole Flédéric Payet a considérablement accéléré ma vitesse d'élimination des toxines d'effort.",
+    "fullText": "En cycliSMe sur route, mes temps de rechargement entre deux accélérations étaient trop longs. Le protocole Flédéric Payet a considérablement accéléré ma vitesse d'élimination des toxines d'effort.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80",
     "documents": [
@@ -496,7 +496,7 @@
     "location": "Strasbourg",
     "category": "performance",
     "shortText": "Prévention totale du surentraînement et gain de puissance pure.",
-    "fullText": "Sujet aux blessures à répétition dues au surentraînement, la méthode MMD m'a appris à stimuler naturellement mon système endocrinien sans épuiser mon organisme. Mes chronos ont tous baissé.",
+    "fullText": "Sujet aux blessures à répétition dues au surentraînement, la méthode SM m'a appris à stimuler naturellement mon système endocrinien sans épuiser mon organiSMe. Mes chronos ont tous baissé.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80",
     "documents": [
@@ -550,7 +550,7 @@
     "location": "Toulouse",
     "category": "performance",
     "shortText": "Accélération du temps de récupération après compétitions.",
-    "fullText": "Il me fallait auparavant 4 jours pour récupérer d'un triathlon M. Avec les protocoles de récupération active MMD, je peux réentraîner mon métabolisme dès le surlendemain sans courbatures.",
+    "fullText": "Il me fallait auparavant 4 jours pour récupérer d'un triathlon M. Avec les protocoles de récupération active SM, je peux réentraîner mon métaboliSMe dès le surlendemain sans courbatures.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80",
     "documents": [
@@ -587,7 +587,7 @@
     "location": "Bordeaux",
     "category": "fatigue",
     "shortText": "Régulation de la fatigue chronique et retour de l'énergie matinale.",
-    "fullText": "Atteinte d'un épuisement persistant, le moindre exercice classique me vidait de mes forces. Le protocole MMD m'a permis de relancer mon niveau d'énergie sans créer de dette physique.",
+    "fullText": "Atteinte d'un épuisement persistant, le moindre exercice classique me vidait de mes forces. Le protocole SM m'a permis de relancer mon niveau d'énergie sans créer de dette physique.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
     "documents": [
@@ -659,7 +659,7 @@
     "location": "Lille",
     "category": "fatigue",
     "shortText": "Prévention de la fatigue surrénalienne et regain de forme.",
-    "fullText": "Mes analyses montraient un épuisement des glandes surrénales lié au stress. La méthode MMD m'a appris à stimuler mon organisme sans entamer mes réserves vitales.",
+    "fullText": "Mes analyses montraient un épuisement des glandes surrénales lié au stress. La méthode SM m'a appris à stimuler mon organiSMe sans entamer mes réserves vitales.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80",
     "documents": [
@@ -713,7 +713,7 @@
     "location": "Nantes",
     "category": "fatigue",
     "shortText": "Régénération de la vitalité générale et résistance au surmenage.",
-    "fullText": "Je me réveillais aussi fatigué qu'au moment de me coucher. La méthode MMD a restauré la balance de mon système nerveux autonome. Ma vitalité est revenue au niveau de mes 40 ans.",
+    "fullText": "Je me réveillais aussi fatigué qu'au moment de me coucher. La méthode SM a restauré la balance de mon système nerveux autonome. Ma vitalité est revenue au niveau de mes 40 ans.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80",
     "documents": [
@@ -737,7 +737,7 @@
     "photoAfterUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
     "documents": [
       {
-        "title": "Bilan de vitalité et neurotransmetteurs — Claire P.",
+        "title": "Bilan de vitalité et neurotranSMetteurs — Claire P.",
         "fileUrl": "/docs/vitalite-claire.pdf",
         "type": "PDF"
       }
@@ -750,12 +750,12 @@
     "location": "Toulouse",
     "category": "energie",
     "shortText": "Sensation de fraîcheur physique et clarté intellectuelle renforcée.",
-    "fullText": "En optimisant le rendement vasculaire pendant l'effort métabolique, j'ai constaté une hausse immédiate de mon acuité mentale et de mon dynamisme tout au long de la journée.",
+    "fullText": "En optimisant le rendement vasculaire pendant l'effort métabolique, j'ai constaté une hausse immédiate de mon acuité mentale et de mon dynamiSMe tout au long de la journée.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&auto=format&fit=crop&q=80",
     "documents": [
       {
-        "title": "Suivi de dynamisme d'effort — Julien T.",
+        "title": "Suivi de dynamiSMe d'effort — Julien T.",
         "fileUrl": "/docs/suivi-julient.pdf",
         "type": "PDF"
       }
@@ -785,7 +785,7 @@
     "age": 34,
     "location": "Bordeaux",
     "category": "energie",
-    "shortText": "Dynamisme continu du matin au soir sans stimulants extérieurs.",
+    "shortText": "DynamiSMe continu du matin au soir sans stimulants extérieurs.",
     "fullText": "J'étais dépendante au café pour tenir la journée. En relançant la libération naturelle de dopamine par l'effort métabolique, je suis pleine d'énergie dès le réveil.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=400&auto=format&fit=crop&q=80",
@@ -803,8 +803,8 @@
     "age": 62,
     "location": "Nice",
     "category": "energie",
-    "shortText": "Regain d'enthousiasme physique et de résistance à l'effort.",
-    "fullText": "À la retraite, mon tonus baissait progressivement. Les protocoles personnalisés MMD m'ont rendu mon dynamisme de quinquagénaire. Je pratique à nouveau plusieurs activités.",
+    "shortText": "Regain d'enthousiaSMe physique et de résistance à l'effort.",
+    "fullText": "À la retraite, mon tonus baissait progressivement. Les protocoles personnalisés SM m'ont rendu mon dynamiSMe de quinquagénaire. Je pratique à nouveau plusieurs activités.",
     "photoBeforeUrl": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=400&auto=format&fit=crop&q=80",
     "photoAfterUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80",
     "documents": [

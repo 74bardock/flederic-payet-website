@@ -83,25 +83,25 @@ function TestimonialsContent() {
       
       {/* En-tête */}
       <section className="text-center space-y-4">
-        <h1 className="text-3xl sm:text-5xl font-extrabold text-blue-400 tracking-tight">
+        <h1 className="text-3xl SM:text-5xl font-extrabold text-blue-400 tracking-tight">
           {ui?.title}
         </h1>
-        <p className="text-lg sm:text-xl text-slate-300 font-medium max-w-2xl mx-auto">
+        <p className="text-lg SM:text-xl text-slate-300 font-medium max-w-2xl mx-auto">
           {ui?.subtitle}
         </p>
       </section>
 
       {/* Recherche et filtres par catégories */}
-      <div className="space-y-4 bg-slate-900/80 border border-slate-800 p-4 sm:p-6 rounded-2xl shadow-xl">
+      <div className="space-y-4 bg-slate-900/80 border border-slate-800 p-4 SM:p-6 rounded-2xl shadow-xl">
         <div className="relative max-w-md mx-auto">
           <input
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder={ui?.searchPlaceholder}
-            className="w-full pl-10 pr-4 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 placeholder-slate-500 focus:outline-none focus:border-blue-500 text-sm transition-colors"
+            className="w-full pl-10 pr-4 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 placeholder-slate-500 focus:outline-none focus:border-blue-500 text-SM transition-colors"
           />
-          <span className="absolute left-3.5 top-3 text-slate-500 text-sm">🔍</span>
+          <span className="absolute left-3.5 top-3 text-slate-500 text-SM">🔍</span>
           {searchQuery && (
             <button
               onClick={() => setSearchQuery('')}
@@ -116,7 +116,7 @@ function TestimonialsContent() {
         <div className="flex flex-wrap justify-center gap-2 pt-2">
           <button
             onClick={() => handleCategoryChange()}
-            className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+            className={`px-4 py-2 rounded-xl text-xs SM:text-SM font-semibold transition-all ${
               !selectedCategory
                 ? 'bg-blue-600 text-white shadow-lg scale-105'
                 : 'bg-slate-950 border border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-700'
@@ -132,7 +132,7 @@ function TestimonialsContent() {
               <button
                 key={slug}
                 onClick={() => handleCategoryChange(slug)}
-                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+                className={`px-4 py-2 rounded-xl text-xs SM:text-SM font-semibold transition-all ${
                   isSelected
                     ? 'bg-blue-600 text-white shadow-lg scale-105'
                     : 'bg-slate-950 border border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-700'
@@ -167,7 +167,7 @@ function TestimonialsContent() {
             <div
               key={item.id}
               onClick={() => setActiveTestimonial(item)}
-              className="bg-slate-900 border border-slate-800 hover:border-blue-500/60 p-5 sm:p-6 rounded-2xl cursor-pointer transition-all duration-300 space-y-4 shadow-lg hover:shadow-2xl hover:-translate-y-1 group flex flex-col justify-between"
+              className="bg-slate-900 border border-slate-800 hover:border-blue-500/60 p-5 SM:p-6 rounded-2xl cursor-pointer transition-all duration-300 space-y-4 shadow-lg hover:shadow-2xl hover:-translate-y-1 group flex flex-col justify-between"
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between border-b border-slate-800 pb-3">
@@ -213,7 +213,7 @@ function TestimonialsContent() {
                   </div>
                 </div>
 
-                <p className="text-slate-300 text-sm leading-relaxed italic bg-slate-950/50 p-3 rounded-xl border border-slate-800/60">
+                <p className="text-slate-300 text-SM leading-relaxed italic bg-slate-950/50 p-3 rounded-xl border border-slate-800/60">
                   « {item.shortText} »
                 </p>
               </div>
@@ -251,12 +251,12 @@ function TestimonialsContent() {
           onClick={() => setActiveTestimonial(null)}
         >
           <div
-            className="bg-slate-900 border border-slate-800 rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-6 sm:p-8 space-y-6 shadow-2xl relative"
+            className="bg-slate-900 border border-slate-800 rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-6 SM:p-8 space-y-6 shadow-2xl relative"
             onClick={(e) => e.stopPropagation()}
           >
             <button
               onClick={() => setActiveTestimonial(null)}
-              className="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center transition-colors text-sm font-bold"
+              className="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center transition-colors text-SM font-bold"
             >
               ✕
             </button>
@@ -266,7 +266,7 @@ function TestimonialsContent() {
                 <h2 className="text-2xl font-bold text-white">
                   {activeTestimonial.name}
                 </h2>
-                <span className="text-sm font-normal text-slate-400">
+                <span className="text-SM font-normal text-slate-400">
                   ({activeTestimonial.age} {ui?.yearsOld}, {activeTestimonial.location})
                 </span>
               </div>
@@ -275,7 +275,7 @@ function TestimonialsContent() {
               </span>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 SM:grid-cols-2 gap-4">
               <div className="space-y-1.5">
                 <span className="text-xs font-semibold text-slate-400 block text-center">
                   {ui?.before}
@@ -308,7 +308,7 @@ function TestimonialsContent() {
               <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-400">
                 {ui?.detailedFeedback}
               </h3>
-              <p className="text-slate-200 leading-relaxed bg-slate-950 p-4 rounded-xl border border-slate-800 text-sm sm:text-base">
+              <p className="text-slate-200 leading-relaxed bg-slate-950 p-4 rounded-xl border border-slate-800 text-SM SM:text-base">
                 {activeTestimonial.fullText}
               </p>
             </div>
@@ -327,7 +327,7 @@ function TestimonialsContent() {
                       rel="noopener noreferrer"
                       className="flex items-center justify-between p-3.5 bg-slate-950 hover:bg-slate-800/80 border border-slate-800 hover:border-blue-500 rounded-xl transition-all group"
                     >
-                      <span className="text-sm text-slate-200 font-medium group-hover:text-blue-400 transition-colors">
+                      <span className="text-SM text-slate-200 font-medium group-hover:text-blue-400 transition-colors">
                         📄 {doc.title}
                       </span>
                       <span className="text-[10px] bg-blue-950 text-blue-400 px-2.5 py-1 rounded-md font-mono border border-blue-800/40">
@@ -348,7 +348,7 @@ function TestimonialsContent() {
 export default function TemoignagesPage() {
   const { t } = useLanguage();
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100 py-12 px-4 sm:px-6 lg:px-8">
+    <main className="min-h-screen bg-slate-950 text-slate-100 py-12 px-4 SM:px-6 lg:px-8">
       <Suspense fallback={<div className="text-center text-slate-400">{t.TestimonialsUI?.loading}</div>}>
         <TestimonialsContent />
       </Suspense>

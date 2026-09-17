@@ -2,14 +2,14 @@
   "Header": {
     "nav_home": "Accueil",
     "nav_about": "À propos",
-    "nav_method": "La Méthode MMD",
+    "nav_method": "La Méthode SM",
     "nav_testimonials": "Témoignages",
     "nav_contact": "Contact"
   },
   "Hero": {
-    "subtitle": "Spécialiste du métabolisme & Développeur de la méthode Effort Métabolique",
-    "bio": "Je suis un spécialiste du métabolisme. J’ai développé une méthode unique appelée « effort métabolique » pour réactiver et optimiser le métabolisme. J’accompagne mes clients avec des séances adaptées, basées sur des exercices réalisés sur des équipements de salle de sport.",
-    "card_method_title": "La Méthode MMD",
+    "subtitle": "Spécialiste du métaboliSMe & Développeur de la méthode Effort Métabolique",
+    "bio": "Je suis un spécialiste du métaboliSMe. J’ai développé une méthode unique appelée « effort métabolique » pour réactiver et optimiser le métaboliSMe. J’accompagne mes clients avec des séances adaptées, basées sur des exercices réalisés sur des équipements de salle de sport.",
+    "card_method_title": "La Méthode SM",
     "card_method_desc": "Découvrez le fonctionnement de l'Effort Métabolique et les équipements utilisés.",
     "card_testimonials_title": "Témoignages",
     "card_testimonials_desc": "Retours d'expérience ciblés par domaine (Santé, Performance, Énergie...)",
@@ -17,9 +17,9 @@
     "card_contact_desc": "Évaluation gratuite pour clients ou demande de renseignements."
   },
   "Method": {
-    "page_title": "La Méthode MMD — Effort Métabolique",
+    "page_title": "La Méthode SM — Effort Métabolique",
     "subtitle": "Synchronisation Métabolique",
-    "definition": "Une méthodologie innovante qui a fait ses preuves, visant à stimuler le système endocrinien et à réactiver et recalibrer le métabolisme pour un niveau d’énergie, de vitalité et d’endurance accru, ainsi qu'une récupération plus rapide (Équilibre des hormones et libération des neurotransmetteurs).",
+    "definition": "Une méthodologie innovante qui a fait ses preuves, visant à stimuler le système endocrinien et à réactiver et recalibrer le métaboliSMe pour un niveau d’énergie, de vitalité et d’endurance accru, ainsi qu'une récupération plus rapide (Équilibre des hormones et libération des neurotranSMetteurs).",
     "biography": {
       "title": "Biographie du fondateur",
       "name": "Flédéric Payet",
@@ -38,7 +38,7 @@
     },
     "definition_section": {
       "title": "Qu’est-ce que la synchronisation métabolique ?",
-      "p1": "Il s’agit d’un protocole unique conçu pour stimuler naturellement le système endocrinien, entraînant la libération de neurotransmetteurs. En conséquence, les niveaux d’énergie, d’endurance et de vitalité augmentent de manière significative et permettent une récupération complète et plus rapide de la fatigue, qu’elle provienne de problèmes de santé ou d’entraînements sportifs intensifs. Cette méthode peut être suivie universellement et avec succès par des personnes de tout âge ou condition physique.",
+      "p1": "Il s’agit d’un protocole unique conçu pour stimuler naturellement le système endocrinien, entraînant la libération de neurotranSMetteurs. En conséquence, les niveaux d’énergie, d’endurance et de vitalité augmentent de manière significative et permettent une récupération complète et plus rapide de la fatigue, qu’elle provienne de problèmes de santé ou d’entraînements sportifs intensifs. Cette méthode peut être suivie universellement et avec succès par des personnes de tout âge ou condition physique.",
       "p2": "L’innovation centrale de ce programme est le déclenchement d’une libération naturelle de dopamine, d’endorphine, de sérotonine, etc. Cette autostimulation du système endocrinien a un impact direct et positif sur la santé des patients ou des athlètes et sur leur capacité à supprimer la fatigue. Cela représente une avancée majeure dans l’entraînement physique car cela s’applique à :",
       "targets": {
         "health_title": "Personnes avec des problèmes de santé mineurs à majeurs",
@@ -53,7 +53,7 @@
     "disclaimer_body": "La méthode a été conçue pour stimuler naturellement le système endocrinien, entraînant des effets positifs sur la santé et les performances. Elle vient en complément, et non en remplacement, du système médical traditionnel.",
     "objectives_title": "Objectifs de la méthode",
     "objectives_list": [
-      "Réactivation du métabolisme",
+      "Réactivation du métaboliSMe",
       "Amélioration de l’endurance et de la force",
       "Amélioration de l’état de santé général",
       "Séances personnalisées et progressives"
@@ -65,7 +65,7 @@
     "eligibility_title": "Qui peut accéder à cette méthode ?",
     "eligibility_desc": "Tous les profils de 14 à 99 ans, avec ou sans handicap.",
     "ip_notice": "N.B. Pour des raisons de confidentialité, les protocoles restent dans le domaine de la propriété intellectuelle.",
-    "cta": "Prêt à relancer votre métabolisme et à vous défaire de certaines pathologies ? Contactez-moi pour une évaluation gratuite et un programme sur mesure.",
+    "cta": "Prêt à relancer votre métaboliSMe et à vous défaire de certaines pathologies ? Contactez-moi pour une évaluation gratuite et un programme sur mesure.",
     "cta_button": "Prendre contact"
   },
 "TestimonialsUI": {

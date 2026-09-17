@@ -7,7 +7,7 @@ import Header from '@/components/Header';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'MetaboSync — La Méthode MMD',
+  title: 'MetaboSync — La Méthode SM',
   description: 'Synchronisation métabolique et effort métabolique développés par Flédéric Payet.',
 };
 
