@@ -1,76 +1,64 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link';
+import { useLanguage } from '@/context/LanguageContext';
 
-export type Locale = "fr" | "en";
+export default function Header() {
+  const { lang, setLang, t } = useLanguage();
+  const nav = t.Header;
 
-interface HeaderProps {
-  lang: Locale;
-  onLangChange: (lang: Locale) => void;
-  dict: {
-    vision: string;
-    methode: string;
-    investors: string;
-    testimonials: string;
-    dealroom: string;
-  };
-}
-
-export default function Header({ lang, onLangChange, dict }: HeaderProps) {
   return (
-    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="font-bold text-xl text-brand-dark tracking-tight">
-            MetaboSync <span className="text-brand-blue font-normal text-sm">HealthTech</span>
-          </span>
+    <header className="border-b border-slate-200 bg-white sticky top-0 z-50">
+      <div className="max-w-6xl mx-auto px-4 h-24 flex items-center justify-between">
+        
+        {/* LOGO */}
+        <Link href="/" className="flex items-center gap-3">
+          <img
+            src="/logo.png"
+            alt="MetaboSync Icône"
+            className="w-28 h-auto" 
+          />
+          <img
+            src="/logo_metabo.png"
+            alt="MetaboSync HealthTech"
+            className="w-52 h-auto"
+          />
         </Link>
 
-        <nav className="hidden md:flex items-center gap-8 text-sm font-semibold text-gray-700">
-          <Link href="/" className="hover:text-brand-blue transition-colors">
-            {dict?.vision || "La Vision"}
+        {/* Navigation principale (4 liens) */}
+        <nav className="hidden md:flex items-center space-x-6 text-sm font-medium text-slate-700">
+          <Link href="/a-propos" className="hover:text-blue-600 transition-colors">
+            {nav.nav_about}
           </Link>
-          <Link href="/methode-mmd" className="hover:text-brand-blue transition-colors">
-            {dict?.methode || "La Méthode MMD™"}
+          <Link href="/methode-mmd" className="hover:text-blue-600 transition-colors">
+            {nav.nav_method}
           </Link>
-          <Link href="/investisseurs" className="hover:text-brand-blue transition-colors">
-            {dict?.investors || "Investisseurs"}
+          <Link href="/temoignages" className="hover:text-blue-600 transition-colors">
+            {nav.nav_testimonials}
           </Link>
-          <a href="#testimonials" className="hover:text-brand-blue transition-colors">
-            {dict?.testimonials || "Témoignages"}
-          </a>
+          <Link href="/contact" className="hover:text-blue-600 transition-colors">
+            {nav.nav_contact}
+          </Link>
         </nav>
 
-        <div className="flex items-center gap-4">
-          {/* Sélecteur de langue FR / EN */}
-          <div className="flex bg-gray-100 p-1 rounded-lg border border-gray-200 text-xs font-bold">
-            <button
-              type="button"
-              onClick={() => onLangChange("fr")}
-              className={`px-2 py-1 rounded transition-all ${
-                lang === "fr" ? "bg-brand-blue text-white shadow-sm" : "text-gray-600 hover:text-black"
-              }`}
-            >
-              FR
-            </button>
-            <button
-              type="button"
-              onClick={() => onLangChange("en")}
-              className={`px-2 py-1 rounded transition-all ${
-                lang === "en" ? "bg-brand-blue text-white shadow-sm" : "text-gray-600 hover:text-black"
-              }`}
-            >
-              EN
-            </button>
-          </div>
-
-          <Link
-            href="/investisseurs"
-            className="px-4 py-2 text-sm font-bold text-white bg-brand-blue rounded-lg hover:bg-blue-700 transition-colors shadow-sm"
+        {/* Sélecteur de langue */}
+        <div className="flex items-center space-x-2 text-xs font-semibold">
+          <button
+            onClick={() => setLang('fr')}
+            className={`px-2 py-1 rounded transition-colors ${
+              lang === 'fr' ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+            }`}
           >
-            {dict?.dealroom || "Accès Deal Room"}
-          </Link>
+            FR
+          </button>
+          <button
+            onClick={() => setLang('en')}
+            className={`px-2 py-1 rounded transition-colors ${
+              lang === 'en' ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+            }`}
+          >
+            EN
+          </button>
         </div>
       </div>
     </header>

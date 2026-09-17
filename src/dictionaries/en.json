@@ -1,167 +1,107 @@
 {
-  "nav": {
-    "vision": "Vision",
-    "methode": "Method",
-    "method": "Metabolic recalibration",
-    "proofs": "Results",
-    "science": "Science",
-    "investors": "Investors",
-    "testimonials": "Testimonials",
-    "dealroom": "Dealroom",
-    "contact": "Contact Flédéric",
-    "home": "← Home"
+  "Header": {
+    "nav_home": "Home",
+    "nav_about": "About",
+    "nav_method": "The MMD Method",
+    "nav_testimonials": "Testimonials",
+    "nav_contact": "Contact"
   },
-  "footer": {
-    "rights": "All rights reserved.",
-    "confidential": "Confidential document for internal use only."
+  "Hero": {
+    "subtitle": "Metabolism Specialist & Creator of the Metabolic Effort Method",
+    "bio": "I am a metabolism specialist. I developed a unique method called 'Metabolic Effort' to reactivate and optimize metabolism. I support my clients through tailored sessions based on exercises performed on gym equipment.",
+    "card_method_title": "The MMD Method",
+    "card_method_desc": "Discover how Metabolic Effort works and the equipment used.",
+    "card_testimonials_title": "Testimonials",
+    "card_testimonials_desc": "Targeted feedback by field (Health, Performance, Energy...)",
+    "card_contact_title": "Contact & Assessment",
+    "card_contact_desc": "Free evaluation for clients or general inquiries."
   },
-  "testimonials": {
-    "tag": "Testimonials",
-    "title": "What Our Users Say",
-    "subtitle": "Discover the daily impact of MetaboSync.",
-    "items": [
-      {
-        "quote": "The MMD method allowed me to precisely understand my body's needs.",
-        "author": "Dr. Elodie Martin",
-        "role": "Nutritionist",
-        "location": "Paris, France"
-      },
-      {
-        "quote": "A rigorous, data-driven approach essential for personalized tracking.",
-        "author": "Marc Lemaire",
-        "role": "Biohacker & Founder",
-        "location": "Lyon, France"
+  "Method": {
+    "page_title": "The MMD Method — Metabolic Effort",
+    "subtitle": "Metabolic Synchronization",
+    "definition": "An innovative, proven methodology designed to stimulate the endocrine system and reactivate and recalibrate metabolism for increased energy, vitality, and endurance, as well as faster recovery (balancing hormones and releasing neurotransmitters).",
+    "biography": {
+      "title": "Founder's Biography",
+      "name": "Flédéric Payet",
+      "p1": "Over the past two decades, I have met countless individuals in distress across various regions of the world. I have faced their diverse health issues, just as I have coached athletes.",
+      "p2": "Ever since, I have constantly developed new methods to adapt to each individual. The gym has become a kind of preventive and curative hospital.",
+      "p3": "Through my research and experimentation, I came to understand the principles of metabolic synchronization and the natural stimulation of the endocrine system. The results across all types of profiles have been extremely conclusive, whether for athletes, individuals suffering from various pathologies, or amateurs."
+    },
+    "analogy": {
+      "title": "The Bicycle Analogy",
+      "intro": "Imagine your body is a bicycle, and for it to function properly, it requires regular maintenance. You need to oil the chain, tighten the brakes, change the tires, retighten the bolts, and ensure the suspension is in good condition.",
+      "why": "Why this analogy? Because it brings me back to the body's metabolic functioning.",
+      "chain": "The chain represents the bloodstream.",
+      "chainring": "The chainring represents cardiac resistance.",
+      "cogs": "The small and large cogs represent heart rate or pulse.",
+      "conclusion": "This means I modulate the effort so that the body reaches a state of ease—what I call metabolic effort—because it delivers an instant renewal of energy rather than exhaustion."
+    },
+    "definition_section": {
+      "title": "What is Metabolic Synchronization?",
+      "p1": "It is a unique protocol designed to naturally stimulate the endocrine system, triggering the release of neurotransmitters. Consequently, energy, endurance, and vitality levels increase significantly, enabling full and faster recovery from fatigue—whether caused by health issues or intensive sports training. This method can be universally and successfully followed by people of any age or physical condition.",
+      "p2": "The core innovation of this program is triggering a natural release of dopamine, endorphin, serotonin, etc. This self-stimulation of the endocrine system has a direct and positive impact on the health of patients or athletes and on their ability to eliminate fatigue. This represents a major breakthrough in physical training as it applies to:",
+      "targets": {
+        "health_title": "People with minor to major health issues",
+        "health_desc": "This program has been successfully followed by individuals suffering from severe chronic fatigue, fibromyalgia, migraines, heart problems, hypertension, burnout, depression, etc.",
+        "athletes_title": "Professional and amateur athletes",
+        "athletes_desc": "Athletes can boost their performance and accelerate recovery time before, during, and after workouts or competitions without using supplements (legal or illegal). This unique program complements their usual training routines, allowing faster and more complete recovery, thereby enhancing overall performance and reducing injury risk. Metabolic synchronization has assisted professional athletes in auto racing, tennis, football/soccer, etc.",
+        "special_forces_title": "Other categories / High-demand professions",
+        "special_forces_desc": "This methodology can also benefit professionals exposed to extreme physical conditions, such as Police Special Forces, the Military, Firefighters, etc. It has been adopted individually by several members of various entities, significantly improving their operational or training performance."
       }
-    ]
-  },
-  "hero": {
-    "badge": "Metabolic Health & Physiology",
-    "titleLine1": "Optimize your health through",
-    "titleLine2": "Metabolic recalibration",
-    "description": "A scientific and personalized approach based on physiological data analysis to restore metabolic flexibility and optimize your vitality.",
-    "ctaPrimary": "Explore the science",
-    "ctaSecondary": "View results"
-  },
-  "contrast": {
-    "title": "A fundamentally different approach",
-    "tradTitle": "Traditional approaches",
-    "tradPoint1": "Restrictive and generic diets",
-    "tradPoint2": "Yo-yo effect and chronic fatigue",
-    "tradPoint3": "Superficial symptom analysis",
-    "tradPoint4": "Lack of targeted physiological tracking",
-    "fledericTitle": "Metabolic recalibration",
-    "fledericPoint1": "In-depth analysis of physiological markers",
-    "fledericPoint2": "Optimization of metabolic flexibility",
-    "fledericPoint3": "Data-driven personalized adjustments",
-    "fledericPoint4": "Sustainable results without extreme diets"
-  },
-  "stories": {
-    "badge": "Testimonials",
-    "title": "Observed Results",
-    "subtitle": "Discover how Metabolic recalibration transforms everyday vitality.",
-    "card1": {
-      "tag": "Energy & Vitality",
-      "text": "Thanks to Metabolic recalibration, I restored stable energy levels throughout the day without typical energy crashes.",
-      "name": "Marc D.",
-      "role": "Entrepreneur"
     },
-    "card2": {
-      "tag": "Performance",
-      "text": "Significantly improved mental clarity and recovery by accounting for my personal physiological data.",
-      "name": "Sophie L.",
-      "role": "Executive"
+    "disclaimer_title": "What Metabolic Synchronization does not do",
+    "disclaimer_body": "The method was designed to naturally stimulate the endocrine system, yielding positive effects on health and performance. It serves as a complement to, and not a replacement for, traditional medical care.",
+    "objectives_title": "Method Objectives",
+    "objectives_list": [
+      "Metabolism reactivation",
+      "Endurance and strength improvement",
+      "General health state improvement",
+      "Personalized and progressive sessions"
+    ],
+    "effort_title": "'Metabolic Effort' Method",
+    "effort_desc": "My method combines protocols in which I guide cardiovascular frequencies and heart rates during exertion to achieve the optimization of nervous and cognitive functions, and to maintain or restore body integrity—aiming to ensure its defense, trigger injury repair, and stimulate energy expenditure with a marked improvement in body composition. Sessions are tailored according to each person's level, goals, and constraints: progressive intensity management paired with active recovery.",
+    "equipment_title": "Equipment used",
+    "equipment_desc": "Bikes, treadmills, ellipticals, stair climbers, weight machines, guided weight equipment. I integrate these tools to vary stimulation and maximize the efficiency of metabolic effort.",
+    "eligibility_title": "Who can access this method?",
+    "eligibility_desc": "All profiles from ages 14 to 99, with or without disabilities.",
+    "ip_notice": "N.B. For confidentiality reasons, exact protocols remain protected under intellectual property.",
+    "cta": "Ready to restart your metabolism and break free from certain pathologies? Contact me for a free assessment and a custom program.",
+    "cta_button": "Get in touch"
+  },
+"TestimonialsUI": {
+    "title": "Testimonials & Feedback",
+    "subtitle": "Discover observed results according to your area of interest.",
+    "searchPlaceholder": "Search by name, city, keyword...",
+    "allProfiles": "All profiles",
+    "profilesFound": "matching profiles",
+    "resetFilter": "Reset filter",
+    "yearsOld": "years old",
+    "before": "Before",
+    "after": "After",
+    "viewRecord": "View full record ➔",
+    "noResults": "No testimonials match your search.",
+    "showAll": "Show all testimonials",
+    "detailedFeedback": "Detailed feedback",
+    "documentation": "Attached medical documents & reports",
+    "loading": "Loading...",
+    "categories": {
+      "sante": "Health",
+      "convalescence": "Convalescence",
+      "perte_de_poids": "Weight Loss",
+      "performance": "Performance",
+      "fatigue": "Fatigue",
+      "energie": "Energy"
     }
   },
-  "science": {
-    "badge": "Scientific Foundations",
-    "title": "The Science Behind Metabolic Recalibration",
-    "description": "Our methodology relies on precise analysis of metabolic markers to deliver a tailor-made optimization strategy.",
-    "step1Title": "1. Initial Assessment",
-    "step1Text": "In-depth collection and analysis of your physiological data and lifestyle habits.",
-    "step2Title": "2. Personalized Adjustment",
-    "step2Text": "Implementation of the Metabolic recalibration plan tailored to your unique needs.",
-    "step3Title": "3. Monitoring & Optimization",
-    "step3Text": "Measuring progress and fine-tuning to ensure lasting results."
-  },
-  "ctaBottom": {
-    "title": "Ready to optimize your metabolic health?",
-    "subtitle": "Get in touch with Flédéric Payet to learn more about Metabolic recalibration.",
-    "button": "Contact Flédéric"
-  },
-  "methodePage": {
-    "tag": "Our Methodology",
-    "title": "The MMD Method",
-    "subtitle": "A structured scientific approach to optimizing metabolic health.",
-    "description": "The MMD (Metabolic Measurement & Data) method relies on tracking physiological indicators to tailor your lifestyle in a personalized way.",
-    "sec1Title": "Our Scientific Approach",
-    "sec1Desc": "We combine continuous tracking of physiological data and algorithmic analysis to deliver targeted, measurable interventions.",
-    "sec2Title": "Personalization & Tracking",
-    "sec2Desc": "Because every metabolism is unique, our platform dynamically adjusts recommendations based on your real-time physiological response.",
-    "sec2Highlight": "Continuous data analysis allows us to anticipate metabolic changes before symptoms appear.",
-    "sec3Title": "Results & Impact",
-    "sec3Desc": "Measurable improvements in metabolic flexibility, sustained energy regain, and proactive health risk prevention.",
-    "btnLicensing": "Explore licensing options",
-    "stepsTitle": "Method Steps",
-    "step1": {
-      "title": "1. Measurement & Assessment",
-      "description": "Targeted analysis of your physiological data and metabolic health markers."
-    },
-    "step2": {
-      "title": "2. Recalibration",
-      "description": "Progressive and personalized adjustments to nutrition and lifestyle."
-    },
-    "step3": {
-      "title": "3. Continuous Optimization",
-      "description": "Tracking key indicators to ensure long-term vitality and metabolic flexibility."
-    }
-  },
-  "investorsPage": {
-    "tag": "Opportunities & Partnerships",
-    "title": "Investors Space",
-    "subtitle": "Discover our vision and growth opportunities.",
-    "description": "MetaboSync develops data-driven metabolic health tech solutions.",
-    "formTitle": "Access the Dealroom",
-    "formSubtitle": "Fill out the form below to receive our pitch deck and financial information.",
-    "formFullName": "Full Name *",
-    "formFullNamePlaceholder": "John Doe",
-    "formEmail": "Work Email *",
-    "formEmailPlaceholder": "john.doe@company.com",
-    "formOrg": "Fund / Organization *",
-    "formOrgPlaceholder": "Your fund or company name",
-    "formRole": "Role / Position",
-    "formRolePlaceholder": "Partner, Analyst, Business Angel...",
-    "formMessage": "Message / Specific Interest",
-    "formMessagePlaceholder": "Detail your investment thesis or questions...",
-    "formSubmit": "Request Access",
-    "successTitle": "Request Sent!",
-    "successText": "Thank you for your interest. We will review your request and get back to you shortly."
-  },
-  "contact": {
-    "badge": "Get in Touch",
-    "title": "Contact Flédéric Payet",
-    "subtitle": "Questions about Metabolic recalibration, partnership opportunities, or consultation inquiries?",
-    "info": {
-      "role": "MetaboSync Founder",
-      "bio": "Specialist in metabolic health and data-driven Metabolic recalibration.",
-      "emailLabel": "Direct Email",
-      "locationLabel": "Location",
-      "locationValue": "France / Remote",
-      "responseTimeTitle": "Response Time",
-      "responseTimeText": "Inquiries are typically reviewed within 24 to 48 business hours."
-    },
-    "form": {
-      "nameLabel": "Full Name *",
-      "namePlaceholder": "John Doe",
-      "emailLabel": "Email Address *",
-      "emailPlaceholder": "john.doe@example.com",
-      "subjectLabel": "Subject *",
-      "subjectPlaceholder": "Information request / Partnership",
-      "messageLabel": "Your Message *",
-      "messagePlaceholder": "Describe your inquiry or project...",
-      "submitButton": "Send Message",
-      "successTitle": "Message Sent!",
-      "successText": "Thank you for your message. Flédéric will get back to you shortly.",
-      "resetButton": "Send another message"
-    }
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "For a free evaluation or any information inquiry.",
+    "form_name": "Your name",
+    "form_name_placeholder": "Your name",
+    "form_email": "Your email",
+    "form_email_placeholder": "your@email.com",
+    "form_message": "Your message",
+    "form_message_placeholder": "Your message...",
+    "form_submit": "Send"
   }
 }

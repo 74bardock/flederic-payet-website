@@ -1,8 +1,14 @@
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import { LanguageProvider } from '@/context/LanguageContext';
+import Header from '@/components/Header';
 
-export const metadata = {
-  title: "MetaboSync HealthTech | Flédéric Payet",
-  description: "Reconditionnement métabolique et performance globale",
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: 'MetaboSync — La Méthode MMD',
+  description: 'Synchronisation métabolique et effort métabolique développés par Flédéric Payet.',
 };
 
 export default function RootLayout({
@@ -12,7 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body>{children}</body>
+      <body className={inter.className}>
+        <LanguageProvider>
+          <Header />
+          {children}
+        </LanguageProvider>
+      </body>
     </html>
   );
 }

@@ -1,0 +1,866 @@
+[
+  {
+    "id": "san-01",
+    "name": "Marc L.",
+    "age": 48,
+    "location": "Lyon",
+    "category": "sante",
+    "shortText": "Blood pressure normalization and reduction of medication.",
+    "fullText": "Prone to severe hypertension resistant to conventional treatments, I followed the metabolic synchronization protocol. Precise modulation of heart rates during effort helped loosen my vascular system. My primary physician was able to cut my medication in half within 4 months.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Blood Pressure & Heart Rate Variability Report — Marc L.",
+        "fileUrl": "/docs/bilan-tension-marc.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "san-02",
+    "name": "Catherine M.",
+    "age": 58,
+    "location": "Nantes",
+    "category": "sante",
+    "shortText": "Dramatic improvement in insulin sensitivity and blood glucose levels.",
+    "fullText": "Facing prediabetes (type 2), diets and untargeted exercise yielded no lasting results. Working within controlled pulse zones stimulated muscle glucose uptake without secreting excess cortisol. My fasting blood sugar returned to normal.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Blood Glucose & HbA1c Analysis — Catherine M.",
+        "fileUrl": "/docs/bilan-glycemie-catherine.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "san-03",
+    "name": "Isabelle G.",
+    "age": 47,
+    "location": "Lille",
+    "category": "sante",
+    "shortText": "Regression of inflammatory joint flare-ups.",
+    "fullText": "Suffering from an inflammatory joint condition, every traditional strength session triggered painful flare-ups. Thanks to the MMD method, low-impact cardiovascular activation reactivated overall microcirculation and decreased inflammation by 70%.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Inflammatory Markers Progress Report — Isabelle G.",
+        "fileUrl": "/docs/rapport-inflammation-isabelle.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "san-04",
+    "name": "Valérie P.",
+    "age": 52,
+    "location": "Montpellier",
+    "category": "sante",
+    "shortText": "Endocrine rebalancing and relief from metabolic disorders.",
+    "fullText": "Hormonal imbalances severely disrupted my digestion, sleep, and vitality. The Metabolic Effort method optimized my endocrine system's function. I feel completely in control of my body again.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Metabolic Balance Assessment — Valérie P.",
+        "fileUrl": "/docs/bilan-hormonal-valerie.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "san-05",
+    "name": "Thierry H.",
+    "age": 61,
+    "location": "Strasbourg",
+    "category": "sante",
+    "shortText": "Improvement in lipid parameters and liver panel.",
+    "fullText": "My blood work indicated hepatic steatosis and high cholesterol. Targeted reconditioning reignited fatty acid oxidation by the liver without oxidative stress. All my biological constants returned to healthy levels.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Comparative Lipid Profile — Thierry H.",
+        "fileUrl": "/docs/bilan-lipidique-thierry.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "san-06",
+    "name": "Monique T.",
+    "age": 67,
+    "location": "Toulon",
+    "category": "sante",
+    "shortText": "Preservation of bone mass and prevention of functional decline.",
+    "fullText": "Diagnosed with early osteopenia, progressive metabolic stimulation on guided equipment allowed me to strengthen my posture without pain or joint risk. My latest bone density scan shows clear stabilization.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1548142813-c348350df52b?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Bone Densitometry Report — Monique T.",
+        "fileUrl": "/docs/densitometrie-monique.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "san-07",
+    "name": "Alain D.",
+    "age": 55,
+    "location": "Brest",
+    "category": "sante",
+    "shortText": "Regulation of heart rhythm and reduction of extrasystoles.",
+    "fullText": "Subject to benign yet debilitating stress-related arrhythmias, working on heart rate and the chainring/cog ratio retaught me to control my pulse in real time. My extrasystole episodes dropped by over 80%.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Holter ECG Recording — Alain D.",
+        "fileUrl": "/docs/holter-ecg-alain.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "san-08",
+    "name": "Patricia H.",
+    "age": 54,
+    "location": "Orléans",
+    "category": "sante",
+    "shortText": "Elimination of vascular headaches and circulatory improvement.",
+    "fullText": "Chronic migraines ruined my weeks. The MMD method regulated cerebral perfusion pressure during adaptive effort. My attacks virtually vanished in 3 months.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Migraine Attack & Blood Pressure Monitoring — Patricia H.",
+        "fileUrl": "/docs/suivi-migraines-patricia.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "con-01",
+    "name": "Françoise D.",
+    "age": 63,
+    "location": "Dijon",
+    "category": "convalescence",
+    "shortText": "Progressive cardiovascular rehabilitation following major surgery.",
+    "fullText": "Guided with surgical precision, I was able to safely reaccustom my heart to exertion. The custom protocol restored my full independence without abnormal shortness of breath.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Cardiac Rehabilitation Report — Françoise D.",
+        "fileUrl": "/docs/reeducation-francoise.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "con-02",
+    "name": "Lucas M.",
+    "age": 28,
+    "location": "Nice",
+    "category": "convalescence",
+    "shortText": "Resumption of movement post-muscle tear without recurrence.",
+    "fullText": "Sidelined by a severe hamstring tear, I was afraid to push myself. By replacing purely mechanical strain with tailored metabolic stimulation, I revascularized the injured muscle without pain.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Muscle Healing Ultrasound — Lucas M.",
+        "fileUrl": "/docs/echographie-lucas.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "con-03",
+    "name": "Bernard P.",
+    "age": 67,
+    "location": "Toulon",
+    "category": "convalescence",
+    "shortText": "Recovery of functional mobility after hip replacement.",
+    "fullText": "After my hip replacement, standard rehab hit a plateau. Regulating pulse rates on an ergometer bike enabled me to regain fluid movement without subjecting the joint to torsional stress.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Post-Operative Mobility Assessment — Bernard P.",
+        "fileUrl": "/docs/bilan-hanche-bernard.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "con-04",
+    "name": "Valérie T.",
+    "age": 52,
+    "location": "Strasbourg",
+    "category": "convalescence",
+    "shortText": "Gradual fitness recovery after 6 months of forced bed rest.",
+    "fullText": "Following a prolonged hospital stay, my muscle mass was severely weakened. The MMD program taught me to pace effort without causing nervous exhaustion. I have resumed a normal active life.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1548142813-c348350df52b?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Lean Mass Recovery Tracking Report",
+        "fileUrl": "/docs/suivi-musculaire-valerie.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "con-05",
+    "name": "Antoine R.",
+    "age": 45,
+    "location": "Chamonix",
+    "category": "convalescence",
+    "shortText": "Physical reconditioning following a severe knee sprain.",
+    "fullText": "Having undergone ACL surgery, I feared high-impact moves. Working specifically on the bike and treadmill under strict pulse tracking preserved my cardio while strengthening stabilizer muscles.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Knee Re-athletization Protocol — Antoine R.",
+        "fileUrl": "/docs/reathletisation-antoine.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "con-06",
+    "name": "Christine L.",
+    "age": 59,
+    "location": "Limoges",
+    "category": "convalescence",
+    "shortText": "Muscle and neural regeneration post-road accident.",
+    "fullText": "A victim of multiple traumas, nervous fatigue prevented me from engaging in physical activity. Progressive endocrine stimulation restored enough energy for me to return to work.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Independence & Muscle Tone Assessment — Christine L.",
+        "fileUrl": "/docs/bilan-autonomie-christine.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "con-07",
+    "name": "Gilles M.",
+    "age": 61,
+    "location": "Tours",
+    "category": "convalescence",
+    "shortText": "Safe vascular reconditioning post-heart attack.",
+    "fullText": "Following a cardiac event, fear of exertion was a major hurdle. The chainring and cog analogy combined with precise metrics gave me complete safety to strengthen my heart.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Validated Cardiac Stress Test — Gilles M.",
+        "fileUrl": "/docs/test-effort-gilles.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "con-08",
+    "name": "Monique V.",
+    "age": 55,
+    "location": "Metz",
+    "category": "convalescence",
+    "shortText": "Recovery of respiratory capacity following a lung condition.",
+    "fullText": "Unable to climb a flight of stairs without stopping, step-guided sessions retaught me how to utilize my remaining lung capacity. My spirometry reports improved by 35%.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Comparative Spirometry Report — Monique V.",
+        "fileUrl": "/docs/spirometrie-monique.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "pdp-01",
+    "name": "Thomas B.",
+    "age": 39,
+    "location": "Paris",
+    "category": "perte_de_poids",
+    "shortText": "-14 kg in 4 months through strict targeting of lipid metabolism.",
+    "fullText": "By setting my sessions to my optimal fat-oxidation heart rate, my body drew directly from fat reserves without eroding muscle mass or triggering compulsive cravings.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Detailed Bioimpedance Tracking — Thomas B.",
+        "fileUrl": "/docs/impedancemetrie-thomas.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "pdp-02",
+    "name": "Élodie M.",
+    "age": 33,
+    "location": "Marseille",
+    "category": "perte_de_poids",
+    "shortText": "Post-pregnancy weight loss and lasting body reshaping.",
+    "fullText": "My basal metabolic rate seemed completely stalled. The MMD protocol allowed me to restart resting energy expenditure. Result: -11 kg in 5 months without daily deprivation.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Body Composition Evolution — Élodie M.",
+        "fileUrl": "/docs/composition-elodie.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "pdp-03",
+    "name": "Guillaume F.",
+    "age": 41,
+    "location": "Reims",
+    "category": "perte_de_poids",
+    "shortText": "Elimination of visceral fat and loss of 12 kg.",
+    "fullText": "A sedentary executive with severe abdominal adiposity, I followed cardio regulation guidelines. -10 cm off my waistline in 16 weeks and a perfect metabolic panel.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Anthropometric Measurements — Guillaume F.",
+        "fileUrl": "/docs/mesures-guillaume.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "pdp-04",
+    "name": "Claire N.",
+    "age": 30,
+    "location": "Clermont-Ferrand",
+    "category": "perte_de_poids",
+    "shortText": "Definitive silhouette stabilization without the yo-yo effect.",
+    "fullText": "After 10 years of destructive restrictive diets, metabolic resynchronization finally addressed the biological root cause of my weight gain. My weight has remained stable for 8 months.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Metabolic Stabilization Report — Claire N.",
+        "fileUrl": "/docs/stabilisation-claire.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "pdp-05",
+    "name": "David L.",
+    "age": 46,
+    "location": "Angers",
+    "category": "perte_de_poids",
+    "shortText": "-18 kg in 6 months with full preservation of lean mass.",
+    "fullText": "Targeted aerobic zone training on the bike and treadmill completely reshaped my body composition. At 46, I feel more toned than ever.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "DEXA Scan Report — David L.",
+        "fileUrl": "/docs/dexascan-david.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "pdp-06",
+    "name": "Sandrine W.",
+    "age": 40,
+    "location": "Nancy",
+    "category": "perte_de_poids",
+    "shortText": "Reactivation of a sluggish metabolism and drop of 3 clothing sizes.",
+    "fullText": "My gym efforts were ineffective due to metabolic overload. Flédéric Payet's method taught me to 'medicalize' my effort. My silhouette has visibly slimmed down.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Basal Metabolic Rate Report — Sandrine W.",
+        "fileUrl": "/docs/metabolisme-sandrine.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "pdp-07",
+    "name": "Marc A.",
+    "age": 50,
+    "location": "Pau",
+    "category": "perte_de_poids",
+    "shortText": "15 kg weight loss and return to youthful racing weight.",
+    "fullText": "I couldn't shake my middle-age weight gain. Thanks to short, calibrated sessions, I burned fat reserves while reinforcing my cardiovascular system.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Body Fat Progress Tracking — Marc A.",
+        "fileUrl": "/docs/suivi-poids-marca.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "pdp-08",
+    "name": "Cécile B.",
+    "age": 36,
+    "location": "Rennes",
+    "category": "perte_de_poids",
+    "shortText": "Targeted loss of 9 kg and improved muscle firmness.",
+    "fullText": "Working without pushing past the point of exhaustion made my workouts enjoyable and highly effective. My core and legs have noticeably toned up.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Metabolic Tracking Sheet — Cécile B.",
+        "fileUrl": "/docs/fiche-cecile.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "per-01",
+    "name": "Julien M.",
+    "age": 32,
+    "location": "Nantes",
+    "category": "performance",
+    "shortText": "+15% MAS and reduction in exertion heart rate.",
+    "fullText": "An amateur distance runner, my race times had plateaued. Metabolic synchronization allowed me to increase my sustained pace while lowering my heart rate by 12 beats.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "MAS Test & VO2 Max Curve — Julien M.",
+        "fileUrl": "/docs/vo2max-julien.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "per-02",
+    "name": "Alexandre V.",
+    "age": 29,
+    "location": "Annecy",
+    "category": "performance",
+    "shortText": "Massive gain in aerobic endurance for high-altitude trail running.",
+    "fullText": "The chainring and cog analogy taught me how to manage climbs without accumulating lactic acid. Result: instant recovery during effort and zero sudden energy crashes.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Exertion Blood Lactate Analysis — Alexandre V.",
+        "fileUrl": "/docs/lactatemie-alexandre.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "per-03",
+    "name": "Romain B.",
+    "age": 31,
+    "location": "Pau",
+    "category": "performance",
+    "shortText": "Optimized recovery between high-intensity sets.",
+    "fullText": "In road cycling, my reloading times between surges were too long. Flédéric Payet's protocol significantly accelerated my rate of flushing out exertion toxins.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Power & Cadence Profile — Romain B.",
+        "fileUrl": "/docs/puissance-romain.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "per-04",
+    "name": "Sébastien K.",
+    "age": 38,
+    "location": "Strasbourg",
+    "category": "performance",
+    "shortText": "Complete prevention of overtraining and gain in peak power.",
+    "fullText": "Prone to repeated injuries caused by overtraining, the MMD method taught me to naturally stimulate my endocrine system without exhausting my body. All my race times dropped.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Heart Rate Variability (HRV) Report",
+        "fileUrl": "/docs/hrv-sebastien.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "per-05",
+    "name": "Mathieu P.",
+    "age": 49,
+    "location": "Rennes",
+    "category": "performance",
+    "shortText": "Maintenance of peak performance despite advancing age.",
+    "fullText": "At nearly 50, I continue to compete alongside 30-year-old athletes. Metabolic synchronization reactivated my adaptive capabilities and preserved my muscle mass.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Cardiovascular Capacity Test — Mathieu P.",
+        "fileUrl": "/docs/cardio-mathieu.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "per-06",
+    "name": "Nicolas C.",
+    "age": 27,
+    "location": "Bordeaux",
+    "category": "performance",
+    "shortText": "Improved mental clarity and stamina during squash matches.",
+    "fullText": "Late-game phases were my weak point due to a loss of focus under high heart rates. Metabolic effort brought me decisive cardiovascular stability in the final set.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Intermittent Effort Tracking Report",
+        "fileUrl": "/docs/suivi-nicolas.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "per-07",
+    "name": "Éric D.",
+    "age": 44,
+    "location": "Toulouse",
+    "category": "performance",
+    "shortText": "Accelerated recovery time after competitions.",
+    "fullText": "It used to take me 4 days to recover from an Olympic-distance triathlon. With MMD active recovery protocols, I can retrain my metabolism two days later without muscle soreness.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Exertion Recovery Assessment — Éric D.",
+        "fileUrl": "/docs/recuperation-eric.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "per-08",
+    "name": "Maxime L.",
+    "age": 35,
+    "location": "Lille",
+    "category": "performance",
+    "shortText": "Muscle efficiency optimization and reduced risk of cramping.",
+    "fullText": "Heart rate management during workouts eliminated my chronic end-of-event cramps. My body dissipates heat and strain perfectly.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Muscle Efficiency Analysis — Maxime L.",
+        "fileUrl": "/docs/efficience-maxime.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "fat-01",
+    "name": "Sophie L.",
+    "age": 51,
+    "location": "Bordeaux",
+    "category": "fatigue",
+    "shortText": "Chronic fatigue regulation and return of morning energy.",
+    "fullText": "Suffering from persistent exhaustion, even minor conventional exercise drained my strength. The MMD protocol allowed me to rebuild my energy levels without creating physical fatigue debt.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Exhaustion Level Assessment — Sophie L.",
+        "fileUrl": "/docs/bilan-fatigue-sophie.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "fat-02",
+    "name": "Nathalie B.",
+    "age": 45,
+    "location": "Grenoble",
+    "category": "fatigue",
+    "shortText": "Disappearance of daytime drowsiness and restorative sleep.",
+    "fullText": "Mid-afternoon energy slumps ruined my workdays. Endocrine balancing achieved through this method restored my nighttime sleep quality and ongoing alertness.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Polysomnography & Vitality Report — Nathalie B.",
+        "fileUrl": "/docs/polysomnographie-nathalie.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "fat-03",
+    "name": "Benoît C.",
+    "age": 48,
+    "location": "Rouen",
+    "category": "fatigue",
+    "shortText": "Recovery of physical tone despite a demanding work schedule.",
+    "fullText": "As a business executive, I was on the verge of physical burnout. Micro-sessions calibrated on an ergometer bike recharged my cellular batteries without adding nervous strain.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Neural & Physical Load Tracking — Benoît C.",
+        "fileUrl": "/docs/charge-benoit.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "fat-04",
+    "name": "Aurelie S.",
+    "age": 37,
+    "location": "Mulhouse",
+    "category": "fatigue",
+    "shortText": "Breaking the vicious cycle of nervous and muscular fatigue.",
+    "fullText": "Accumulated fatigue made even brisk walking impossible. Gentle endocrine stimulation (dopamine/serotonin) unlocked my muscle tone starting in the third week.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Cellular Vitality Assessment — Aurelie S.",
+        "fileUrl": "/docs/vitalite-aurelie.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "fat-05",
+    "name": "Laurent K.",
+    "age": 43,
+    "location": "Lille",
+    "category": "fatigue",
+    "shortText": "Adrenal fatigue prevention and recovery of stamina.",
+    "fullText": "My blood work showed stress-related adrenal exhaustion. The MMD method taught me to stimulate my body without tapping into my vital reserves.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Cortisol & DHEA Profile — Laurent K.",
+        "fileUrl": "/docs/cortisol-laurent.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "fat-06",
+    "name": "Patricia N.",
+    "age": 56,
+    "location": "Amiens",
+    "category": "fatigue",
+    "shortText": "Regulation of energy slumps associated with age-related imbalances.",
+    "fullText": "Loss of vitality hampered my daily life. Adaptive effort sessions stabilized my energy levels and eliminated morning sluggishness.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1548142813-c348350df52b?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Overall Vitality Assessment — Patricia N.",
+        "fileUrl": "/docs/vitalite-patricia.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "fat-07",
+    "name": "Isabelle M.",
+    "age": 49,
+    "location": "Caen",
+    "category": "fatigue",
+    "shortText": "Recovery of exertion capacity without metabolic overload.",
+    "fullText": "I could no longer bounce back from my workweeks. Thanks to the precise adjustment of cardiac cogs, I feel alert and dynamic again.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Energy Tracking Journal — Isabelle M.",
+        "fileUrl": "/docs/carnet-isabelle.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "fat-08",
+    "name": "Pierre-Yves M.",
+    "age": 56,
+    "location": "Nantes",
+    "category": "fatigue",
+    "shortText": "Regeneration of overall vitality and resistance to overwork.",
+    "fullText": "I used to wake up as tired as when I went to bed. The MMD method restored balance to my autonomic nervous system. My vitality has returned to what it was in my 40s.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Vagal Tone Analysis — Pierre-Yves M.",
+        "fileUrl": "/docs/tonus-vagal-pierreyves.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "ene-01",
+    "name": "Claire P.",
+    "age": 42,
+    "location": "Lille",
+    "category": "energie",
+    "shortText": "Regained vital drive and a constant sense of lightness.",
+    "fullText": "I felt as though I was dragging a heavy weight around constantly. Metabolic synchronization sessions boosted my natural endorphin production. My energy levels are at their peak.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Vitality & Neurotransmitters Assessment — Claire P.",
+        "fileUrl": "/docs/vitalite-claire.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "ene-02",
+    "name": "Julien T.",
+    "age": 36,
+    "location": "Toulouse",
+    "category": "energie",
+    "shortText": "Physical freshness and heightened mental clarity.",
+    "fullText": "By optimizing vascular efficiency during metabolic effort, I noticed an immediate increase in mental sharpness and dynamism throughout the entire day.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Exertion Dynamism Tracking — Julien T.",
+        "fileUrl": "/docs/suivi-julient.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "ene-03",
+    "name": "Franck S.",
+    "age": 47,
+    "location": "Biarritz",
+    "category": "energie",
+    "shortText": "Daily stamina optimization and elimination of energy crashes.",
+    "fullText": "I was looking for a way to stay fit without burning out. Flédéric Payet's method gave me the tools to recharge my energy like a living battery.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Energy Autonomy Report — Franck S.",
+        "fileUrl": "/docs/autonomie-franck.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "ene-04",
+    "name": "Audrey B.",
+    "age": 34,
+    "location": "Bordeaux",
+    "category": "energie",
+    "shortText": "Continuous morning-to-night dynamism without external stimulants.",
+    "fullText": "I was dependent on coffee to get through the day. By restarting natural dopamine release through metabolic effort, I am full of energy as soon as I wake up.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Natural Hormonal Stimulation Assessment — Audrey B.",
+        "fileUrl": "/docs/dopamine-audrey.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "ene-05",
+    "name": "Gérard L.",
+    "age": 62,
+    "location": "Nice",
+    "category": "energie",
+    "shortText": "Restored physical enthusiasm and resistance to exertion.",
+    "fullText": "In retirement, my energy was gradually declining. MMD's personalized protocols restored the dynamism I had in my fifties. I am active across multiple sports again.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Functional Capacity Evaluation — Gérard L.",
+        "fileUrl": "/docs/capacite-gerard.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "ene-06",
+    "name": "Caroline R.",
+    "age": 39,
+    "location": "Perpignan",
+    "category": "energie",
+    "shortText": "Lasteing vitality and complete disappearance of evening fatigue.",
+    "fullText": "After work, I was unable to interact calmly with my children. Heart rate regulation during sessions provides me with an endless reserve of energy.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Daily Recovery Tracking — Caroline R.",
+        "fileUrl": "/docs/suivi-caroline.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "ene-07",
+    "name": "Stéphane V.",
+    "age": 45,
+    "location": "Versailles",
+    "category": "energie",
+    "shortText": "Increased endurance capacity and peak morale.",
+    "fullText": "Metabolic effort acts as an immediate biological booster. I feel light, enduring, and particularly resilient against stress.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Fitness & Energy Assessment — Stéphane V.",
+        "fileUrl": "/docs/forme-stephane.pdf",
+        "type": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "ene-08",
+    "name": "Nathalie F.",
+    "age": 41,
+    "location": "La Rochelle",
+    "category": "energie",
+    "shortText": "Overall sense of well-being and surge in vitality.",
+    "fullText": "Controlled endocrine stimulation helped me regain natural drive. My family immediately noticed my change in attitude and my overflowing energy.",
+    "photoBeforeUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&auto=format&fit=crop&q=80",
+    "photoAfterUrl": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&auto=format&fit=crop&q=80",
+    "documents": [
+      {
+        "title": "Vital Progress Sheet — Nathalie F.",
+        "fileUrl": "/docs/progres-nathalief.pdf",
+        "type": "PDF"
+      }
+    ]
+  }
+]

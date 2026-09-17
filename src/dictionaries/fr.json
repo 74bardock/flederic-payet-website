@@ -1,167 +1,107 @@
 {
-  "nav": {
-    "vision": "Vision",
-    "methode": "Méthode",
-    "method": "Recalibration métabolique",
-    "proofs": "Résultats",
-    "science": "Science",
-    "investors": "Investisseurs",
-    "testimonials": "Témoignages",
-    "dealroom": "Dealroom",
-    "contact": "Contacter Flédéric",
-    "home": "← Accueil"
+  "Header": {
+    "nav_home": "Accueil",
+    "nav_about": "À propos",
+    "nav_method": "La Méthode MMD",
+    "nav_testimonials": "Témoignages",
+    "nav_contact": "Contact"
   },
- "footer": {
-    "rights": "Tous droits réservés.",
-    "confidential": "Document confidentiel à usage strictement réservé."
+  "Hero": {
+    "subtitle": "Spécialiste du métabolisme & Développeur de la méthode Effort Métabolique",
+    "bio": "Je suis un spécialiste du métabolisme. J’ai développé une méthode unique appelée « effort métabolique » pour réactiver et optimiser le métabolisme. J’accompagne mes clients avec des séances adaptées, basées sur des exercices réalisés sur des équipements de salle de sport.",
+    "card_method_title": "La Méthode MMD",
+    "card_method_desc": "Découvrez le fonctionnement de l'Effort Métabolique et les équipements utilisés.",
+    "card_testimonials_title": "Témoignages",
+    "card_testimonials_desc": "Retours d'expérience ciblés par domaine (Santé, Performance, Énergie...)",
+    "card_contact_title": "Contact & Évaluation",
+    "card_contact_desc": "Évaluation gratuite pour clients ou demande de renseignements."
   },
-  "testimonials": {
-    "tag": "Témoignages",
-    "title": "Ce que nos utilisateurs disent",
-    "subtitle": "Découvrez l'impact de MetaboSync au quotidien.",
-    "items": [
-      {
-        "quote": "La méthode MMD m'a permis de comprendre précisément les besoins de mon corps.",
-        "author": "Dr. Élodie Martin",
-        "role": "Médecin nutritionniste",
-        "location": "Paris, France"
-      },
-      {
-        "quote": "Une approche rigoureuse et basée sur la donnée, indispensable pour un suivi personnalisé.",
-        "author": "Marc Lemaire",
-        "role": "Biohacker & Fondateur",
-        "location": "Lyon, France"
+  "Method": {
+    "page_title": "La Méthode MMD — Effort Métabolique",
+    "subtitle": "Synchronisation Métabolique",
+    "definition": "Une méthodologie innovante qui a fait ses preuves, visant à stimuler le système endocrinien et à réactiver et recalibrer le métabolisme pour un niveau d’énergie, de vitalité et d’endurance accru, ainsi qu'une récupération plus rapide (Équilibre des hormones et libération des neurotransmetteurs).",
+    "biography": {
+      "title": "Biographie du fondateur",
+      "name": "Flédéric Payet",
+      "p1": "Au cours des deux dernières décennies, j'ai été amené à rencontrer de très nombreuses personnes en détresse dans plusieurs régions du monde. J'ai été confronté à leurs divers problèmes de santé, tout comme j'ai accompagné des athlètes.",
+      "p2": "Depuis lors, je n’ai eu de cesse d’élaborer de nouvelles méthodes afin de m’adapter à tout un chacun. La salle de sport est devenue une sorte d’hôpital préventif et curatif.",
+      "p3": "Au travers de mes recherches et expérimentations, j’ai compris les principes de la synchronisation métabolique et de la stimulation naturelle du système endocrinien. Les résultats sur tous types de profils ont été extrêmement probants, qu’il s’agisse d’athlètes, de personnes souffrant de diverses pathologies ou d’amateurs."
+    },
+    "analogy": {
+      "title": "L'Analogie de la Bicyclette",
+      "intro": "Imaginez que votre corps est une bicyclette et que, pour son bon fonctionnement, il faut un entretien régulier. Il faut huiler la chaîne, resserrer les freins, changer les pneus, revisser les boulons et s'assurer que les suspensions sont en bon état.",
+      "why": "Pourquoi cette analogie ? Car elle me ramène au fonctionnement métabolique du corps.",
+      "chain": "La chaîne représente le flux sanguin.",
+      "chainring": "Le plateau représente la résistance cardiaque.",
+      "cogs": "Les petits et grands pignons représentent la fréquence ou pulsation cardiaque.",
+      "conclusion": "Cela signifie que je vais moduler l'effort pour que le corps parvienne à une certaine aisance, ce que je nomme l'effort métabolique, car il apporte un renouvellement d'énergie instantané et non de l'épuisement."
+    },
+    "definition_section": {
+      "title": "Qu’est-ce que la synchronisation métabolique ?",
+      "p1": "Il s’agit d’un protocole unique conçu pour stimuler naturellement le système endocrinien, entraînant la libération de neurotransmetteurs. En conséquence, les niveaux d’énergie, d’endurance et de vitalité augmentent de manière significative et permettent une récupération complète et plus rapide de la fatigue, qu’elle provienne de problèmes de santé ou d’entraînements sportifs intensifs. Cette méthode peut être suivie universellement et avec succès par des personnes de tout âge ou condition physique.",
+      "p2": "L’innovation centrale de ce programme est le déclenchement d’une libération naturelle de dopamine, d’endorphine, de sérotonine, etc. Cette autostimulation du système endocrinien a un impact direct et positif sur la santé des patients ou des athlètes et sur leur capacité à supprimer la fatigue. Cela représente une avancée majeure dans l’entraînement physique car cela s’applique à :",
+      "targets": {
+        "health_title": "Personnes avec des problèmes de santé mineurs à majeurs",
+        "health_desc": "Ce programme a été suivi avec succès par des personnes souffrant de fatigue chronique sévère, fibromyalgie, migraines, problèmes cardiaques, hypertension, burnouts, dépression, etc.",
+        "athletes_title": "Athlètes professionnels et amateurs",
+        "athletes_desc": "Les athlètes peuvent augmenter leurs performances et accélérer leur temps de récupération avant, pendant et après les entraînements ou compétitions, sans utiliser de suppléments (légaux ou non). Ce programme unique complète leurs routines d’entraînement habituelles et leur permet une récupération plus rapide et plus complète, améliorant ainsi leurs performances globales et réduisant le risque de blessure. La synchronisation métabolique a aidé des athlètes professionnels en course automobile, tennis, football/soccer, etc.",
+        "special_forces_title": "Autres catégories / Professions à contraintes extrêmes",
+        "special_forces_desc": "Cette méthodologie peut également bénéficier aux professionnels exposés à des conditions physiques extrêmes comme les Forces Spéciales de Police, l’Armée, les Pompiers, etc. Elle a été adoptée individuellement par plusieurs membres de différentes entités, leur permettant d’améliorer significativement leurs performances en opération ou en entraînement."
       }
-    ]
-  },
-  "hero": {
-    "badge": "Santé Métabolique & Physiologie",
-    "titleLine1": "Optimisez votre santé grâce à la",
-    "titleLine2": "Recalibration métabolique",
-    "description": "Une approche scientifique et personnalisée basée sur l'analyse de données physiologiques pour restaurer votre souplesse métabolique et optimiser votre vitalité.",
-    "ctaPrimary": "Découvrir la science",
-    "ctaSecondary": "Voir les résultats"
-  },
-  "contrast": {
-    "title": "Une approche fondamentale différente",
-    "tradTitle": "Approches traditionnelles",
-    "tradPoint1": "Régimes restrictifs et génériques",
-    "tradPoint2": "Effet yo-yo et fatigue chronique",
-    "tradPoint3": "Analyse superficielle des symptômes",
-    "tradPoint4": "Pas de suivi physiologique ciblé",
-    "fledericTitle": "Recalibration métabolique",
-    "fledericPoint1": "Analyse approfondie des marqueurs physiologiques",
-    "fledericPoint2": "Optimisation de la souplesse métabolique",
-    "fledericPoint3": "Ajustements personnalisés basés sur la donnée",
-    "fledericPoint4": "Résultats durables sans régimes extrêmes"
-  },
-  "stories": {
-    "badge": "Retours d'expérience",
-    "title": "Résultats constatés",
-    "subtitle": "Découvrez comment la Recalibration métabolique transforme la vitalité au quotidien.",
-    "card1": {
-      "tag": "Énergie & Vitalité",
-      "text": "Grâce à la Recalibration métabolique, j'ai retrouvé un niveau d'énergie stable tout au long de la journée sans les coups de pompe habituels.",
-      "name": "Marc D.",
-      "role": "Entrepreneur"
     },
-    "card2": {
-      "tag": "Performances",
-      "text": "Une clarté d'esprit et une récupération nettement améliorées grâce à la prise en compte de mes données physiologiques personnelles.",
-      "name": "Sophie L.",
-      "role": "Cadre dirigeante"
+    "disclaimer_title": "Ce que la synchronisation métabolique ne fait pas",
+    "disclaimer_body": "La méthode a été conçue pour stimuler naturellement le système endocrinien, entraînant des effets positifs sur la santé et les performances. Elle vient en complément, et non en remplacement, du système médical traditionnel.",
+    "objectives_title": "Objectifs de la méthode",
+    "objectives_list": [
+      "Réactivation du métabolisme",
+      "Amélioration de l’endurance et de la force",
+      "Amélioration de l’état de santé général",
+      "Séances personnalisées et progressives"
+    ],
+    "effort_title": "Méthode « Effort Métabolique »",
+    "effort_desc": "Ma méthode combine des protocoles où je guide les fréquences et pulsations cardiovasculaires pendant l’effort afin d’atteindre l’optimisation des fonctions nerveuses et cognitives et de maintenir ou de récupérer l’intégrité du corps avec pour objectif d’en assurer sa défense, de provoquer la réparation des lésions et de stimuler la dépense énergétique avec une nette amélioration de la composition corporelle. Les séances sont modulées selon le niveau, les objectifs et les contraintes de chacun : gestion progressive de l’intensité avec une récupération active.",
+    "equipment_title": "Équipements et matériel utilisés",
+    "equipment_desc": "Vélo, tapis de course, elliptique, escaliers, machines de musculation, équipement guidé de musculation. J’intègre ces outils pour varier les stimulations et maximiser l'efficacité de l'effort métabolique.",
+    "eligibility_title": "Qui peut accéder à cette méthode ?",
+    "eligibility_desc": "Tous les profils de 14 à 99 ans, avec ou sans handicap.",
+    "ip_notice": "N.B. Pour des raisons de confidentialité, les protocoles restent dans le domaine de la propriété intellectuelle.",
+    "cta": "Prêt à relancer votre métabolisme et à vous défaire de certaines pathologies ? Contactez-moi pour une évaluation gratuite et un programme sur mesure.",
+    "cta_button": "Prendre contact"
+  },
+"TestimonialsUI": {
+    "title": "Témoignages & Retours d'Expérience",
+    "subtitle": "Découvrez les résultats observés selon votre domaine d'intérêt.",
+    "searchPlaceholder": "Rechercher par nom, ville, mot-clé...",
+    "allProfiles": "Tous les profils",
+    "profilesFound": "profils correspondants",
+    "resetFilter": "Réinitialiser le filtre",
+    "yearsOld": "ans",
+    "before": "Avant",
+    "after": "Après",
+    "viewRecord": "Voir le dossier complet ➔",
+    "noResults": "Aucun témoignage ne correspond à votre recherche.",
+    "showAll": "Afficher tous les témoignages",
+    "detailedFeedback": "Témoignage détaillé",
+    "documentation": "Documents médicaux et bilans joints",
+    "loading": "Chargement...",
+    "categories": {
+      "sante": "Santé",
+      "convalescence": "Convalescence",
+      "perte_de_poids": "Perte de poids",
+      "performance": "Performance",
+      "fatigue": "Fatigue",
+      "energie": "Énergie"
     }
   },
-  "science": {
-    "badge": "Fondations scientifiques",
-    "title": "La science derrière la Recalibration métabolique",
-    "description": "Notre méthodologie repose sur l'analyse précise des marqueurs métaboliques pour offrir une stratégie d'optimisation sur mesure.",
-    "step1Title": "1. Évaluation initiale",
-    "step1Text": "Collecte et analyse poussée de vos données physiologiques et habitudes de vie.",
-    "step2Title": "2. Ajustement personnalisé",
-    "step2Text": "Mise en place du plan de Recalibration métabolique adapté à vos besoins uniques.",
-    "step3Title": "3. Suivi & Optimisation",
-    "step3Text": "Mesure des progrès et ajustements fins pour garantir des résultats pérennes."
-  },
-  "ctaBottom": {
-    "title": "Prêt à optimiser votre santé métabolique ?",
-    "subtitle": "Prenez contact avec Flédéric Payet pour en savoir plus sur la Recalibration métabolique.",
-    "button": "Contacter Flédéric"
-  },
-  "methodePage": {
-    "tag": "Notre Méthodologie",
-    "title": "La Méthode MMD",
-    "subtitle": "Une approche scientifique structurée pour optimiser la santé métabolique.",
-    "description": "La méthode MMD (Metabolic Measurement & Data) repose sur le suivi d'indicateurs physiologiques pour adapter votre hygiène de vie de manière personnalisée.",
-    "sec1Title": "Notre approche scientifique",
-    "sec1Desc": "Nous combinons la mesure continue de données physiologiques et l'analyse algorithmique pour proposer des interventions ciblées et mesurables.",
-    "sec2Title": "Personnalisation & Suivi",
-    "sec2Desc": "Chaque métabolisme étant unique, notre plateforme ajuste dynamiquement les recommandations en fonction de vos réponses physiologiques réelles.",
-    "sec2Highlight": "L'analyse continue des données permet d'anticiper les variations métaboliques avant l'apparition des symptômes.",
-    "sec3Title": "Résultats & Impact",
-    "sec3Desc": "Une amélioration mesurable de la flexibilité métabolique, un regain d'énergie durable et une prévention proactive des risques de santé.",
-    "btnLicensing": "Découvrir les options de licence",
-    "stepsTitle": "Les étapes de la méthode",
-    "step1": {
-      "title": "1. Mesure & Diagnostic",
-      "description": "Analyse ciblée de vos données physiologiques et marqueurs de santé métabolique."
-    },
-    "step2": {
-      "title": "2. Recalibration",
-      "description": "Ajustement progressif et personnalisé de la nutrition et du mode de vie."
-    },
-    "step3": {
-      "title": "3. Optimisation Continue",
-      "description": "Suivi des indicateurs clés pour garantir une vitalité et une flexibilité métabolique durables."
-    }
-  },
-  "investorsPage": {
-    "tag": "Opportunités & Partenariats",
-    "title": "Espace Investisseurs",
-    "subtitle": "Découvrez notre vision et nos opportunités de croissance.",
-    "description": "MetaboSync développe des solutions technologiques de santé métabolique basées sur la donnée physiologique.",
-    "formTitle": "Accéder au Dealroom",
-    "formSubtitle": "Remplissez le formulaire ci-dessous pour recevoir notre pitch deck et les informations financières.",
-    "formFullName": "Nom complet *",
-    "formFullNamePlaceholder": "Jean Dupont",
-    "formEmail": "Adresse email professionnelle *",
-    "formEmailPlaceholder": "jean.dupont@entreprise.com",
-    "formOrg": "Fonds / Organisation *",
-    "formOrgPlaceholder": "Nom de votre fonds ou société",
-    "formRole": "Fonction",
-    "formRolePlaceholder": "Partner, Analyste, Business Angel...",
-    "formMessage": "Message / Intérêt particulier",
-    "formMessagePlaceholder": "Précisez votre thèse d'investissement ou vos questions...",
-    "formSubmit": "Demander l'accès",
-    "successTitle": "Demande envoyée !",
-    "successText": "Merci pour votre intérêt. Nous examinerons votre demande et vous contacterons rapidement."
-  },
-  "contact": {
-    "badge": "Prendre contact",
-    "title": "Contacter Flédéric Payet",
-    "subtitle": "Une question sur la Recalibration métabolique, une opportunité de partenariat ou une demande d'accompagnement ?",
-    "info": {
-      "role": "Fondateur MetaboSync",
-      "bio": "Spécialiste de la santé métabolique et de la Recalibration métabolique basée sur la donnée.",
-      "emailLabel": "Email Direct",
-      "locationLabel": "Localisation",
-      "locationValue": "France / Remote",
-      "responseTimeTitle": "Temps de réponse",
-      "responseTimeText": "Les demandes sont généralement traitées sous 24 à 48 heures ouvrées."
-    },
-    "form": {
-      "nameLabel": "Nom complet *",
-      "namePlaceholder": "Jean Dupont",
-      "emailLabel": "Adresse Email *",
-      "emailPlaceholder": "jean.dupont@example.com",
-      "subjectLabel": "Sujet *",
-      "subjectPlaceholder": "Demande d'informations / Partenariat",
-      "messageLabel": "Votre message *",
-      "messagePlaceholder": "Décrivez votre demande ou votre projet...",
-      "submitButton": "Envoyer le message",
-      "successTitle": "Message envoyé !",
-      "successText": "Merci pour votre message. Flédéric vous répondra dans les plus brefs délais.",
-      "resetButton": "Envoyer un autre message"
-    }
+  "Contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Pour une évaluation gratuite ou toute demande d'information.",
+    "form_name": "Votre nom",
+    "form_name_placeholder": "Votre nom",
+    "form_email": "Votre e-mail",
+    "form_email_placeholder": "votre@email.com",
+    "form_message": "Votre message",
+    "form_message_placeholder": "Votre message...",
+    "form_submit": "Envoyer"
   }
 }

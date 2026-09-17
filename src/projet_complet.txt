@@ -1,0 +1,185 @@
+Structure du dossier pour le volume Systeme
+Le numéro de série du volume est EE56-1FEE
+C:.
+|   contenu du site.cmd
+|   gemini-code-1789144797467.json
+|   projet_complet-V01.txt
+|   projet_complet-V02.txt
+|   projet_complet.txt
+|   
++---app
+|   |   globals.css
+|   |   layout - Copie.tsx
+|   |   layout.tsx
+|   |   page - Copie.tsx
+|   |   page.tsx
+|   |   
+|   +---a-propos
+|   |       page - Copie (2).tsx
+|   |       page - Copie (3).tsx
+|   |       page - Copie (4).tsx
+|   |       page - Copie.tsx
+|   |       page.tsx
+|   |       
+|   +---contact
+|   |       page - Copie (2).tsx
+|   |       page - Copie.tsx
+|   |       page.tsx
+|   |       
+|   +---methode-mmd
+|   |       page - Copie (2).tsx
+|   |       page - Copie.tsx
+|   |       page.tsx
+|   |       
+|   \---temoignages
+|           page - Copie (2).tsx
+|           page - Copie (3).tsx
+|           page - Copie (4).tsx
+|           page - Copie (5).tsx
+|           page - Copie (6).tsx
+|           page - Copie.tsx
+|           page.tsx
+|           
++---components
+|       AvatarBicyclette.tsx
+|       Header.tsx
+|       
++---context
+|       LanguageContext - Copie.tsx
+|       LanguageContext.tsx
+|       
++---data
+|       data_en.json
+|       data_fr.json
+|       testimonials.ts
+|       
++---dictionaries
+|       en - Copie (2).json
+|       en - Copie.json
+|       en.json
+|       fr - Copie (2).json
+|       fr - Copie (3).json
+|       fr - Copie.json
+|       fr.json
+|       
+\---lib
+        get-dictionary.ts
+        layout.tsx
+        
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\gemini-code-1789144797467.json  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\layout - Copie.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\layout.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\page - Copie.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\page.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\a-propos\page - Copie (2).tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\a-propos\page - Copie (3).tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\a-propos\page - Copie (4).tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\a-propos\page - Copie.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\a-propos\page.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\contact\page - Copie (2).tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\contact\page - Copie.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\contact\page.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\methode-mmd\page - Copie (2).tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\methode-mmd\page - Copie.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\methode-mmd\page.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\temoignages\page - Copie (2).tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\temoignages\page - Copie (3).tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\temoignages\page - Copie (4).tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\temoignages\page - Copie (5).tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\temoignages\page - Copie (6).tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\temoignages\page - Copie.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\temoignages\page.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\components\AvatarBicyclette.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\components\Header.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\context\LanguageContext - Copie.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\context\LanguageContext.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\data\data_en.json  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\data\data_fr.json  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\data\testimonials.ts  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\en - Copie (2).json  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\en - Copie.json  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\en.json  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\fr - Copie (2).json  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\fr - Copie (3).json  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\fr - Copie.json  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\fr.json  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\lib\layout.tsx  
+========================================  
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\lib\get-dictionary.ts  
+========================================  
