@@ -4,72 +4,111 @@
     "nav_about": "À propos",
     "nav_method": "La Méthode SM",
     "nav_testimonials": "Témoignages",
-    "nav_contact": "Contact"
+    "nav_contact": "Contact",
+    "method_submenu": {
+      "what_is_sm": "Qu'est-ce que SM ?",
+      "who_is_concerned": "Qui est concerné ?",
+      "what_sm_does_not_do": "Ce que SM ne fait pas",
+      "metabolic_effort": "Effort Métabolique",
+      "equipment_used": "Équipements & Bénéficiaires"
+    }
   },
   "Hero": {
-    "subtitle": "Spécialiste du métabolisme & Développeur de la méthode Effort Métabolique",
-    "bio": "Je suis un spécialiste du métabolisme. J’ai développé une méthode unique appelée « effort métabolique » pour réactiver et optimiser le métabolisme. J’accompagne mes clients avec des séances adaptées, basées sur des exercices réalisés sur des équipements de salle de sport.",
+    "badge": "Synchronisation Métabolique",
+    "title": "MetaboSync HealthTech",
+    "subtitle": "Spécialiste du Métabolisme & Créateur de la Méthode Effort Métabolique",
+    "description": "Une méthodologie innovante aux résultats probants, conçue pour stimuler le système endocrinien, réactiver et recalibrer le métabolisme pour un regain d'énergie, de vitalité, d'endurance et une récupération plus rapide.",
+    "outcomes": "Équilibre hormonal et libération des neurotransmetteurs (dopamine, endorphines, sérotonine).",
+    "btn_discover": "Découvrir la Méthode SM",
+    "btn_contact": "Demander un bilan gratuit",
     "card_method_title": "La Méthode SM",
-    "card_method_desc": "Découvrez le fonctionnement de l'Effort Métabolique et les équipements utilisés.",
+    "card_method_desc": "Découvrez le fonctionnement de l'Effort Métabolique et le matériel utilisé.",
     "card_testimonials_title": "Témoignages",
-    "card_testimonials_desc": "Retours d'expérience ciblés par domaine (Santé, Performance, Énergie...)",
-    "card_contact_title": "Contact & Évaluation",
-    "card_contact_desc": "Évaluation gratuite pour clients ou demande de renseignements."
+    "card_testimonials_desc": "Retours ciblés par domaine (Santé, Performance, Énergie...)",
+    "card_contact_title": "Contact & Bilan",
+    "card_contact_desc": "Bilan gratuit offert pour les clients ou demandes d'information."
   },
   "Method": {
     "page_title": "La Méthode SM — Effort Métabolique",
     "subtitle": "Synchronisation Métabolique",
-    "definition": "Une méthodologie innovante qui a fait ses preuves, visant à stimuler le système endocrinien et à réactiver et recalibrer le métabolisme pour un niveau d’énergie, de vitalité et d’endurance accru, ainsi qu'une récupération plus rapide (Équilibre des hormones et libération des neurotranSMetteurs).",
+    "definition": "Une méthodologie innovante conçue pour stimuler naturellement le système endocrinien, réactiver et recalibrer le métabolisme pour un regain d'énergie, de vitalité, d'endurance et une récupération plus rapide (équilibre hormonal et libération de neurotransmetteurs).",
+    "explore_title": "Explorez les sections de la Méthode",
+    "link_qecqs": "Qu'est-ce que SM ?",
+    "link_pec": "Public concerné",
+    "link_qcsmndf": "Ce que SM ne fait pas",
+    "link_em": "Effort Métabolique",
+    "link_eeb": "Équipements & Bénéficiaires",
+    "nav_overview": "Vue générale",
+    "cta": "Prêt à relancer votre métabolisme ? Contactez-moi pour un bilan gratuit.",
+    "cta_button": "Prendre contact",
     "biography": {
       "title": "Biographie du fondateur",
+      "title_line1": "Biographie",
+      "title_line2": "du fondateur",
       "name": "Flédéric Payet",
-      "p1": "Au cours des deux dernières décennies, j'ai été amené à rencontrer de très nombreuses personnes en détresse dans plusieurs régions du monde. J'ai été confronté à leurs divers problèmes de santé, tout comme j'ai accompagné des athlètes.",
-      "p2": "Depuis lors, je n’ai eu de cesse d’élaborer de nouvelles méthodes afin de m’adapter à tout un chacun. La salle de sport est devenue une sorte d’hôpital préventif et curatif.",
-      "p3": "Au travers de mes recherches et expérimentations, j’ai compris les principes de la synchronisation métabolique et de la stimulation naturelle du système endocrinien. Les résultats sur tous types de profils ont été extrêmement probants, qu’il s’agisse d’athlètes, de personnes souffrant de diverses pathologies ou d’amateurs."
+      "p1": "Au cours des deux dernières décennies, je me suis mis à rencontrer énormément de personnes en détresse dans multiples parties du monde. Je viens moi-même d'une île française intense, La Réunion, pleine de diversité.",
+      "p2": "J'ai été confronted à des patients souffrant de divers problèmes de santé, ainsi qu'aux défis rencontrés par des athlètes ou des unités d'élite. Depuis lors, je n'ai eu de cesse d'élaborer de nouvelles méthodes afin de m'adapter à tout un chacun après de nombreuses recherches et expérimentations.",
+      "p3": "La salle de sport est devenue une sorte d'hôpital préventif et curatif pour moi, car je comprends désormais les principes de la synchronisation métabolique et de la stimulation naturelle du système endocrinien. Les résultats sur toutes formes de profil ont été extrêmement probants."
     },
     "analogy": {
       "title": "L'Analogie de la Bicyclette",
-      "intro": "Imaginez que votre corps est une bicyclette et que, pour son bon fonctionnement, il faut un entretien régulier. Il faut huiler la chaîne, resserrer les freins, changer les pneus, revisser les boulons et s'assurer que les suspensions sont en bon état.",
-      "why": "Pourquoi cette analogie ? Car elle me ramène au fonctionnement métabolique du corps.",
-      "chain": "La chaîne représente le flux sanguin.",
-      "chainring": "Le plateau représente la résistance cardiaque.",
-      "cogs": "Les petits et grands pignons représentent la fréquence ou pulsation cardiaque.",
-      "conclusion": "Cela signifie que je vais moduler l'effort pour que le corps parvienne à une certaine aisance, ce que je nomme l'effort métabolique, car il apporte un renouvellement d'énergie instantané et non de l'épuisement."
-    },
-    "definition_section": {
-      "title": "Qu’est-ce que la synchronisation métabolique ?",
-      "p1": "Il s’agit d’un protocole unique conçu pour stimuler naturellement le système endocrinien, entraînant la libération de neurotranSMetteurs. En conséquence, les niveaux d’énergie, d’endurance et de vitalité augmentent de manière significative et permettent une récupération complète et plus rapide de la fatigue, qu’elle provienne de problèmes de santé ou d’entraînements sportifs intensifs. Cette méthode peut être suivie universellement et avec succès par des personnes de tout âge ou condition physique.",
-      "p2": "L’innovation centrale de ce programme est le déclenchement d’une libération naturelle de dopamine, d’endorphine, de sérotonine, etc. Cette autostimulation du système endocrinien a un impact direct et positif sur la santé des patients ou des athlètes et sur leur capacité à supprimer la fatigue. Cela représente une avancée majeure dans l’entraînement physique car cela s’applique à :",
-      "targets": {
-        "health_title": "Personnes avec des problèmes de santé mineurs à majeurs",
-        "health_desc": "Ce programme a été suivi avec succès par des personnes souffrant de fatigue chronique sévère, fibromyalgie, migraines, problèmes cardiaques, hypertension, burnouts, dépression, etc.",
-        "athletes_title": "Athlètes professionnels et amateurs",
-        "athletes_desc": "Les athlètes peuvent augmenter leurs performances et accélérer leur temps de récupération avant, pendant et après les entraînements ou compétitions, sans utiliser de suppléments (légaux ou non). Ce programme unique complète leurs routines d’entraînement habituelles et leur permet une récupération plus rapide et plus complète, améliorant ainsi leurs performances globales et réduisant le risque de blessure. La synchronisation métabolique a aidé des athlètes professionnels en course automobile, tennis, football/soccer, etc.",
-        "special_forces_title": "Autres catégories / Professions à contraintes extrêmes",
-        "special_forces_desc": "Cette méthodologie peut également bénéficier aux professionnels exposés à des conditions physiques extrêmes comme les Forces Spéciales de Police, l’Armée, les Pompiers, etc. Elle a été adoptée individuellement par plusieurs membres de différentes entités, leur permettant d’améliorer significativement leurs performances en opération ou en entraînement."
-      }
-    },
-    "disclaimer_title": "Ce que la synchronisation métabolique ne fait pas",
-    "disclaimer_body": "La méthode a été conçue pour stimuler naturellement le système endocrinien, entraînant des effets positifs sur la santé et les performances. Elle vient en complément, et non en remplacement, du système médical traditionnel.",
-    "objectives_title": "Objectifs de la méthode",
-    "objectives_list": [
-      "Réactivation du métabolisme",
-      "Amélioration de l’endurance et de la force",
-      "Amélioration de l’état de santé général",
-      "Séances personnalisées et progressives"
-    ],
-    "effort_title": "Méthode « Effort Métabolique »",
-    "effort_desc": "Ma méthode combine des protocoles où je guide les fréquences et pulsations cardiovasculaires pendant l’effort afin d’atteindre l’optimisation des fonctions nerveuses et cognitives et de maintenir ou de récupérer l’intégrité du corps avec pour objectif d’en assurer sa défense, de provoquer la réparation des lésions et de stimuler la dépense énergétique avec une nette amélioration de la composition corporelle. Les séances sont modulées selon le niveau, les objectifs et les contraintes de chacun : gestion progressive de l’intensité avec une récupération active.",
-    "equipment_title": "Équipements et matériel utilisés",
-    "equipment_desc": "Vélo, tapis de course, elliptique, escaliers, machines de musculation, équipement guidé de musculation. J’intègre ces outils pour varier les stimulations et maximiser l'efficacité de l'effort métabolique.",
-    "eligibility_title": "Qui peut accéder à cette méthode ?",
-    "eligibility_desc": "Tous les profils de 14 à 99 ans, avec ou sans handicap.",
-    "ip_notice": "N.B. Pour des raisons de confidentialité, les protocoles restent dans le domaine de la propriété intellectuelle.",
-    "cta": "Prêt à relancer votre métabolisme et à vous défaire de certaines pathologies ? Contactez-moi pour une évaluation gratuite et un programme sur mesure.",
-    "cta_button": "Prendre contact"
+      "chain": "Représente le flux sanguin",
+      "chainring": "Représente la résistance cardiaque",
+      "cogs": "Représentent la fréquence cardiaque"
+    }
   },
-"TestimonialsUI": {
-    "title": "Témoignages & Retours d'Expérience",
+  "MethodPages": {
+    "what_is_sm": {
+      "title": "Qu'est-ce que la Synchronisation Métabolique ?",
+      "subtitle": "Protocole de stimulation endocrinienne et libération de neurotransmetteurs",
+      "intro": "Il s'agit d'un protocole unique conçu pour stimuler naturellement le système endocrinien, et déclencher la libération de neurotransmetteurs en utilisant des fréquences cardiaques très spécifiques et adaptatives à travers des efforts ciblés.",
+      "dopamine_title": "Dopamine",
+      "dopamine": "Motivation, clarté mentale et dynamisme renouvelé.",
+      "endorphins_title": "Endorphines",
+      "endorphins": "Apaisement de la douleur et récupération profonde.",
+      "serotonin_title": "Sérotonine",
+      "serotonin": "Équilibre de l'humeur et régulation du sommeil."
+    },
+    "who_is_concerned": {
+      "title": "Public Concerné",
+      "subtitle": "Une application universelle validée sur le terrain",
+      "intro": "L'impact direct et positif de la synchronisation métabolique sur la santé des patients et des athlètes constitue une avancée majeure, s'adressant à trois grands profils :",
+      "target1_title": "1. Personnes avec des Problèmes de Santé (Mineurs à Majeurs)",
+      "target1_desc": "Programme suivi avec succès par des individus souffrant de fatigue chronique sévère, fibromyalgie, migraines, problèmes cardiaques, hypertension, burnouts, dépression, etc.",
+      "target2_title": "2. Athlètes Professionnels et Amateurs",
+      "target2_desc": "Augmentation des performances et accélération du temps de récupération avant, pendant et après l'effort — sans recours à des suppléments (légaux ou non). Utilisé en sport automobile, tennis, football, etc.",
+      "target3_title": "3. Armée & Forces Spéciales",
+      "target3_desc": "Adapté aux opérateurs des forces spéciales, unités tactiques, pompiers et professionnels exposés à des exigences physiques et psychologiques extrêmes."
+    },
+    "what_sm_does_not_do": {
+      "title": "Ce que la Synchronisation Métabolique NE FAIT PAS",
+      "subtitle": "Cadre d'intervention et complémentarité médicale",
+      "main_text": "La méthode a été conçue pour stimuler naturellement le système endocrinien, entraînant des effets positifs sur la santé et les performances. Elle vient en complément, et non en remplacement, des systèmes médicaux traditionnels.",
+      "progress_title": "Gestion Personnalisée et Progressive",
+      "progress_desc": "Les séances sont rigoureusement ajustées selon le niveau, les objectifs et les contraintes de chaque individu, intégrant une gestion progressive de l'intensité couplée à une récupération active."
+    },
+    "metabolic_effort": {
+      "title": "Méthode : « Effort Métabolique »",
+      "subtitle": "Guidage cardiovasculaire et intégrité corporelle",
+      "intro": "Ma méthode combine des protocoles dans lesquels je guide les fréquences cardiovasculaires et les pulsations pendant l'effort afin d'optimiser les fonctions nerveuses et cognitives.",
+      "objective_title": "Objectifs Fondamentaux",
+      "obj1": "Maintenir ou récupérer l'intégrité du corps et assurer sa défense.",
+      "obj2": "Favoriser la réparation des lésions tissulaires.",
+      "obj3": "Stimuler la dépense énergétique pour une nette amélioration de la composition corporelle."
+    },
+    "equipment": {
+      "title": "Équipements utilisés & Bénéficiaires",
+      "subtitle": "Outils de travail et accessibilité universelle",
+      "tools_title": "Équipements Intégrés",
+      "tools_desc": "Vélos d'appartement, tapis de course, elliptiques, escaliers, machines de musculation et équipements de force guidés. L'intégration de ces outils permet de varier les stimulations et de maximiser l'efficacité de l'effort métabolique.",
+      "access_title": "Accessibilité",
+      "access_desc": "Tous les profils de 14 à 99 ans, avec ou sans handicap.",
+      "ip_title": "Propriété Intellectuelle",
+      "ip_desc": "Remarque : Pour des raisons de confidentialité, l'ensemble des protocoles reste strictement dans le domaine de la propriété intellectuelle."
+    }
+  },
+  "TestimonialsUI": {
+    "title": "Témoignages & Retours d'expérience",
     "subtitle": "Découvrez les résultats observés selon votre domaine d'intérêt.",
     "searchPlaceholder": "Rechercher par nom, ville, mot-clé...",
     "allProfiles": "Tous les profils",
@@ -78,16 +117,16 @@
     "yearsOld": "ans",
     "before": "Avant",
     "after": "Après",
-    "viewRecord": "Voir le dossier complet ➔",
+    "viewRecord": "Consulter la fiche complète ➔",
     "noResults": "Aucun témoignage ne correspond à votre recherche.",
     "showAll": "Afficher tous les témoignages",
     "detailedFeedback": "Témoignage détaillé",
-    "documentation": "Documents médicaux et bilans joints",
+    "documentation": "Documents & rapports médicaux joints",
     "loading": "Chargement...",
     "categories": {
       "sante": "Santé",
       "convalescence": "Convalescence",
-      "perte_de_poids": "Perte de poids",
+      "perte_de_poids": "Perte de Poids",
       "performance": "Performance",
       "fatigue": "Fatigue",
       "energie": "Énergie"
@@ -95,12 +134,12 @@
   },
   "Contact": {
     "title": "Contactez-nous",
-    "subtitle": "Pour une évaluation gratuite ou toute demande d'information.",
-    "form_name": "Votre nom",
+    "subtitle": "Pour un bilan gratuit ou toute demande d'information.",
+    "form_name": "Votre Nom",
     "form_name_placeholder": "Votre nom",
-    "form_email": "Votre e-mail",
+    "form_email": "Votre Email",
     "form_email_placeholder": "votre@email.com",
-    "form_message": "Votre message",
+    "form_message": "Votre Message",
     "form_message_placeholder": "Votre message...",
     "form_submit": "Envoyer"
   }

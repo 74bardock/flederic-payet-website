@@ -3,25 +3,43 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --bg-gradient-from: #dbe5f3;
+  --bg-gradient-via: #d5e2f1;
+  --bg-gradient-to: #c8d8ec;
+  --text-primary: #0f2851;
+  --text-secondary: #1e293b;
+  --border-color: #8ea0be;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom right, var(--bg-gradient-from), var(--bg-gradient-via), var(--bg-gradient-to));
+  color: var(--text-secondary);
+  min-height: 100vh;
+}
+
+@layer components {
+  /* Conteneur principal de page */
+  .page-container {
+    @apply min-h-screen py-12 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto space-y-12;
+  }
+
+  /* Cartes claires avec effet survol */
+  .card-light {
+    @apply bg-white/80 backdrop-blur-sm border border-[#8ea0be]/50 rounded-2xl p-6 sm:p-8 shadow-md transition-all duration-300;
+  }
+
+  /* Titres principaux bleu marine */
+  .title-primary {
+    @apply text-3xl sm:text-5xl font-black text-[#0f2851] tracking-tight leading-tight;
+  }
+
+  /* Sous-titres et en-têtes de section */
+  .title-secondary {
+    @apply text-xl sm:text-2xl font-bold text-[#0f2851];
+  }
+
+  /* Boutons d'action principaux */
+  .btn-primary {
+    @apply inline-block px-8 py-3 bg-[#0f2851] hover:bg-[#1a386d] text-white font-semibold rounded-xl shadow-md transition-all;
+  }
 }
