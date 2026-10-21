@@ -2,30 +2,17 @@
 
 import React from 'react';
 
-interface Testimonial {
-  id: string;
-  name: string;
-  role: string;
-  age?: number;
-  category: string;
-  short_quote: string;
-  image?: string;
-  images?: string[];
-  gallery_type?: 'before_after' | 'gallery';
-  before_image?: string;
-  after_image?: string;
-  full_story: string[];
-}
-
 export default function TestimonialCard({
   testimonial,
   onOpenModal,
   labels,
 }: {
-  testimonial: Testimonial;
-  onOpenModal?: (t: Testimonial) => void;
+  testimonial: any;
+  onOpenModal?: (t: any) => void;
   labels?: any;
 }) {
+  if (!testimonial) return null;
+
   const isBeforeAfter =
     testimonial.gallery_type === 'before_after' ||
     Boolean(testimonial.before_image && testimonial.after_image);
@@ -39,7 +26,7 @@ export default function TestimonialCard({
     <div className="bg-white/90 backdrop-blur-md border border-[#8ea0be] rounded-3xl p-6 shadow-xl flex flex-col justify-between hover:-translate-y-1 transition-all">
       <div className="space-y-4">
         
-        {/* CAS 1 : Photos Avant / Après (ex: Geneviève Jelsch) */}
+        {/* CAS 1 : Photos Avant / Après */}
         {isBeforeAfter ? (
           <div className="grid grid-cols-2 gap-2">
             <div className="space-y-1 text-center">
@@ -49,7 +36,7 @@ export default function TestimonialCard({
               <div className="relative h-36 w-full rounded-2xl overflow-hidden border border-slate-200">
                 <img
                   src={testimonial.before_image}
-                  alt={`${testimonial.name} - Avant`}
+                  alt={`${testimonial.name || 'Témoin'} - Avant`}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -61,34 +48,34 @@ export default function TestimonialCard({
               <div className="relative h-36 w-full rounded-2xl overflow-hidden border border-slate-200">
                 <img
                   src={testimonial.after_image}
-                  alt={`${testimonial.name} - Après`}
+                  alt={`${testimonial.name || 'Témoin'} - Après`}
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
           </div>
         ) : isGallery ? (
-          /* CAS 2 : Galerie de 2 photos simples sans texte "Avant / Après" (ex: Juan Carlos) */
+          /* CAS 2 : Galerie de photos */
           <div className="grid grid-cols-2 gap-2">
-            {testimonial.images?.slice(0, 2).map((imgUrl, index) => (
+            {testimonial.images?.slice(0, 2).map((imgUrl: string, index: number) => (
               <div
                 key={index}
                 className="relative h-36 w-full rounded-2xl overflow-hidden border border-slate-200"
               >
                 <img
                   src={imgUrl}
-                  alt={`${testimonial.name} ${index + 1}`}
+                  alt={`${testimonial.name || 'Témoin'} ${index + 1}`}
                   className="w-full h-full object-cover"
                 />
               </div>
             ))}
           </div>
         ) : (
-          /* CAS 3 : Une seule photo portrait classique (ex: Christopher & Julia) */
+          /* CAS 3 : Une seule photo portrait */
           <div className="relative h-48 w-full rounded-2xl overflow-hidden border border-slate-200">
             <img
               src={testimonial.image}
-              alt={testimonial.name}
+              alt={testimonial.name || 'Témoin'}
               className="w-full h-full object-cover"
             />
           </div>
@@ -107,7 +94,7 @@ export default function TestimonialCard({
           <p className="text-xs text-slate-500 font-medium mt-0.5">{testimonial.role}</p>
         </div>
 
-        {/* Citation courte / Accroche */}
+        {/* Citation courte */}
         <p className="text-sm text-slate-700 italic leading-relaxed border-l-2 border-[#0f2851]/30 pl-3">
           « {testimonial.short_quote} »
         </p>

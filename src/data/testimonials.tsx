@@ -1,6 +1,6 @@
-import testimonialsFR from './testimonials_fr.json';
-import testimonialsEN from './testimonials_en.json';
-import testimonialsEL from './testimonials_el.json';
+import testimonialsFR from './data_fr.json';
+import testimonialsEN from './data_en.json';
+import testimonialsEL from './data_el.json';
 
 export interface Testimonial {
   id: string;

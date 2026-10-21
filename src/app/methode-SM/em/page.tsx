@@ -32,23 +32,23 @@ export default function EmPage() {
 
           <AvatarBicyclette />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
-            <div className="p-4 bg-white border border-[#8ea0be] rounded-2xl text-center space-y-1">
-              <span className="text-2xl">⛓️</span>
-              <h4 className="font-bold text-[#0f2851] text-sm">La Chaîne</h4>
-              <p className="text-xs text-slate-600">{method?.analogy?.chain}</p>
-            </div>
-            <div className="p-4 bg-white border border-[#8ea0be] rounded-2xl text-center space-y-1">
-              <span className="text-2xl">⚙️</span>
-              <h4 className="font-bold text-[#0f2851] text-sm">Le Plateau</h4>
-              <p className="text-xs text-slate-600">{method?.analogy?.chainring}</p>
-            </div>
-            <div className="p-4 bg-white border border-[#8ea0be] rounded-2xl text-center space-y-1">
-              <span className="text-2xl">🚴</span>
-              <h4 className="font-bold text-[#0f2851] text-sm">Les Pignons</h4>
-              <p className="text-xs text-slate-600">{method?.analogy?.cogs}</p>
-            </div>
-          </div>
+			<div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+			  <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
+				<div className="text-3xl">⛓️</div>
+				<h3 className="font-bold text-[#0f2851]">{method.analogy?.chain_label || "La Chaîne"}</h3>
+				<p className="text-slate-700 text-sm">{method.analogy?.chain}</p>
+			  </div>
+			  <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
+				<div className="text-3xl">⚙️</div>
+				<h3 className="font-bold text-[#0f2851]">{method.analogy?.chainring_label || "Le Plateau"}</h3>
+				<p className="text-slate-700 text-sm">{method.analogy?.chainring}</p>
+			  </div>
+			  <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
+				<div className="text-3xl">🚴</div>
+				<h3 className="font-bold text-[#0f2851]">{method.analogy?.cogs_label || "Les Pignons"}</h3>
+				<p className="text-slate-700 text-sm">{method.analogy?.cogs}</p>
+			  </div>
+			</div>
         </section>
 
         {/* Navigation inter-pages traduisible */}

@@ -43,11 +43,11 @@ function TestimonialsContent() {
 
   const ui = t.TestimonialsUI;
   
-  // Sélection des données selon la langue active (fr, en, el)
   const testimonialsData: Testimonial[] = useMemo(() => {
-    if (lang === 'en') return testimonialsEn as Testimonial[];
-    if (lang === 'el') return testimonialsEl as Testimonial[];
-    return testimonialsFr as Testimonial[];
+    let data = testimonialsFr;
+    if (lang === 'en') data = testimonialsEn;
+    if (lang === 'el') data = testimonialsEl;
+    return (data || []).filter((item: any) => item && typeof item === 'object' && item.id);
   }, [lang]);
 
   const selectedCategory = searchParams.get('category') as CategoryKey | null;
@@ -235,7 +235,7 @@ function TestimonialsContent() {
             </div>
 
             {/* Affichage des images dans la modale */}
-            {activeTestimonial.gallery_type === 'before_after' ? (
+            {activeTestimonial?.gallery_type === 'before_after' ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-1.5">
                   <span className="text-xs font-bold text-slate-600 block text-center uppercase">
@@ -262,7 +262,7 @@ function TestimonialsContent() {
                   </div>
                 </div>
               </div>
-            ) : activeTestimonial.gallery_type === 'gallery' && activeTestimonial.images ? (
+            ) : activeTestimonial?.gallery_type === 'gallery' && activeTestimonial?.images ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {activeTestimonial.images.map((img, idx) => (
                   <div key={idx} className="relative h-60 rounded-xl overflow-hidden bg-white border border-[#8ea0be]">
@@ -275,13 +275,15 @@ function TestimonialsContent() {
                 ))}
               </div>
             ) : (
-              <div className="relative h-72 rounded-xl overflow-hidden bg-white border border-[#8ea0be] max-w-sm mx-auto">
-                <img
-                  src={activeTestimonial.image}
-                  alt={activeTestimonial.name}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              activeTestimonial?.image && (
+                <div className="relative h-72 rounded-xl overflow-hidden bg-white border border-[#8ea0be] max-w-sm mx-auto">
+                  <img
+                    src={activeTestimonial.image}
+                    alt={activeTestimonial.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              )
             )}
 
             {/* Histoire complète paragraphe par paragraphe */}

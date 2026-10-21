@@ -1,0 +1,2440 @@
+Structure du dossier pour le volume Systeme
+Le num�ro de s�rie du volume est EE56-1FEE
+C:.
+|   contenu du site.cmd
+|   gemini-code-1789144797467.json
+|   projet_complet - V04.txt
+|   projet_complet-V03.txt
+|   projet_complet-V05.txt
+|   projet_complet-V06.txt
+|   projet_complet.txt
+|   
++---app
+|   |   globals.css
+|   |   layout.tsx
+|   |   page.tsx
+|   |   
+|   +---a-propos
+|   |       page - Copie.tsx
+|   |       page.tsx
+|   |       
+|   +---contact
+|   |       page.tsx
+|   |       
+|   +---methode-SM
+|   |   |   page.tsx
+|   |   |   
+|   |   +---eeb
+|   |   |       page.tsx
+|   |   |       
+|   |   +---em
+|   |   |       page.tsx
+|   |   |       
+|   |   +---pec
+|   |   |       page.tsx
+|   |   |       
+|   |   +---qcsmndf
+|   |   |       page.tsx
+|   |   |       
+|   |   \---qecqs
+|   |           page.tsx
+|   |           
+|   +---public-concerne
+|   |       page.tsx
+|   |       
+|   \---temoignages
+|           page.tsx
+|           
++---components
+|       AvatarBicyclette.tsx
+|       Header.tsx
+|       
++---context
+|       LanguageContext.tsx
+|       
++---data
+|       data_el.json
+|       data_en.json
+|       data_fr.json
+|       testimonials.tsx
+|       
++---dictionaries
+|       el.json
+|       en.json
+|       fr.json
+|       
+\---lib
+        get-dictionary.ts
+        layout.tsx
+        
+========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\gemini-code-1789144797467.json  
+========================================  
+{
+  "Header": {
+    "nav_home": "Accueil",
+    "nav_about": "À Propos",
+    "nav_method": "La Méthode SM",
+    "nav_testimonials": "Témoignages"
+  },
+  "Home": {
+    "hero_title": "Synchronisation Métabolique",
+    "hero_subtitle": "Une méthodologie innovante qui a fait ses preuves",
+    "hero_description": "Visant à stimuler le système endocrinien et à réactiver et recalibrer le métaboliSMe pour un niveau d’énergie, de vitalité et d’endurance accru, et une récupération plus rapide.",
+    "key_outcomes": "Équilibre des hormones et libération des neurotranSMetteurs."
+  },
+  "About": {
+    "page_title": "Biographie du fondateur",
+    "founder_name": "Flédéric Payet",
+    "bio_p1": "Au cours des deux dernières décennies, je me suis mis à rencontrer énormément de personnes en détresse dans multiples parties du monde. J'ai été confronté à leurs divers problèmes de santé, ainsi qu'à des athlètes. Depuis lors, je n’ai eu de cesse d’élaborer de nouvelles méthodes afin de m’adapter à tout un chacun.",
+    "bio_p2": "La salle de sport est devenue une sorte d’hôpital préventif et curatif. Au travers de mes recherches et expérimentations, j’ai compris les principes de la synchronisation métabolique et de la stimulation naturelle du système endocrinien[cite: 4]. Les résultats sur toutes formes de profil ont été extrêmement probants, qu’il s’agisse d’athlètes, de personnes souffrant de diverses pathologies ou d’amateurs[cite: 4].",
+    "analogy_title": "L'Analogie de la Bicyclette",
+    "analogy_intro": "Imaginez que votre corps est une bicyclette et que pour son bon fonctionnement, il faut un entretien régulier[cite: 4]. Il faut huiler la chaîne, resserrer les freins, changer les pneus, revisser les boulons et s'assurer que les suspensions sont en bon état[cite: 4]. Pourquoi cette analogie ? Car elle me ramène au fonctionnement métabolique du corps[cite: 4].",
+    "analogy_chain": "La chaîne représente le flux sanguin[cite: 4].",
+    "analogy_chainring": "Le plateau représente la résistance cardiaque[cite: 4].",
+    "analogy_cogs": "Les petits et grands pignons représentent la fréquence ou pulsation cardiaque[cite: 4].",
+    "analogy_conclusion": "Cela signifie que je vais moduler l'effort pour que le corps parvienne à une certaine aisance, ce que je nomme l'effort métabolique car il apporte un renouvellement d'énergie instantané et non de l'épuisement[cite: 4]."
+  },
+  "Method": {
+    "page_title": "Qu’est-ce que la synchronisation métabolique ?",
+    "definition": "Il s’agit d’un protocole unique conçu pour stimuler naturellement le système endocrinien, entraînant la libération de neurotranSMetteurs[cite: 4]. En conséquence, les niveaux d’énergie, d’endurance et de vitalité augmentent de manière significative, et permettent une récupération complète et plus rapide de la fatigue, qu’elle provienne de problèmes de santé ou d’entraînements sportifs intensifs[cite: 4]. Cette méthode peut être suivie universellement et avec succès par des personnes de tout âge ou condition physique[cite: 4].",
+    "innovation": "L’innovation centrale de ce programme est le déclenchement d’une libération naturelle de dopamine, d’endorphine et de sérotonine[cite: 4]. Cette autostimulation du système endocrinien a un impact direct et positif sur la santé des patients ou des athlètes et sur leur capacité à supprimer la fatigue[cite: 4].",
+    "disclaimer_title": "Ce que la synchronisation métabolique ne fait pas",
+    "disclaimer_body": "La méthode a été conçue pour stimuler naturally le système endocrinien, entraînant des effets positifs sur la santé et les performances[cite: 4]. Il vient en complément, non en remplacement du système médical traditionnel[cite: 4].",
+    "targets_title": "Public concerné",
+    "target_health_title": "Personnes avec des problèmes de santé (mineurs à majeurs)",
+    "target_health_desc": "Fatigue chronique sévère, fibromyalgie, migraines, problèmes cardiaques, hypertension, burnouts, dépression, etc[cite: 4].",
+    "target_athletes_title": "Athlètes professionnels et amateurs",
+    "target_athletes_desc": "Augmentation des performances et accélération du temps de récupération sans suppléments (légaux ou non)[cite: 4]. Complète les routines d'entraînement en course automobile, tennis, football/soccer, etc[cite: 4].",
+    "target_forces_title": "Forces spéciales et interventions",
+    "target_forces_desc": "Forces Spéciales de Police, Armée, Pompiers exposés à des conditions physiques extrêmes[cite: 4].",
+    "objectives_title": "Objectifs de la méthode",
+    "obj_1": "Réactivation du métaboliSMe[cite: 4]",
+    "obj_2": "Amélioration de l’endurance et de la force[cite: 4]",
+    "obj_3": "Amélioration de l’état de santé général[cite: 4]",
+    "obj_4": "Séances personnalisées et progressives[cite: 4]",
+    "effort_title": "La méthode « Effort Métabolique »",
+    "effort_desc": "Combinaison de protocoles guidant les fréquences et pulsations cardiovasculaires pendant l’effort afin d’optimiser les fonctions nerveuses et cognitives, et maintenir ou récupérer l’intégrité du corps[cite: 4].",
+    "equipment_title": "Équipements et machines utilisés",
+    "equipment_list": "Vélo, tapis de course, elliptique, escaliers, machines de musculation, équipement guidé[cite: 4].",
+    "eligibility": "Accessible à tous les profils de 14 à 99 ans, avec ou sans handicap[cite: 4].",
+    "ip_notice": "N.B. Pour des raisons de confidentialité, les protocoles restent dans le domaine de la propriété intellectuelle[cite: 4]."
+  }
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\layout.tsx  
+========================================  
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import { LanguageProvider } from '@/context/LanguageContext';
+import Header from '@/components/Header';
+
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: 'MetaboSync — La Méthode SM',
+  description: 'Synchronisation métabolique et effort métabolique développés par Flédéric Payet.',
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="fr">
+      <body className={`${inter.className} min-h-screen flex flex-col`}>
+        <LanguageProvider>
+          <Header />
+          <div className="flex-1">
+            {children}
+          </div>
+        </LanguageProvider>
+      </body>
+    </html>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\page.tsx  
+========================================  
+'use client';
+
+import Link from 'next/link';
+import Image from 'next/image';
+import { useLanguage } from '@/context/LanguageContext';
+
+export default function HomePage() {
+  const { t, lang } = useLanguage();
+  const hero = t.Hero;
+  const isEn = lang === 'en';
+  const isEl = lang === 'el';
+
+  return (
+    <main className="py-10 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto space-y-10">
+      
+      {/* SECTION HAUTE : Logo à gauche, Texte à droite */}
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        {/* Bloc Logo à gauche */}
+        <div className="lg:col-span-5 bg-[#0a1930] p-6 rounded-2xl shadow-xl flex flex-col items-center justify-center border border-slate-800">
+          <img
+            src="/logo_metabo.png"
+            alt="MetaboSync HealthTech"
+            className="w-full max-w-[320px] h-auto object-contain"
+          />
+        </div>
+
+        {/* Bloc Texte à droite */}
+        <div className="lg:col-span-7 space-y-4">
+          <p className="text-lg sm:text-xl font-medium text-[#1e293b] leading-relaxed italic">
+            &ldquo;{hero.description}&rdquo;
+          </p>
+          <p className="text-sm font-semibold text-[#0f2851]">
+            * {isEn ? 'Metabolic Synchronization' : isEl ? 'Μεταβολικός Συγχρονισμός' : 'Synchronisation Métabolique'}
+          </p>
+        </div>
+
+      </div>
+
+      {/* SECTION BASSE : Les 3 éléments côte à côte */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+        
+        {/* 1. Tapis de course */}
+        <div className="relative h-64 sm:h-72 rounded-2xl overflow-hidden border-2 border-[#8ea0be] bg-white/50 shadow-md">
+          <Image
+            src="/tapis.jpg"
+            alt="Tapis de course - Effort métabolique"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+
+        {/* 2. Cercles et formes géométriques */}
+        <div className="relative h-64 sm:h-72 flex items-center justify-center p-4">
+          <Image
+            src="/cercles-home.jpg"
+            alt="Synchronisation et formes"
+            fill
+            className="object-contain"
+          />
+        </div>
+
+        {/* 3. Courbe / Écran ECG */}
+        <div className="relative h-64 sm:h-72 flex items-center justify-center p-4">
+          <Image
+            src="/courbe.jpg"
+            alt="Tracé de fréquence cardiaque ECG"
+            fill
+            className="object-contain"
+          />
+        </div>
+
+      </div>
+
+      {/* Liens de navigation rapide en bas */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left pt-6 border-t border-[#8ea0be]/40">
+        <Link 
+          href="/methode-SM"
+          className="p-5 bg-white/80 hover:bg-white border border-[#8ea0be] hover:border-[#0f2851] rounded-xl transition-all shadow-md group"
+        >
+          <h2 className="text-base font-bold text-[#0f2851] group-hover:text-blue-700 transition-colors mb-1">
+            {hero.card_method_title} →
+          </h2>
+          <p className="text-slate-600 text-xs">
+            {hero.card_method_desc}
+          </p>
+        </Link>
+
+        <Link 
+          href="/temoignages"
+          className="p-5 bg-white/80 hover:bg-white border border-[#8ea0be] hover:border-[#0f2851] rounded-xl transition-all shadow-md group"
+        >
+          <h2 className="text-base font-bold text-[#0f2851] group-hover:text-blue-700 transition-colors mb-1">
+            {hero.card_testimonials_title} →
+          </h2>
+          <p className="text-slate-600 text-xs">
+            {hero.card_testimonials_desc}
+          </p>
+        </Link>
+
+        <Link 
+          href="/contact"
+          className="p-5 bg-white/80 hover:bg-white border border-[#8ea0be] hover:border-[#0f2851] rounded-xl transition-all shadow-md group"
+        >
+          <h2 className="text-base font-bold text-[#0f2851] group-hover:text-blue-700 transition-colors mb-1">
+            {hero.card_contact_title} →
+          </h2>
+          <p className="text-slate-600 text-xs">
+            {hero.card_contact_desc}
+          </p>
+        </Link>
+      </div>
+
+    </main>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\a-propos\page - Copie.tsx  
+========================================  
+'use client';
+
+import Link from 'next/link';
+import Image from 'next/image';
+import { useLanguage } from '@/context/LanguageContext';
+
+export default function AProposPage() {
+  const { lang, t } = useLanguage();
+  const isEn = lang === 'en';
+  const bio = t.Method.biography;
+
+  return (
+    <main className="min-h-screen bg-slate-950 text-slate-100 py-12 px-4 SM:px-6 lg:px-8">
+      <div className="max-w-5xl mx-auto space-y-12">
+        
+        {/* En-tête */}
+        <section className="text-center space-y-4">
+          <h1 className="text-3xl SM:text-5xl font-extrabold text-blue-400 tracking-tight">
+            {isEn ? 'About Flédéric Payet' : 'À propos de Flédéric Payet'}
+          </h1>
+          <p className="text-xl text-slate-300 font-medium">
+            {t.Hero.subtitle}
+          </p>
+        </section>
+
+        {/* Disposition avec photo à gauche et bloc texte à droite */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+          
+          {/* Photo de Flédéric à gauche (Cadre rouge) */}
+          <div className="lg:col-span-5 relative w-full min-h-[350px] lg:min-h-full rounded-2xl overflow-hidden border-2 border-blue-500/50 shadow-2xl">
+            <Image
+              src="/flederic-payet.jpg"
+              alt="Flédéric Payet"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+
+          {/* Carte Parcours & Engagement à droite */}
+          <section className="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 SM:p-8 space-y-6 shadow-xl flex flex-col justify-between">
+            <h2 className="text-2xl font-bold text-white border-b border-slate-800 pb-3">
+              {isEn ? 'My Commitment & My Journey' : 'Mon Engagement & Mon Parcours'}
+            </h2>
+            
+            <div className="space-y-4 text-slate-300 leading-relaxed text-base SM:text-lg">
+              <p>{bio?.p1 || t.Hero.bio}</p>
+              {bio?.p2 && <p>{bio.p2}</p>}
+              {bio?.p3 && <p>{bio.p3}</p>}
+            </div>
+          </section>
+
+        </div>
+
+        {/* Encadré Philosophie */}
+        <section className="bg-gradient-to-r from-blue-950/40 to-slate-900 border border-blue-800/50 rounded-2xl p-6 SM:p-8 space-y-4">
+          <h3 className="text-xl font-bold text-blue-300">
+            {isEn ? 'A Preventive Sanctuary' : 'Une approche préventive et curative'}
+          </h3>
+          <p className="text-slate-300 leading-relaxed">
+            {isEn 
+              ? 'By adapting metabolic protocols to individual capacities, the gym turns into a space for rehabilitation, performance optimization, and lasting health recovery.'
+              : 'En adaptant les protocoles d’effort métabolique aux capacités de chacun, la salle de sport devient un espace de réhabilitation, d’optimisation des performances et de reconquête de la santé durable.'
+            }
+          </p>
+        </section>
+
+        {/* Appel à l'action */}
+        <div className="text-center pt-4">
+          <Link
+            href="/methode-SM"
+            className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-xl shadow-lg transition-all"
+          >
+            {isEn ? 'Discover the SM Method →' : 'Découvrir la Méthode SM →'}
+          </Link>
+        </div>
+
+      </div>
+    </main>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\a-propos\page.tsx  
+========================================  
+'use client';
+
+import { useLanguage } from '@/context/LanguageContext';
+
+export default function AProposPage() {
+  const { t } = useLanguage();
+  const bio = t.Method?.biography;
+
+  return (
+    <main className="min-h-screen bg-gradient-to-br from-[#dbe5f3] via-[#d5e2f1] to-[#c8d8ec] text-slate-900 py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 items-start pt-6 relative">
+        
+        {/* Colonne Gauche : Cadre photo ajusté + Titre dynamique sous la photo */}
+        <div className="md:col-span-5 relative flex flex-col items-start space-y-6">
+          <div className="absolute -top-10 -right-4 w-28 h-28 opacity-80 pointer-events-none hidden md:block">
+            <svg viewBox="0 0 100 100" className="w-full h-full">
+              <defs>
+                <pattern id="stripedPattern" width="6" height="100" patternUnits="userSpaceOnUse">
+                  <rect x="0" y="0" width="3" height="100" fill="#2b427b" />
+                  <rect x="3" y="0" width="3" height="100" fill="transparent" />
+                </pattern>
+              </defs>
+              <circle cx="50" cy="50" r="48" fill="url(#stripedPattern)" />
+            </svg>
+          </div>
+
+          
+          {/* Cadre entourant strictement la photo sans déformation ni bords vides */}
+          <div className="inline-block rounded-[2rem] overflow-hidden border-[3px] border-[#8ea0be] bg-[#eef3f9] shadow-md max-w-[310px]">
+            <img
+              src="/flederic-payet-portrait.jpg"
+              alt={bio?.name || "Flédéric Payet"}
+              className="w-full h-auto block object-contain"
+            />
+          </div>
+
+          {/* Titre dynamique depuis le dictionnaire (FR, EN, EL) sur deux lignes */}
+          <div className="space-y-1">
+            <h1 className="text-4xl sm:text-5xl font-black text-[#0f2851] tracking-tight leading-tight">
+              {bio?.title_line1 || "Biographie"}
+            </h1>
+            <h1 className="text-4xl sm:text-5xl font-black text-[#0f2851] tracking-tight leading-tight">
+              {bio?.title_line2 || "du fondateur"}
+            </h1>
+          </div>
+
+        </div>
+
+        {/* Colonne Droite : Texte biographique justifié + Chevrons */}
+        <div className="md:col-span-7 flex flex-col justify-between space-y-6 pt-2 min-h-[480px]">
+          
+          <div className="space-y-5 text-[#1e293b] font-normal leading-relaxed text-base sm:text-[18px] text-justify">
+            <p>{bio?.p1}</p>
+            {bio?.p2 && <p>{bio.p2}</p>}
+            {bio?.p3 && <p>{bio.p3}</p>}
+          </div>
+
+          {/* Chevrons décoratifs >>>>> */}
+          <div className="flex justify-end pt-6 text-[#0f2851] text-4xl sm:text-5xl font-black tracking-tighter">
+            <span>&gt;&gt;&gt;&gt;&gt;</span>
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\contact\page.tsx  
+========================================  
+'use client';
+
+import { useLanguage } from '@/context/LanguageContext';
+
+export default function ContactPage() {
+  const { t } = useLanguage();
+  const contact = t.Contact;
+
+  return (
+    <main className="max-w-3xl mx-auto px-4 py-12 space-y-8">
+      <div>
+        <h1 className="title-primary mb-2">{contact.title}</h1>
+        <p className="text-[#0f2851] font-medium">{contact.subtitle}</p>
+      </div>
+
+      <form className="space-y-6 card-light">
+        <div>
+          <label className="block text-sm font-bold text-[#0f2851] mb-2">{contact.form_name}</label>
+          <input 
+            type="text" 
+            className="w-full px-4 py-2.5 border border-[#8ea0be] rounded-xl focus:ring-2 focus:ring-[#0f2851] focus:outline-none bg-white text-slate-800" 
+            placeholder={contact.form_name_placeholder || "Votre nom"}
+          />
+        </div>
+
+        <div>
+          <label className="block text-sm font-bold text-[#0f2851] mb-2">{contact.form_email}</label>
+          <input 
+            type="email" 
+            className="w-full px-4 py-2.5 border border-[#8ea0be] rounded-xl focus:ring-2 focus:ring-[#0f2851] focus:outline-none bg-white text-slate-800" 
+            placeholder={contact.form_email_placeholder || "votre@email.com"}
+          />
+        </div>
+
+        <div>
+          <label className="block text-sm font-bold text-[#0f2851] mb-2">{contact.form_message}</label>
+          <textarea 
+            rows={5} 
+            className="w-full px-4 py-2.5 border border-[#8ea0be] rounded-xl focus:ring-2 focus:ring-[#0f2851] focus:outline-none bg-white text-slate-800" 
+            placeholder={contact.form_message_placeholder || "Votre message..."}
+          ></textarea>
+        </div>
+
+        <button 
+          type="submit" 
+          className="w-full btn-primary text-center"
+        >
+          {contact.form_submit}
+        </button>
+      </form>
+    </main>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\methode-SM\page.tsx  
+========================================  
+'use client';
+
+import React from 'react';
+import Link from 'next/link';
+import { useLanguage } from '@/context/LanguageContext';
+import AvatarBicyclette from '@/components/AvatarBicyclette';
+
+export default function MethodeSMPage() {
+  const { t } = useLanguage();
+  const method = t?.Method || {};
+  
+  return (
+    <main className="py-12 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto space-y-12">
+      
+      {/* En-tête */}
+      <section className="text-center space-y-4">
+        <h1 className="text-3xl sm:text-5xl font-extrabold text-[#0f2851] tracking-tight">
+          {method.page_title}
+        </h1>
+        <p className="text-xl text-[#0f2851] font-semibold">
+          {method.subtitle}
+        </p>
+        <div className="p-6 bg-white/85 backdrop-blur-sm border border-[#8ea0be]/50 rounded-2xl shadow-md max-w-3xl mx-auto mt-6">
+          <p className="text-lg text-[#1e293b] italic leading-relaxed">
+            « {method.definition} »
+          </p>
+        </div>
+      </section>
+
+      {/* Liens d'accès direct vers les sous-pages de l'Option A */}
+      <section className="bg-white/90 backdrop-blur-sm border border-[#8ea0be] rounded-2xl p-6 sm:p-8 space-y-6 shadow-md">
+        <h2 className="text-2xl font-bold text-[#0f2851] text-center">
+          {method.explore_title || "Explorez les sections de la Méthode"}
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <Link href="/methode-SM/qecqs" className="p-4 bg-[#f0f4f9] hover:bg-[#0f2851] hover:text-white border border-[#8ea0be] rounded-xl transition-all text-[#0f2851] font-bold text-sm shadow-sm group">
+            {method.link_qecqs || "Qu'est-ce que SM ?"} →
+          </Link>
+          <Link href="/methode-SM/pec" className="p-4 bg-[#f0f4f9] hover:bg-[#0f2851] hover:text-white border border-[#8ea0be] rounded-xl transition-all text-[#0f2851] font-bold text-sm shadow-sm group">
+            {method.link_pec || "Public concerné"} →
+          </Link>
+          <Link href="/methode-SM/qcsmndf" className="p-4 bg-[#f0f4f9] hover:bg-[#0f2851] hover:text-white border border-[#8ea0be] rounded-xl transition-all text-[#0f2851] font-bold text-sm shadow-sm group">
+            {method.link_qcsmndf || "Ce que SM ne fait pas"} →
+          </Link>
+          <Link href="/methode-SM/em" className="p-4 bg-[#f0f4f9] hover:bg-[#0f2851] hover:text-white border border-[#8ea0be] rounded-xl transition-all text-[#0f2851] font-bold text-sm shadow-sm group">
+            {method.link_em || "Effort Métabolique"} →
+          </Link>
+          <Link href="/methode-SM/eeb" className="p-4 bg-[#f0f4f9] hover:bg-[#0f2851] hover:text-white border border-[#8ea0be] rounded-xl transition-all text-[#0f2851] font-bold text-sm shadow-sm group">
+            {method.link_eeb || "Équipements & Bénéficiaires"} →
+          </Link>
+        </div>
+      </section>
+
+      {/* L'Analogie de la Bicyclette */}
+      <section className="bg-white/80 backdrop-blur-sm border border-[#8ea0be]/50 rounded-2xl p-6 sm:p-8 space-y-8 shadow-md">
+        <div className="flex items-center gap-4">
+          <div className="p-3 bg-[#0f2851] text-white rounded-xl">
+            <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#0f2851]">
+              {method.analogy?.title || "L'Analogie de la Bicyclette"}
+            </h2>
+            <p className="text-slate-600 text-sm">
+              Comprendre l'effort métabolique
+            </p>
+          </div>
+        </div>
+
+        <AvatarBicyclette />
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+          <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
+            <div className="text-3xl">⛓️</div>
+            <h3 className="font-bold text-[#0f2851]">La Chaîne</h3>
+            <p className="text-slate-700 text-sm">{method.analogy?.chain}</p>
+          </div>
+          <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
+            <div className="text-3xl">⚙️</div>
+            <h3 className="font-bold text-[#0f2851]">Le Plateau</h3>
+            <p className="text-slate-700 text-sm">{method.analogy?.chainring}</p>
+          </div>
+          <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
+            <div className="text-3xl">🚴</div>
+            <h3 className="font-bold text-[#0f2851]">Les Pignons</h3>
+            <p className="text-slate-700 text-sm">{method.analogy?.cogs}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Appel à l'action */}
+      <section className="text-center bg-white/80 backdrop-blur-sm border border-[#8ea0be]/50 rounded-2xl p-8 space-y-6 shadow-md">
+        <p className="text-lg text-[#1e293b] max-w-2xl mx-auto">
+          {method.cta}
+        </p>
+        <Link
+          href="/contact"
+          className="inline-block px-8 py-3 bg-[#0f2851] hover:bg-[#1a386d] text-white font-semibold rounded-xl shadow-md transition-all"
+        >
+          {method.cta_button}
+        </Link>
+      </section>
+
+    </main>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\methode-SM\eeb\page.tsx  
+========================================  
+'use client';
+
+import React from 'react';
+import Link from 'next/link';
+import { useLanguage } from '@/context/LanguageContext';
+
+export default function EebPage() {
+  const { t } = useLanguage();
+  const page = (t as any).MethodPages?.equipment;
+  const header = (t as any).Header;
+
+  return (
+    <main className="min-h-screen bg-gradient-to-br from-[#dbe5f3] via-[#d5e2f1] to-[#c8d8ec] text-slate-900 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto space-y-10">
+        
+        {/* En-tête */}
+        <section className="space-y-3 border-b-2 border-[#0f2851]/20 pb-6">
+          <h1 className="text-3xl sm:text-5xl font-black text-[#0f2851] tracking-tight">
+            {page?.title}
+          </h1>
+          <p className="text-lg text-slate-700 font-medium">
+            {page?.subtitle}
+          </p>
+        </section>
+
+        <section className="bg-white/90 backdrop-blur-md border border-[#8ea0be] rounded-3xl p-8 space-y-6 shadow-xl">
+          <div className="space-y-2">
+            <h2 className="text-xl font-bold text-[#0f2851]">{page?.tools_title}</h2>
+            <p className="text-slate-800 text-base leading-relaxed">{page?.tools_desc}</p>
+          </div>
+
+          <div className="p-6 bg-[#0f2851] text-white rounded-2xl space-y-2 shadow-lg">
+            <h3 className="text-lg font-bold">{page?.access_title}</h3>
+            <p className="text-sm leading-relaxed text-slate-200">{page?.access_desc}</p>
+          </div>
+
+          <div className="p-4 bg-slate-900 text-slate-300 rounded-2xl text-xs space-y-1">
+            <span className="font-bold text-amber-400">🔒 Propriété Intellectuelle</span>
+            <p className="italic">{page?.ip_desc}</p>
+          </div>
+        </section>
+
+        {/* Navigation inter-pages traduisible */}
+        <div className="flex justify-between items-center pt-4">
+          <Link href="/methode-SM/em" className="text-[#0f2851] font-bold text-sm hover:underline">
+            ← {header?.method_submenu?.metabolic_effort}
+          </Link>
+          <Link href="/contact" className="px-6 py-3 bg-[#0f2851] hover:bg-[#1a386d] text-white rounded-2xl font-bold transition-all shadow-lg text-sm">
+            {header?.nav_contact} →
+          </Link>
+        </div>
+
+      </div>
+    </main>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\methode-SM\em\page.tsx  
+========================================  
+'use client';
+
+import React from 'react';
+import Link from 'next/link';
+import { useLanguage } from '@/context/LanguageContext';
+import AvatarBicyclette from '@/components/AvatarBicyclette';
+
+export default function EmPage() {
+  const { t } = useLanguage();
+  const page = (t as any).MethodPages?.metabolic_effort;
+  const method = (t as any).Method;
+  const header = (t as any).Header;
+
+  return (
+    <main className="min-h-screen bg-gradient-to-br from-[#dbe5f3] via-[#d5e2f1] to-[#c8d8ec] text-slate-900 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto space-y-10">
+        
+        {/* En-tête */}
+        <section className="space-y-3 border-b-2 border-[#0f2851]/20 pb-6">
+          <h1 className="text-3xl sm:text-5xl font-black text-[#0f2851] tracking-tight">
+            {page?.title}
+          </h1>
+          <p className="text-lg text-slate-700 font-medium">
+            {page?.subtitle}
+          </p>
+        </section>
+
+        <section className="bg-white/90 backdrop-blur-md border border-[#8ea0be] rounded-3xl p-8 space-y-6 shadow-xl">
+          <p className="text-base sm:text-lg text-slate-800 leading-relaxed text-justify font-medium">
+            {page?.intro}
+          </p>
+
+          <AvatarBicyclette />
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+            <div className="p-4 bg-white border border-[#8ea0be] rounded-2xl text-center space-y-1">
+              <span className="text-2xl">⛓️</span>
+              <h4 className="font-bold text-[#0f2851] text-sm">La Chaîne</h4>
+              <p className="text-xs text-slate-600">{method?.analogy?.chain}</p>
+            </div>
+            <div className="p-4 bg-white border border-[#8ea0be] rounded-2xl text-center space-y-1">
+              <span className="text-2xl">⚙️</span>
+              <h4 className="font-bold text-[#0f2851] text-sm">Le Plateau</h4>
+              <p className="text-xs text-slate-600">{method?.analogy?.chainring}</p>
+            </div>
+            <div className="p-4 bg-white border border-[#8ea0be] rounded-2xl text-center space-y-1">
+              <span className="text-2xl">🚴</span>
+              <h4 className="font-bold text-[#0f2851] text-sm">Les Pignons</h4>
+              <p className="text-xs text-slate-600">{method?.analogy?.cogs}</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Navigation inter-pages traduisible */}
+        <div className="flex justify-between items-center pt-4">
+          <Link href="/methode-SM/qcsmndf" className="text-[#0f2851] font-bold text-sm hover:underline">
+            ← {header?.method_submenu?.what_sm_does_not_do}
+          </Link>
+          <Link href="/methode-SM/eeb" className="px-6 py-3 bg-[#0f2851] hover:bg-[#1a386d] text-white rounded-2xl font-bold transition-all shadow-lg text-sm">
+            {header?.method_submenu?.equipment_used} →
+          </Link>
+        </div>
+
+      </div>
+    </main>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\methode-SM\pec\page.tsx  
+========================================  
+'use client';
+
+import React from 'react';
+import Link from 'next/link';
+import { useLanguage } from '@/context/LanguageContext';
+
+export default function PecPage() {
+  const { t } = useLanguage();
+  const page = (t as any).MethodPages?.who_is_concerned;
+  const header = (t as any).Header;
+
+  return (
+    <main className="min-h-screen bg-gradient-to-br from-[#dbe5f3] via-[#d5e2f1] to-[#c8d8ec] text-slate-900 py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <div className="max-w-5xl mx-auto space-y-10 relative">
+        
+        {/* En-tête */}
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 border-b-2 border-[#0f2851]/20 pb-6">
+          <div className="space-y-2">
+            <h1 className="text-3xl sm:text-5xl font-black text-[#0f2851] tracking-tight">
+              {page?.title}
+            </h1>
+            <p className="text-lg text-slate-700 font-medium">
+              {page?.subtitle}
+            </p>
+          </div>
+          <div className="bg-[#0a1930] p-4 rounded-2xl border border-slate-800 shrink-0">
+            <img src="/logo_metabo.png" alt="MetaboSync Logo" className="h-10 w-auto object-contain" />
+          </div>
+        </div>
+
+        {/* Grille des 3 Cibles */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          {/* Cible 1 : Santé */}
+          <div className="bg-white/90 backdrop-blur-md p-6 rounded-3xl border border-[#8ea0be] shadow-xl flex flex-col justify-between space-y-4 hover:-translate-y-1 transition-all">
+            <div className="space-y-3">
+              <div className="w-10 h-10 rounded-2xl bg-[#0f2851] text-white flex items-center justify-center font-bold">1</div>
+              <h3 className="text-lg font-bold text-[#0f2851]">{page?.target1_title}</h3>
+              <p className="text-slate-700 text-sm leading-relaxed text-justify">{page?.target1_desc}</p>
+            </div>
+          </div>
+
+          {/* Cible 2 : Athlètes */}
+          <div className="bg-white/90 backdrop-blur-md p-6 rounded-3xl border border-[#8ea0be] shadow-xl flex flex-col justify-between space-y-4 hover:-translate-y-1 transition-all">
+            <div className="space-y-3">
+              <div className="w-10 h-10 rounded-2xl bg-[#0f2851] text-white flex items-center justify-center font-bold">2</div>
+              <h3 className="text-lg font-bold text-[#0f2851]">{page?.target2_title}</h3>
+              <p className="text-slate-700 text-sm leading-relaxed text-justify">{page?.target2_desc}</p>
+            </div>
+          </div>
+
+          {/* Cible 3 : Forces Spéciales */}
+          <div className="bg-white/90 backdrop-blur-md p-6 rounded-3xl border border-[#8ea0be] shadow-xl flex flex-col justify-between space-y-4 hover:-translate-y-1 transition-all">
+            <div className="space-y-3">
+              <div className="w-10 h-10 rounded-2xl bg-[#0f2851] text-white flex items-center justify-center font-bold">3</div>
+              <h3 className="text-lg font-bold text-[#0f2851]">{page?.target3_title}</h3>
+              <p className="text-slate-700 text-sm leading-relaxed text-justify">{page?.target3_desc}</p>
+            </div>
+          </div>
+
+        </div>
+
+        {/* Navigation inter-pages traduisible */}
+        <div className="flex justify-between items-center pt-6">
+          <Link href="/methode-SM/qecqs" className="text-[#0f2851] font-bold text-sm hover:underline">
+            ← {header?.method_submenu?.what_is_sm}
+          </Link>
+          <Link href="/methode-SM/qcsmndf" className="px-6 py-3 bg-[#0f2851] hover:bg-[#1a386d] text-white rounded-2xl font-bold transition-all shadow-lg text-sm">
+            {header?.method_submenu?.what_sm_does_not_do} →
+          </Link>
+        </div>
+
+      </div>
+    </main>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\methode-SM\qcsmndf\page.tsx  
+========================================  
+'use client';
+
+import React from 'react';
+import Link from 'next/link';
+import { useLanguage } from '@/context/LanguageContext';
+
+export default function QcsmndfPage() {
+  const { t } = useLanguage();
+  const page = (t as any).MethodPages?.what_sm_does_not_do;
+  const header = (t as any).Header;
+
+  return (
+    <main className="min-h-screen bg-gradient-to-br from-[#dbe5f3] via-[#d5e2f1] to-[#c8d8ec] text-slate-900 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto space-y-10">
+        
+        {/* En-tête */}
+        <section className="space-y-3 border-b-2 border-[#0f2851]/20 pb-6">
+          <h1 className="text-3xl sm:text-5xl font-black text-[#0f2851] tracking-tight">
+            {page?.title}
+          </h1>
+          <p className="text-lg text-slate-700 font-medium">
+            {page?.subtitle}
+          </p>
+        </section>
+
+        <section className="bg-white/90 backdrop-blur-md border border-[#8ea0be] rounded-3xl p-8 space-y-6 shadow-xl">
+          <div className="p-6 bg-[#0f2851]/10 border-l-4 border-[#0f2851] rounded-r-2xl">
+            <p className="text-lg sm:text-xl font-bold text-[#0f2851] leading-relaxed">
+              « {page?.main_text} »
+            </p>
+          </div>
+
+          <div className="space-y-3 pt-4 border-t border-[#8ea0be]/30">
+            <h2 className="text-xl font-bold text-[#0f2851]">{page?.progress_title}</h2>
+            <p className="text-slate-800 text-base sm:text-lg leading-relaxed text-justify">
+              {page?.progress_desc}
+            </p>
+          </div>
+        </section>
+
+        {/* Navigation inter-pages traduisible */}
+        <div className="flex justify-between items-center pt-4">
+          <Link href="/methode-SM/pec" className="text-[#0f2851] font-bold text-sm hover:underline">
+            ← {header?.method_submenu?.who_is_concerned}
+          </Link>
+          <Link href="/methode-SM/em" className="px-6 py-3 bg-[#0f2851] hover:bg-[#1a386d] text-white rounded-2xl font-bold transition-all shadow-lg text-sm">
+            {header?.method_submenu?.metabolic_effort} →
+          </Link>
+        </div>
+
+      </div>
+    </main>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\methode-SM\qecqs\page.tsx  
+========================================  
+'use client';
+
+import React from 'react';
+import Link from 'next/link';
+import { useLanguage } from '@/context/LanguageContext';
+
+export default function QecqsPage() {
+  const { t } = useLanguage();
+  const page = (t as any).MethodPages?.what_is_sm;
+  const method = (t as any).Method;
+  const header = (t as any).Header;
+
+  return (
+    <main className="min-h-screen bg-gradient-to-br from-[#dbe5f3] via-[#d5e2f1] to-[#c8d8ec] text-slate-900 py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      {/* Motif décoratif en filigrane */}
+      <div className="absolute top-10 right-10 w-48 h-48 opacity-20 pointer-events-none hidden md:block">
+        <svg viewBox="0 0 100 100" className="w-full h-full">
+          <pattern id="circlePattern" width="6" height="100" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="3" height="100" fill="#0f2851" />
+            <rect x="3" y="0" width="3" height="100" fill="transparent" />
+          </pattern>
+          <circle cx="50" cy="50" r="48" fill="url(#circlePattern)" />
+        </svg>
+      </div>
+
+      <div className="max-w-4xl mx-auto space-y-10 relative">
+        {/* En-tête de la page */}
+        <section className="space-y-3 border-b-2 border-[#0f2851]/20 pb-6">
+          <h1 className="text-3xl sm:text-5xl font-black text-[#0f2851] tracking-tight">
+            {page?.title}
+          </h1>
+          <p className="text-lg text-slate-700 font-medium">
+            {page?.subtitle}
+          </p>
+        </section>
+
+        {/* Carte Principale */}
+        <section className="bg-white/90 backdrop-blur-md border border-[#8ea0be] rounded-3xl p-6 sm:p-10 space-y-6 shadow-xl">
+          <p className="text-lg sm:text-xl font-medium text-[#1e293b] leading-relaxed text-justify">
+            {page?.intro}
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6 border-t border-[#8ea0be]/30">
+            {/* Dopamine */}
+            <div className="bg-[#f0f4f9] p-5 rounded-2xl border border-[#8ea0be]/50 space-y-2">
+              <span className="text-2xl">⚡</span>
+              <h3 className="font-bold text-[#0f2851] text-sm uppercase">
+                {page?.dopamine_title}
+              </h3>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                {page?.dopamine}
+              </p>
+            </div>
+
+            {/* Endorphines */}
+            <div className="bg-[#f0f4f9] p-5 rounded-2xl border border-[#8ea0be]/50 space-y-2">
+              <span className="text-2xl">🌱</span>
+              <h3 className="font-bold text-[#0f2851] text-sm uppercase">
+                {page?.endorphins_title}
+              </h3>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                {page?.endorphins}
+              </p>
+            </div>
+
+            {/* Sérotonine */}
+            <div className="bg-[#f0f4f9] p-5 rounded-2xl border border-[#8ea0be]/50 space-y-2">
+              <span className="text-2xl">✨</span>
+              <h3 className="font-bold text-[#0f2851] text-sm uppercase">
+                {page?.serotonin_title}
+              </h3>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                {page?.serotonin}
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Navigation inter-pages traduisible */}
+        <div className="flex justify-between items-center pt-4">
+          <Link href="/methode-SM" className="text-[#0f2851] font-bold text-sm hover:underline">
+            ← {method?.nav_overview}
+          </Link>
+          <Link
+            href="/methode-SM/pec"
+            className="px-6 py-3 bg-[#0f2851] hover:bg-[#1a386d] text-white rounded-2xl font-bold transition-all shadow-lg text-sm"
+          >
+            {header?.method_submenu?.who_is_concerned} →
+          </Link>
+        </div>
+      </div>
+    </main>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\public-concerne\page.tsx  
+========================================  
+'use client';
+
+import React from 'react';
+import { useLanguage } from '@/context/LanguageContext';
+
+export default function PublicConcernePage() {
+  const { t } = useLanguage();
+  const targets = t.Method?.targets_slide;
+
+  return (
+    <main className="min-h-screen bg-gradient-to-br from-[#dbe5f3] via-[#d5e2f1] to-[#c8d8ec] text-slate-900 py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center min-h-[80vh]">
+        
+        {/* COLONNE GAUCHE : Logo + Cercles géométriques */}
+        <div className="lg:col-span-5 flex flex-col justify-between items-center lg:items-start h-full space-y-12">
+          
+          {/* Bloc Logo en haut à gauche */}
+          <div className="w-full max-w-[340px] bg-[#0a1930] p-6 rounded-2xl shadow-2xl border border-slate-800 flex items-center justify-center">
+            <img
+              src="/logo_metabo.png"
+              alt="MetaboSync HealthTech"
+              className="w-full h-auto object-contain"
+            />
+          </div>
+
+          {/* Motif géométrique en bas à gauche : Cercle bleu plein superposé au cercle hachuré */}
+          <div className="relative w-64 h-64 sm:w-80 sm:h-80 my-auto flex items-center justify-center">
+            <svg viewBox="0 0 200 200" className="w-full h-full">
+              <defs>
+                <pattern id="slideStripes" width="10" height="200" patternUnits="userSpaceOnUse">
+                  <rect x="0" y="0" width="5" height="200" fill="#2b427b" />
+                  <rect x="5" y="0" width="5" height="200" fill="transparent" />
+                </pattern>
+              </defs>
+              {/* Cercle hachuré en arrière-plan */}
+              <circle cx="115" cy="115" r="70" fill="url(#slideStripes)" opacity="0.85" />
+              {/* Cercle bleu foncé au premier plan à gauche */}
+              <circle cx="75" cy="75" r="55" fill="#0f2851" />
+              {/* Évidement central du cercle bleu */}
+              <circle cx="75" cy="75" r="32" fill="#d5e2f1" />
+            </svg>
+          </div>
+
+        </div>
+
+        {/* COLONNE DROITE : Les 3 sections de texte */}
+        <div className="lg:col-span-7 space-y-8 py-4">
+          
+          {/* Section 1 : Problèmes de santé */}
+          <section className="space-y-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f2851] tracking-tight">
+              {targets?.health_title || "Personnes avec des problèmes de santé (mineurs à majeurs)"}
+            </h2>
+            <p className="text-slate-800 text-sm sm:text-base leading-relaxed text-justify">
+              {targets?.health_desc}
+            </p>
+          </section>
+
+          {/* Section 2 : Athlètes */}
+          <section className="space-y-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f2851] tracking-tight">
+              {targets?.athletes_title || "Athlètes professionnels et amateurs"}
+            </h2>
+            <p className="text-slate-800 text-sm sm:text-base leading-relaxed text-justify">
+              {targets?.athletes_desc}
+            </p>
+          </section>
+
+          {/* Section 3 : Forces Spéciales */}
+          <section className="space-y-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f2851] tracking-tight">
+              {targets?.forces_title || "Armée & Forces Spéciales"}
+            </h2>
+            <p className="text-slate-800 text-sm sm:text-base leading-relaxed text-justify">
+              {targets?.forces_desc}
+            </p>
+          </section>
+
+        </div>
+
+      </div>
+    </main>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\temoignages\page.tsx  
+========================================  
+'use client';
+
+import React, { useState, useMemo, Suspense } from 'react';
+import { useSearchParams, useRouter } from 'next/navigation';
+import Image from 'next/image';
+import { useLanguage } from '@/context/LanguageContext';
+
+import testimonialsFr from '@/data/data_fr.json';
+import testimonialsEn from '@/data/data_en.json';
+
+type CategoryKey = 'sante' | 'convalescence' | 'perte_de_poids' | 'performance' | 'fatigue' | 'energie';
+
+interface DocumentRef {
+  title: string;
+  fileUrl: string;
+  type: string;
+}
+
+interface Testimonial {
+  id: string;
+  name: string;
+  age: number;
+  location: string;
+  category: CategoryKey;
+  shortText: string;
+  fullText: string;
+  photoBeforeUrl: string;
+  photoAfterUrl: string;
+  documents?: DocumentRef[];
+}
+
+const CATEGORIES: CategoryKey[] = [
+  'sante',
+  'convalescence',
+  'perte_de_poids',
+  'performance',
+  'fatigue',
+  'energie'
+];
+
+function TestimonialsContent() {
+  const { lang, t } = useLanguage();
+  const searchParams = useSearchParams();
+  const router = useRouter();
+
+  const ui = t.TestimonialsUI;
+  const testimonialsData: Testimonial[] = lang === 'en' ? (testimonialsEn as Testimonial[]) : (testimonialsFr as Testimonial[]);
+
+  const selectedCategory = searchParams.get('category') as CategoryKey | null;
+  const [searchQuery, setSearchQuery] = useState('');
+  const [activeTestimonial, setActiveTestimonial] = useState<Testimonial | null>(null);
+
+  const filteredTestimonials = useMemo(() => {
+    return testimonialsData.filter((item) => {
+      const matchCategory = !selectedCategory || item.category === selectedCategory;
+
+      const query = searchQuery.toLowerCase().trim();
+      const matchSearch =
+        !query ||
+        item.name.toLowerCase().includes(query) ||
+        item.location.toLowerCase().includes(query) ||
+        item.shortText.toLowerCase().includes(query) ||
+        item.fullText.toLowerCase().includes(query);
+
+      return matchCategory && matchSearch;
+    });
+  }, [selectedCategory, searchQuery, testimonialsData]);
+
+  const handleCategoryChange = (slug?: string) => {
+    if (slug) {
+      router.push(`/temoignages?category=${slug}`, { scroll: false });
+    } else {
+      router.push('/temoignages', { scroll: false });
+    }
+  };
+
+  const getCategoryLabel = (categoryKey: string) => {
+    return ui?.categories?.[categoryKey as keyof typeof ui.categories] || categoryKey;
+  };
+
+  return (
+    <div className="max-w-6xl mx-auto space-y-10">
+      
+      {/* En-tête */}
+      <section className="text-center space-y-4">
+        <h1 className="title-primary">
+          {ui?.title}
+        </h1>
+        <p className="text-lg sm:text-xl text-[#0f2851] font-medium max-w-2xl mx-auto">
+          {ui?.subtitle}
+        </p>
+      </section>
+
+      {/* Recherche et filtres */}
+      <div className="space-y-4 card-light">
+        <div className="relative max-w-md mx-auto">
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder={ui?.searchPlaceholder}
+            className="w-full pl-10 pr-4 py-2.5 bg-white border border-[#8ea0be] rounded-xl text-slate-800 placeholder-slate-400 focus:outline-none focus:border-[#0f2851] text-sm transition-colors"
+          />
+          <span className="absolute left-3.5 top-3 text-slate-400 text-sm">🔍</span>
+          {searchQuery && (
+            <button
+              onClick={() => setSearchQuery('')}
+              className="absolute right-3 top-2.5 text-xs text-slate-500 hover:text-black bg-slate-200 rounded-full w-5 h-5 flex items-center justify-center"
+            >
+              ✕
+            </button>
+          )}
+        </div>
+
+        {/* Boutons des 6 catégories */}
+        <div className="flex flex-wrap justify-center gap-2 pt-2">
+          <button
+            onClick={() => handleCategoryChange()}
+            className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+              !selectedCategory
+                ? 'bg-[#0f2851] text-white shadow-md'
+                : 'bg-white border border-[#8ea0be] text-slate-700 hover:border-[#0f2851]'
+            }`}
+          >
+            {ui?.allProfiles} ({testimonialsData.length})
+          </button>
+
+          {CATEGORIES.map((slug) => {
+            const count = testimonialsData.filter((i) => i.category === slug).length;
+            const isSelected = selectedCategory === slug;
+            return (
+              <button
+                key={slug}
+                onClick={() => handleCategoryChange(slug)}
+                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+                  isSelected
+                    ? 'bg-[#0f2851] text-white shadow-md'
+                    : 'bg-white border border-[#8ea0be] text-slate-700 hover:border-[#0f2851]'
+                }`}
+              >
+                {getCategoryLabel(slug)} ({count})
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Compteur de résultats */}
+      <div className="flex items-center justify-between px-2 text-xs text-slate-600 font-medium">
+        <span>
+          {filteredTestimonials.length} {ui?.profilesFound}
+        </span>
+        {selectedCategory && (
+          <button
+            onClick={() => handleCategoryChange()}
+            className="text-[#0f2851] hover:underline"
+          >
+            {ui?.resetFilter}
+          </button>
+        )}
+      </div>
+
+      {/* Grille des témoins */}
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {filteredTestimonials.length > 0 ? (
+          filteredTestimonials.map((item) => (
+            <div
+              key={item.id}
+              onClick={() => setActiveTestimonial(item)}
+              className="card-light hover:border-[#0f2851] cursor-pointer transition-all duration-300 space-y-4 hover:-translate-y-1 group flex flex-col justify-between"
+            >
+              <div className="space-y-4">
+                <div className="flex items-center justify-between border-b border-[#8ea0be]/30 pb-3">
+                  <div>
+                    <h3 className="text-lg font-bold text-[#0f2851] group-hover:text-blue-700 transition-colors">
+                      {item.name}
+                    </h3>
+                    <p className="text-xs text-slate-600">
+                      {item.age} {ui?.yearsOld} — {item.location}
+                    </p>
+                  </div>
+                  <span className="px-3 py-1 bg-[#0f2851]/10 text-[#0f2851] border border-[#0f2851]/20 rounded-full text-[11px] font-bold">
+                    {getCategoryLabel(item.category)}
+                  </span>
+                </div>
+
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="space-y-1">
+                    <span className="text-[10px] uppercase tracking-wider font-bold text-slate-500 block text-center">
+                      {ui?.before}
+                    </span>
+                    <div className="relative h-36 rounded-xl overflow-hidden bg-white border border-[#8ea0be]">
+                      <Image
+                        src={item.photoBeforeUrl}
+                        alt={`${item.name} ${ui?.before}`}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                  </div>
+                  <div className="space-y-1">
+                    <span className="text-[10px] uppercase tracking-wider font-bold text-[#0f2851] block text-center">
+                      {ui?.after}
+                    </span>
+                    <div className="relative h-36 rounded-xl overflow-hidden bg-white border border-[#0f2851]">
+                      <Image
+                        src={item.photoAfterUrl}
+                        alt={`${item.name} ${ui?.after}`}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <p className="text-slate-800 text-sm leading-relaxed italic bg-white/60 p-3 rounded-xl border border-[#8ea0be]/40">
+                  « {item.shortText} »
+                </p>
+              </div>
+
+              <div className="text-right pt-2 border-t border-[#8ea0be]/30">
+                <span className="text-xs font-bold text-[#0f2851] group-hover:underline inline-flex items-center gap-1">
+                  {ui?.viewRecord}
+                </span>
+              </div>
+            </div>
+          ))
+        ) : (
+          <div className="col-span-full card-light p-12 text-center space-y-3">
+            <span className="text-3xl block">🔍</span>
+            <p className="text-slate-700 font-medium">
+              {ui?.noResults}
+            </p>
+            <button
+              onClick={() => {
+                setSearchQuery('');
+                handleCategoryChange();
+              }}
+              className="text-xs text-[#0f2851] font-bold hover:underline pt-2"
+            >
+              {ui?.showAll}
+            </button>
+          </div>
+        )}
+      </section>
+
+      {/* Modale détaillée */}
+      {activeTestimonial && (
+        <div
+          className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-4"
+          onClick={() => setActiveTestimonial(null)}
+        >
+          <div
+            className="bg-[#dbe5f3] border border-[#8ea0be] rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-6 sm:p-8 space-y-6 shadow-2xl relative text-slate-800"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setActiveTestimonial(null)}
+              className="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/80 hover:bg-white text-slate-800 flex items-center justify-center transition-colors text-sm font-bold shadow-sm"
+            >
+              ✕
+            </button>
+
+            <div className="border-b border-[#8ea0be] pb-4 space-y-1">
+              <div className="flex items-center gap-3 flex-wrap">
+                <h2 className="text-2xl font-bold text-[#0f2851]">
+                  {activeTestimonial.name}
+                </h2>
+                <span className="text-sm font-normal text-slate-600">
+                  ({activeTestimonial.age} {ui?.yearsOld}, {activeTestimonial.location})
+                </span>
+              </div>
+              <span className="inline-block px-3 py-1 bg-[#0f2851] text-white rounded-full text-xs font-semibold">
+                {getCategoryLabel(activeTestimonial.category)}
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="space-y-1.5">
+                <span className="text-xs font-bold text-slate-600 block text-center uppercase">
+                  {ui?.before}
+                </span>
+                <div className="relative h-60 rounded-xl overflow-hidden bg-white border border-[#8ea0be]">
+                  <Image
+                    src={activeTestimonial.photoBeforeUrl}
+                    alt={`${activeTestimonial.name} ${ui?.before}`}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+              <div className="space-y-1.5">
+                <span className="text-xs font-bold text-[#0f2851] block text-center uppercase">
+                  {ui?.after}
+                </span>
+                <div className="relative h-60 rounded-xl overflow-hidden bg-white border border-[#0f2851]">
+                  <Image
+                    src={activeTestimonial.photoAfterUrl}
+                    alt={`${activeTestimonial.name} ${ui?.after}`}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-2">
+              <h3 className="text-xs font-bold uppercase tracking-wider text-[#0f2851]">
+                {ui?.detailedFeedback}
+              </h3>
+              <p className="text-slate-800 leading-relaxed bg-white/70 p-4 rounded-xl border border-[#8ea0be] text-sm sm:text-base">
+                {activeTestimonial.fullText}
+              </p>
+            </div>
+
+            {activeTestimonial.documents && activeTestimonial.documents.length > 0 && (
+              <div className="space-y-3 pt-2">
+                <h3 className="text-xs font-bold uppercase tracking-wider text-[#0f2851]">
+                  {ui?.documentation}
+                </h3>
+                <div className="space-y-2">
+                  {activeTestimonial.documents.map((doc, idx) => (
+                    <a
+                      key={idx}
+                      href={doc.fileUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-between p-3.5 bg-white/80 hover:bg-white border border-[#8ea0be] rounded-xl transition-all group"
+                    >
+                      <span className="text-sm text-slate-800 font-medium group-hover:text-[#0f2851] transition-colors">
+                        📄 {doc.title}
+                      </span>
+                      <span className="text-[10px] bg-[#0f2851] text-white px-2.5 py-1 rounded-md font-mono">
+                        {doc.type} ↗
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function TemoignagesPage() {
+  const { t } = useLanguage();
+  return (
+    <main className="py-12 px-4 sm:px-6 lg:px-8">
+      <Suspense fallback={<div className="text-center text-slate-600">{t.TestimonialsUI?.loading}</div>}>
+        <TestimonialsContent />
+      </Suspense>
+    </main>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\components\AvatarBicyclette.tsx  
+========================================  
+'use client';
+
+import React from 'react';
+import { useLanguage } from '@/context/LanguageContext';
+
+const VIDEO_SRC = encodeURI('/vidéos/parle.mp4');
+
+export default function AvatarBicyclette() {
+  const { lang } = useLanguage();
+  const isEn = lang === 'en';
+
+  return (
+    <div className="relative my-8 p-6 bg-white/70 border border-[#8ea0be] rounded-2xl shadow-md overflow-hidden">
+      
+      <div className="flex flex-col md:flex-row items-center gap-6">
+        
+        <div className="relative flex-shrink-0 w-full md:w-1/2">
+          <video
+            src={VIDEO_SRC}
+            controls
+            className="w-full rounded-xl border border-[#8ea0be] shadow-sm"
+          />
+        </div>
+
+        {/* Bulle de dialogue explicative */}
+        <div className="relative flex-1 bg-white/80 border border-[#8ea0be] p-5 rounded-2xl space-y-3">
+          <div className="flex items-center justify-between border-b border-[#8ea0be]/30 pb-2">
+            <span className="text-sm font-bold text-[#0f2851]">
+              {isEn ? 'Flédéric Payet (SM Coach)' : 'Flédéric Payet (Coach SM)'}
+            </span>
+            <span className="text-xs text-slate-500">
+              {isEn ? 'Interactive video explanation' : 'Explication vidéo interactive'}
+            </span>
+          </div>
+
+          <p className="text-slate-800 text-sm md:text-base italic leading-relaxed">
+            {isEn
+              ? '“Imagine your body is a bicycle and that, for it to function properly, it requires regular maintenance...”'
+              : '« Imaginez que votre corps est une bicyclette et que, pour son bon fonctionnement, il faut un entretien régulier... »'
+            }
+          </p>
+        </div>
+
+      </div>
+    </div>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\components\Header.tsx  
+========================================  
+// src/components/Header.tsx
+'use client';
+
+import { useState, useRef, useEffect } from 'react';
+import Link from 'next/link';
+import { useLanguage } from '@/context/LanguageContext';
+
+export default function Header() {
+  const { lang, setLang, t } = useLanguage();
+  const nav = t.Header;
+  const methodNav = t.Header?.method_submenu;
+  
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setDropdownOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const subMenuItems = [
+    { href: '/methode-SM/qecqs', label: methodNav?.what_is_sm || "Qu'est-ce que SM ?" },
+    { href: '/methode-SM/pec', label: methodNav?.who_is_concerned || "Qui est concerné ?" },
+    { href: '/methode-SM/qcsmndf', label: methodNav?.what_sm_does_not_do || "Ce que SM ne fait pas" },
+    { href: '/methode-SM/em', label: methodNav?.metabolic_effort || "Effort Métabolique" },
+    { href: '/methode-SM/eeb', label: methodNav?.equipment_used || "Équipements & Bénéficiaires" },
+  ];
+
+  return (
+    <header className="border-b border-slate-200 bg-white sticky top-0 z-50">
+      <div className="max-w-6xl mx-auto px-4 h-20 flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-2 shrink-0 min-w-0" onClick={() => setMenuOpen(false)}>
+          <img
+            src="/logo.png"
+            alt="MetaboSync Icône"
+            className="h-12 w-auto"
+          />
+          <img
+            src="/logo_metabo.png"
+            alt="MetaboSync HealthTech"
+            className="h-9 w-auto max-w-[160px] object-contain"
+          />
+        </Link>
+
+        {/* Navigation Desktop */}
+        <nav className="hidden md:flex flex-1 items-center justify-end gap-4 lg:gap-5 text-sm font-medium text-slate-700 whitespace-nowrap">
+          <Link href="/a-propos" className="hover:text-blue-600 transition-colors">
+            {nav.nav_about}
+          </Link>
+
+          {/* Menu déroulant La Méthode SM */}
+          <div className="relative" ref={dropdownRef}>
+            <button
+              onClick={() => setDropdownOpen(!dropdownOpen)}
+              onMouseEnter={() => setDropdownOpen(true)}
+              className="flex items-center gap-1 hover:text-blue-600 transition-colors py-2 focus:outline-none"
+            >
+              <Link href="/methode-SM">{nav.nav_method}</Link>
+              <svg className={`w-4 h-4 transition-transform ${dropdownOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            {dropdownOpen && (
+              <div 
+                className="absolute left-0 mt-1 w-64 bg-white border border-slate-200 rounded-xl shadow-lg py-2 z-50 text-xs"
+                onMouseLeave={() => setDropdownOpen(false)}
+              >
+                {subMenuItems.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="block px-4 py-2.5 hover:bg-slate-50 hover:text-blue-600 transition-colors text-slate-700 font-semibold"
+                    onClick={() => setDropdownOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <Link href="/temoignages" className="hover:text-blue-600 transition-colors">
+            {nav.nav_testimonials}
+          </Link>
+
+          <Link href="/contact" className="hover:text-blue-600 transition-colors">
+            {nav.nav_contact}
+          </Link>
+        </nav>
+
+        {/* Sélecteur de langue */}
+        <div className="ml-auto md:ml-0 flex items-center gap-2 shrink-0">
+          <div className="flex items-center space-x-1 text-xs font-semibold">
+            <button
+              onClick={() => setLang('fr')}
+              className={`px-2 py-1 rounded transition-colors ${
+                lang === 'fr' ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+              }`}
+            >
+              FR
+            </button>
+            <button
+              onClick={() => setLang('en')}
+              className={`px-2 py-1 rounded transition-colors ${
+                lang === 'en' ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+              }`}
+            >
+              EN
+            </button>
+            <button
+              onClick={() => setLang('el')}
+              className={`px-2 py-1 rounded transition-colors ${
+                lang === 'el' ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+              }`}
+            >
+              EL
+            </button>
+          </div>
+
+          {/* Bouton Hamburger Mobile */}
+          <button
+            type="button"
+            className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-slate-700 hover:bg-slate-100"
+            aria-label={menuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen((open) => !open)}
+          >
+            <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {menuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      {/* Navigation Mobile */}
+      {menuOpen && (
+        <nav className="md:hidden border-t border-slate-200 bg-white px-4 py-3 flex flex-col gap-3 text-sm font-medium text-slate-700">
+          <Link href="/a-propos" className="py-1 hover:text-blue-600 transition-colors" onClick={() => setMenuOpen(false)}>
+            {nav.nav_about}
+          </Link>
+          
+          <div className="flex flex-col gap-1">
+            <Link href="/methode-SM" className="font-bold text-blue-600 py-1" onClick={() => setMenuOpen(false)}>
+              {nav.nav_method}
+            </Link>
+            <div className="pl-4 flex flex-col gap-2 text-xs text-slate-600 border-l-2 border-slate-200 my-1">
+              {subMenuItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="hover:text-blue-600 transition-colors py-1"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <Link href="/temoignages" className="py-1 hover:text-blue-600 transition-colors" onClick={() => setMenuOpen(false)}>
+            {nav.nav_testimonials}
+          </Link>
+          
+          <Link href="/contact" className="py-1 hover:text-blue-600 transition-colors" onClick={() => setMenuOpen(false)}>
+            {nav.nav_contact}
+          </Link>
+        </nav>
+      )}
+    </header>
+  );
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\context\LanguageContext.tsx  
+========================================  
+'use client';
+
+import React, { createContext, useContext, useState, ReactNode } from 'react';
+import fr from '@/dictionaries/fr.json';
+import en from '@/dictionaries/en.json';
+import el from '@/dictionaries/el.json';
+
+type Language = 'fr' | 'en' | 'el';
+
+interface LanguageContextType {
+  lang: Language;
+  setLang: (lang: Language) => void;
+  t: typeof fr;
+}
+
+const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+
+export function LanguageProvider({ children }: { children: ReactNode }) {
+  const [lang, setLang] = useState<Language>('fr');
+
+  let t = fr;
+  if (lang === 'en') t = en as any;
+  if (lang === 'el') t = el as any;
+
+  return (
+    <LanguageContext.Provider value={{ lang, setLang, t }}>
+      {children}
+    </LanguageContext.Provider>
+  );
+}
+
+export function useLanguage() {
+  const context = useContext(LanguageContext);
+  if (!context) {
+    throw new Error('useLanguage doit être utilisé au sein d\'un LanguageProvider');
+  }
+  return context;
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\data\data_el.json  
+========================================  
+[
+  {
+    "id": "christopher-kirschgens",
+    "name": "Christopher Kirschgens",
+    "role": "Αθλητής / Γερμανός Τελωνειακός Υπάλληλος",
+    "age": 35,
+    "category": "performance",
+    "short_quote": "Έμεινα έκπληκτος με το πόσο καλά ένιωθα μετά από κάθε προπόνηση — εξαντλημένος, αλλά ευτυχισμένος και γεμάτος ενέργεια... Από τότε που ξεκίνησα τις προπονήσεις με τον Flédéric, δεν είχα ξανά κανένα πρόβλημα με τους μεσοσπονδύλιους δίσκους και τις αρθρώσεις μου.",
+    "image": "/images/testimonials/profil_1.jpg",
+    "full_story": [
+      "Ονομάζομαι Christopher Kirschgens. Είμαι 35 ετών και είμαι λάτρης του αθλητισμού. Στα νιάτα μου έπαιζα πολύ χάντμπολ και ποδόσφαιρο, συμπεριλαμβανομένης της συμμετοχής μου σε ομάδα χάντμπολ της Ρηνανίας. Επαγγελματικά, αναγκάστηκα να εγκαταλείψω τα ομαδικά αθλήματα και να αναζητήσω ένα άλλο χόμπι. Ξεκίνησα το τρέξιμο, τη κολύμβηση, την ποδηλασία και πρόσθεσα την προπόνηση με βάρη. Μεταξύ άλλων τα επόμενα χρόνια, συμμετείχα σε διάφορους αγώνες εμποδίων (Tough Mudder ή Strongman Run). Για μένα, ο πρώτος μου μαραθώνιος στη Ζυρίχη με τη σύζυγό μου Alexandra ήταν πιθανώς η πιο όμορφη αθλητική επιτυχία της ζωής μου. Στη συνέχεια έτρεξα σε δύο ακόμα μαραθώνιους, στο Βερολίνο το 2017 και στο Φράιμπουργκ το 2018. Αυτή τη στιγμή, η αθλητική μου δραστηριότητα περιορίζεται στην προπόνηση φυσικής κατάστασης.",
+      "Στα τέλη του 2018, ο Flédéric μου μίλησε στο γυμναστήριο. Μου πρότεινε να με προπονήσει για να βελτιώσω τη φυσική μου κατάσταση και την υγεία μου, παρουσιάζοντάς μου το πρόγραμμα και τη φιλοσοφία του. 'Christopher', μου είπε, 'αν προπονηθείς μαζί μου, θα σε πάω στην κορυφή.' Ο Flédéric μου μίλησε για την προπόνηση με βάρη και την υγεία, αναφέροντας ότι με παρατηρούσε στο γυμναστήριο για καιρό. Μου εξήγησε αναλυτικά το concept του και με έκανε να καταλάβω γιατί είναι τόσο σημαντικό να προπονείσαι έξυπνα, ώστε να διατηρείς τα οφέλη μέχρι τα γηρατειά. Σημασία δεν έχει να φορτώνεις πολλά βάρη στα μηχανήματα, αλλά να εκτελείς ασκήσεις για την καθημερινή ζωή που προλαμβάνουν τους τραυματισμούς και τη σωματική εξασθένηση. Ο Flédéric μου έδωσε επίσης ένα διατροφικό πλάνο. Σημαντικό στο concept του είναι να αποβάλλεις την αρνητική ενέργεια και τη δυσφορία από το σώμα σου. Η προπόνηση πρέπει επίσης να προλαμβάνει τις ασθένειες ή, μετά από μια σοβαρή ασθένεια, να επαναφέρει τη θετική ενέργεια και την ευεξία.",
+      "Τις επόμενες ημέρες, ο Flédéric ανέπτυξε ένα πρόγραμμα προπόνησης ειδικά για μένα και τις ανάγκες μου. Πρέπει να σημειωθεί ότι εργάζομαι στα Γερμανικά Τελωνεία και φέρω μαζί μου περίπου 8 κιλά εξοπλισμού στο σώμα μου (αλεξίσφαιρο γιλέκο, υπηρεσιακό όπλο και διάφορα επιχειρησιακά μέσα). Φυσικά, αυτό το βάρος επιβαρύνει τις αρθρώσεις και τη σπονδυλική μου στήλη (γόνατα, ισχία, μεσοσπονδύλιους δίσκους).",
+      "Ο Flédéric ξεκίνησε με το πρόγραμμα προθέρμανσης, εξηγώντας μου ακριβώς γιατί προθερμαινόμαστε έτσι (περίπου 20 έως 30 λεπτά). Στη συνέχεια περάσαμε στις ειδικές ασκήσεις... Το κάναμε αυτό τέσσερις φορές την εβδομάδα, ενώ μία φορά την εβδομάδα κάναμε μια πολύ ιδιαίτερη προπόνηση όπου έδινα το 100%. Κάθε προπόνηση διήρκησε το πολύ 1 ώρα. Μετά με έστελνε για ντους και ένιωθα πραγματικά ανανεωμένος και δυνατός. Δεν ένιωσα ποτέ εξαντλημένος ούτε είχα πόνους ή εντάσεις. Ανυπομονούσα για το τι θα μου δίδασκε στην επόμενη προπόνηση.",
+      "Ο Flédéric προσαρμόζει την προπόνηση ειδικά για κάθε συμμετέχοντα. Σε εξελίσσει πολύ γρήγορα και βλέπεις τη μυϊκή ανάπτυξη. Έκανα ασκήσεις που δεν γνώριζα καν πριν. Επιπλέον, προσθέταμε συνεχώς νέες ασκήσεις. Ο Flédéric είναι δίπλα σου και σου δίνει κίνητρο. Ήταν πολύ διασκεδαστικό, κάτι που είναι επίσης πολύ σημαντικό. Από τη μια πλευρά η προπόνηση σε βγάζει από τη ζώνη άνεσής σου, από την άλλη νιώθεις ότι βρίσκεσαι σε σίγουρα χέρια. Έμεινα έκπληκτος με το πόσο καλά ένιωθα μετά από κάθε προπόνηση — κουρασμένος, αλλά ευτυχισμένος και γεμάτος δύναμη. Από τότε που γυμνάζομαι με τον Flédéric, δεν είχα ξανά κανένα πρόβλημα με τους μεσοσπονδύλιους δίσκους και τις αρθρώσεις μου.",
+      "Συνοψίζοντας: Συνιστώ 100% το πρόγραμμα και την προπόνηση του Flédéric."
+    ]
+  },
+  {
+    "id": "genevieve-jelsch",
+    "name": "Geneviève Jelsch",
+    "role": "Καρκίνος του μαστού, ινομυαλγία και νόσος του Lyme",
+    "age": 57,
+    "category": "sante",
+    "short_quote": "Άρχισα γρήγορα να νιώθω καλύτερα και να ξαναγεννιέμαι. Ήμουν ξανά γεμάτη ενέργεια... Σήμερα, συνεχίζω να γυμνάζομαι και ζω μια φυσιολογική ζωή.",
+    "gallery_type": "before_after",
+    "before_image": "/images/testimonials/profil_2_before.jpg",
+    "after_image": "/images/testimonials/profil_2_after.jpg",
+    "full_story": [
+      "Επιτρέψτε μου να συστηθώ. Είμαι η Geneviève. Γεννήθηκα στην Αλσατία της Γαλλίας το 1962. Το 2009 άρχισα να νιώθω πόνους στις αρθρώσεις μου και με την πάροδο των ετών, ο πόνος έγινε ανυπόφορος. Ούρλιαζα τη νύχτα λόγω εντόνων πόνων χωρίς εμφανή λόγο, τρομάζοντας τον σύζυγό μου. Ήταν εξαιρετικά βίαιο. Οι λέξεις δεν μπορούν να περιγράψουν τον πόνο που πέρασα. Δεν καταλάβαινα τι συνέβαινε. Ούτε οι γιατροί είχαν κάποια συγκεκριμένη απάντηση: έλεγαν μόνο ότι ήταν πιθανώς αποτέλεσμα του παλαιότερου καρκίνου του μαστού. Αναγκάστηκα να μειώσω τις ώρες εργασίας μου και τελικά σταμάτησα να εργάζομαι, καθώς μπορούσα με δυσκολία να περπατήσω.",
+      "Λίγα χρόνια αργότερα, ο γιατρός μου διέγνωσε τελικά ινομυαλγία και, επιπλέον, τη νόσο Lyme! Στη συνέχεια νοσηλεύτηκα λόγω παράλυσης προσώπου που με έκανε να τραυλίζω για πάνω από έναν χρόνο.",
+      "Εκείνη τη στιγμή, γνώρισα τον Flédéric Payet μέσω μιας φίλης μου που συμμετείχε ήδη στο πρόγραμμά του. Ξεκίνησα την προπόνηση μαζί του και άλλαξα τη διατροφή μου. Άρχισα γρήγορα να νιώθω καλύτερα και να ξαναβρίσκω τη ζωή μου. Ήμουν ξανά γεμάτη ενέργεια και ένιωθα ότι μπορούσα να μετακινήσω βουνά. Ο σύζυγός μου δεν πίστευε στα μάτια του!! Ήταν εκπληκτος βλέποντας αυτές τις τεράστιες θετικές αλλαγές μετά από χρόνια αγωνίας. Ούτε τα αδέλφια μου ούτε οι φίλοι μου με αναγνώριζαν. Δεν ήμουν πια ο ίδιος άνθρωπος. Αλλάξε τη ζωή μου. Ξεκίνησα ακόμη και να εργάζομαι ξανά!!",
+      "Ακολούθησα το πρόγραμμα του Flédéric για 2 χρόνια, με 5 ημέρες προπόνησης την εβδομάδα υπό τη φροντίδα του. Σήμερα, συνεχίζω να γυμνάζομαι και ζω μια φυσιολογική ζωή. Δεν μπορώ να ευχαριστήσω αρκετά τον Flédéric για όλα όσα έκανε για μένα, συμπεριλαμβανομένης της υποστήριξης και της ενθάρρυνσης σε στιγμές αποθάρρυνσης. Δεν δίστασε ποτέ να με επισκεφθεί στο σπίτι μου σε στιγμές ανάγκης. Θα του είμαι για πάντα ευγνώμων."
+    ]
+  },
+  {
+    "id": "julia-eichmann",
+    "name": "Julia Eichmann",
+    "role": "Κατάθλιψη και επιδίωξη σωματικής απόδοσης",
+    "age": 35,
+    "category": "performance",
+    "short_quote": "Σε μια από τις πιο δύσκολες περιόδους της ζωής μου, η προπόνησή του ήταν το μόνο πράγμα που με κρατούσε και με έκανε να σηκώνομαι το πρωί... Μαζί του πέτυχα εκπληκτικά αποτελέσματα σε σύντομο χρονικό διάστημα.",
+    "image": "/images/testimonials/profil_3.jpg",
+    "full_story": [
+      "Όταν συνάντησα τον Flé για πρώτη φορά, είδα μια ομάδα ανθρώπων να τρέχουν γύρω από το γυμναστήριο και εκείνος φώναζε 'allez allez'. Δεν έμοιαζε με μια συνηθισμένη προπόνηση γυμναστηρίου, αλλά όλοι φαίνονταν τόσο ευτυχισμένοι μετά! Αποφάσισα να του μιλήσω και θα είμαι για πάντα ευγνώμων που το έκανα!",
+      "Με τον Flé δεν έμαθα μόνο για τον αθλητισμό, την προπόνηση και την υγεία, αλλά και πώς να ξεπερνώ τα όριά μου και ορισμένα σημαντικά μαθήματα ζωής. Σε μια από τις πιο δύσκολες περιόδους της ζωής μου, η προπόνησή του ήταν το μόνο πράγμα που με κρατούσε και με έκανε να σηκώνομαι το πρωί.",
+      "Δεν ξέρω πού θα ήμουν σήμερα αν δεν ήταν εκείνος. Δεν μπορώ να εκφράσω πόσο ευγνώμων είμαι που συναντηθήκαμε. Μαζί του πέτυχα εκπληκτικά αποτελέσματα σε σύντομο χρονικό διάστημα και έμαθα πώς να διατηρώ το επίπεδό μου μόνη μου αφού μετακόμισα και δεν τον είχα πλέον ως προπονητή.",
+      "Ήταν επίσης εκπληκτικό να παρακολουθώ τη μεταμόρφωση άλλων ανθρώπων στο γυμναστήριο. Βλέποντας ανθρώπους που μόλις μπορούσαν να περπατήσουν να αρχίζουν να τρέχουν και να σηκώνουν βάρη.",
+      "Συνιστώ ανεπιφύλακτα σε όλους να γνωρίσουν τον Flé ως προπονητή και ως άνθρωπο — θα αλλάξει τη ζωή σας για πάντα!"
+    ]
+  },
+  {
+    "id": "juan-carlos-carignani",
+    "name": "Juan Carlos Carignani",
+    "role": "Αγωνιζόμενος στο Ράλι Ντακάρ",
+    "category": "performance",
+    "short_quote": "Χάρη στην προπόνηση του Flédéric... πέτυχα πολύ καλή συνολική φυσική κατάσταση. Τα αποτελέσματα κατά τη διάρκεια του αγώνα ήταν πέρα από τις προσδοκίες μου.",
+    "gallery_type": "gallery",
+    "images": [
+      "/images/testimonials/profil_4_1.jpg",
+      "/images/testimonials/profil_4_2.jpg"
+    ],
+    "full_story": [
+      "Γεια σας, ονομάζομαι Juan Carlos Carignani, είμαι αγωνιζόμενος στο Ράλι Ντακάρ και θα ήθελα να μοιραστώ την εμπειρία μου από την προπόνηση που έκανα με τον Flédéric.",
+      "Το Ράλι Ντακάρ είναι το πιο σκληρό, το μεγαλύτερο σε διάρκεια και μέγεθος Ράλι στον κόσμο, στο οποίο οι συμμετέχοντες αντιμετωπίζουν πολλές επικίνδυνες καταστάσεις και εκτίθενται σε δύο εβδομάδες ακραίας προσπάθειας που απαιτεί μεγάλη αντοχή. Επιπλέον, υπάρχουν πολλές επιπλοκές που απαιτούν να είσαι πνευματικά και σωματικά προετοιμασμένος αν θέλεις να τερματίσεις ολόκληρο τον αγώνα.",
+      "Χάρη στην προπόνηση του Flédéric, ο οποίος με προετοίμασε με αποτελεσματικές ασκήσεις, πέτυχα πολύ καλή συνολική φυσική κατάσταση. Ήταν μια πολύ παραγωγική προετοιμασία για τη σωματική δύναμη και την αντοχή.",
+      "Τα αποτελέσματα κατά τη διάρκεια του αγώνα ξεπέρασαν τις προσδοκίες, με την έννοια ότι μπόρεσα να παραμείνω δυνατός και ικανός να αντιμετωπίσω σκληρές συνθήκες.",
+      "Είμαι πολύ ικανοποιημένος με αυτό το πρόγραμμα προετοιμασίας και το συνιστώ για κάθε είδος αθλήματος."
+    ]
+  }
+]========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\data\data_en.json  
+========================================  
+[
+  {
+    "id": "christopher-kirschgens",
+    "name": "Christopher Kirschgens",
+    "role": "Athlete / German Customs Officer",
+    "age": 35,
+    "category": "performance",
+    "short_quote": "I was surprised how well I felt after each workout - exhausted, but happy and full of power... Since the workouts with Flédéric I've never had problems with the intervertebral discs and joints any longer.",
+    "image": "/images/testimonials/profil_1.jpg",
+    "full_story": [
+      "My name is Christopher Kirschgens. I am 35 years old and an avid athlete. In my youth I played a lot of handball and football, including in handball in a team of the Rhineland. Professionally, I had to give up the two team sports and look for another hobby. I started running, swimming and cycling and added weight training. Among other things in the following years, I took part in several obstacle courses (Tough Mudder or Strongman Run). For me, my first marathon in Zurich with my wife Alexandra was probably the most beautiful sporty success of my athlete's existence. I then ran two more marathons, Berlin 2017 and Freiburg i. B. 2018. Currently, my sport is limited to fitness training.",
+      "At the end of 2018 Flédéric spoke to me in the gym, he suggested to train me physically and physically healthier and to provide me with his training and his concept. 'Christopher', he said, 'if you work out with me, I'll take you up to the top.' Flédéric talked to me about weight training and health and told me that he had seen me in the gym for a long time and followed my training. He gave me a detailed idea of his concept and made me understand why it is so important to train so that I still have profit of it in old age. It is not important that you put a lot of weight on the equipment and train, it is more important that you perform exercises for everyday life which help to prevent injuries or senile deficiency. Flédéric also gave me a nutrition plan for the upcoming weeks. Important in his concept is that you should separate from the bad energy the bad feeling in your body. It should be transported away from the inside of the body to the outside away from yourself. The training should also prevent illness or, after a serious illness, lead back to positive energy and health.",
+      "In the upcoming days Flédéric developed a training concept especially for me and my needs. It should be noted that I work professionally at the German Customs and carry about 8 kg of personal equipment with me on the body (personal ballistic vest, firearm and use various operating resources). Of course, this weight has a negative effect on my bones and joints; e.g. the knee joint, spine, hip bone joints, intervertebral discs.",
+      "Flédéric started the warm-up program with me and explained to me exactly why we warm up just like that. The warm-up program lasts approx. 20 up to max. 30min. Then it was time for different exercises... We did this four times a week; once a week he did a very special training with me where I had to give full throttle. Each workout, however, was max 1 hour. Then he sent me to take a shower and I felt really fresh and powerful. I never felt bad and leached out neither had pain or tension. I was really curious about what he was teaching me in the next training session.",
+      "Flédéric tunes the training specifically for its participants. It brings you very fast forward and you notice the muscle growth. I did exercises that I haven't known before. Besides that, new exercises were added over and over again. Flédéric is right there for you and motivates you during the training. It was really great fun which is very important as well. On the one hand the training pushed you out of the comfort zone to bring you further. On the other hand the training with Flédéric made you feel being in good hands. I was surprised how well I felt after each workout - exhausted, but happy and full of power; I've never had any pain. Since the workouts with Flédéric I've never had problems with the intervertebral discs and joints as described above any longer.",
+      "To sum it up: I can 100% recommend Flédéric's concept and training."
+    ]
+  },
+  {
+    "id": "genevieve-jelsch",
+    "name": "Geneviève Jelsch",
+    "role": "Breast cancer, fibromyalgia and Lyme disease",
+    "age": 57,
+    "category": "sante",
+    "short_quote": "I rapidly started feeling better and feeling myself coming back to life. I was full of energy again and I felt like I could climb mountains... As of today, I still exercise and I live a normal life.",
+    "gallery_type": "before_after",
+    "before_image": "/images/testimonials/profil_2_before.jpg",
+    "after_image": "/images/testimonials/profil_2_after.jpg",
+    "full_story": [
+      "Let me introduce myself. I am Geneviève. I was born in Alsace, in France, in 1962. In 2009, I started feeling pain in my joints and as the years went by, the pain became unbearable. I would scream at night because of severe pain occurring for no reason and I would scare my husband in the meantime. It was extremely violent. Words can't express the pain I underwent. I didn't understand what was happening. The doctors had no concrete answer either. All they said was it was probably a result of my former breast cancer. I had to decrease my working hours and eventually stopped working as I could hardly walk.",
+      "A few years later, my GP finally diagnosed a fibromyalgia and on top of that, the Lyme disease! I was then hospitalized because of a facial palsy which caused me to stutter for more than a year.",
+      "At that moment, I met Flédéric Payet through a friend of mine who was already part of his program. I started training with him and changing my diet. I rapidly started feeling better and feeling myself coming back to life. I was full of energy again and I felt like I could climb mountains. My husband couldn't believe his eyes!! He was very surprised to witness the significant positive changes after many years of agony. None of my siblings and friends recognized me either. I was not the same person anymore. It changed my life. I even started working again!!",
+      "I followed Flédéric's program for 2 years, including 5 training days a week in his care. As of today, I still exercise and I live a normal life. I cannot thank Flédéric enough for all that he has done for me, including comforting and supporting me during times of discouragement. He never hesitated to come and visit me at my place in times of need. I will be forever grateful to him."
+    ]
+  },
+  {
+    "id": "julia-eichmann",
+    "name": "Julia Eichmann",
+    "role": "Depressed and aiming at physical performance",
+    "age": 35,
+    "category": "performance",
+    "short_quote": "During one of the most difficult times of my life, his training was the only thing that kept me going and made me get up in the morning... With him I achieved amazing results in short time.",
+    "image": "/images/testimonials/profil_3.jpg",
+    "full_story": [
+      "When I met Flé for the first time, I saw a group of people running around the gym and he was yelling 'allez allez'. It didn't look like your average gym session but everyone looked so happy afterwards! I decided to talk to him and will forever be grateful that I did!",
+      "With Flé I did not only learn about sport and workouts and health but also how to push my boundaries and some important lessons for life. During one of the most difficult times of my life, his training was the only thing that kept me going and made me get up in the morning.",
+      "I don't know where I would be today, if not for him. I cannot express how grateful I am that we met. With him I achieved amazing results in short time and learned how to keep up the level by myself after I moved away and didn't have him as a coach anymore.",
+      "It was also astonishing to watch the transformation of other people in the gym. Witnessing how people who could barely walk started to run and push weights.",
+      "I can only recommend everyone to meet Flé as a coach and as a person - it will change your life forever!"
+    ]
+  },
+  {
+    "id": "juan-carlos-carignani",
+    "name": "Juan Carlos Carignani",
+    "role": "Dakar Rally Competitor",
+    "category": "performance",
+    "short_quote": "Thanks to Flédéric's training... I achieved a very good overall fitness. The results during the race was beyond expectations in the sense that I could remain strong and capable of facing harsh conditions.",
+    "gallery_type": "gallery",
+    "images": [
+      "/images/testimonials/profil_4_1.jpg",
+      "/images/testimonials/profil_4_2.jpg"
+    ],
+    "full_story": [
+      "Hello, my name is Juan Carlos Carignani, I am a Rally Dakar competitor and I would like to give some feedback about the training I have been doing with Flédéric.",
+      "The Rally Dakar is the hardest, biggest and longest Rally of the world, in which the participants face many dangerous situations and are exposed to two weeks of extreme efforts requiring endurance. In addition, there are many complications which require you must be mentally and physically prepared if you want to get through the whole Rally race.",
+      "Thanks to Flédéric's training, in which he prepared me with effective exercises, I achieved a very good overall fitness. It was a very productive training in preparation for physical strength and endurance.",
+      "The results during the race was beyond expectations in the sense that I could remain strong and capable of facing harsh conditions.",
+      "I am very satisfied with this preparation program and recommend it for any kind of sport."
+    ]
+  }
+]========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\data\data_fr.json  
+========================================  
+[
+  {
+    "id": "christopher-kirschgens",
+    "name": "Christopher Kirschgens",
+    "role": "Athlète / Douanier allemand",
+    "age": 35,
+    "category": "performance",
+    "short_quote": "J'ai été surpris de voir à quel point je me sentais bien après chaque séance — épuisé, mais heureux et plein d'énergie... Depuis que je m'entraîne avec Flédéric, je n'ai plus aucun problème de disques intervertébraux ni d'articulations.",
+    "image": "/images/testimonials/profil_1.jpg",
+    "full_story": [
+      "Je m'appelle Christopher Kirschgens. J'ai 35 ans et je suis un passionné de sport. Dans ma jeunesse, j'ai beaucoup joué au handball et au football, notamment dans une équipe de handball de Rhénanie. Professionnellement, j'ai dû abandonner les sports d'équipe et me trouver un autre passe-temps. J'ai commencé la course à pied, la natation, le cyclisme et la musculation. Entre autres choses, j'ai participé les années suivantes à plusieurs courses d'obstacles (Tough Mudder, Strongman Run). Mon premier marathon à Zurich avec mon épouse Alexandra a probablement été la plus belle réussite sportive de mon parcours. J'ai ensuite couru deux autres marathons, à Berlin en 2017 et à Fribourg en 2018. Actuellement, ma pratique sportive se concentre sur l'entraînement physique.",
+      "Fin 2018, Flédéric m'a abordé dans la salle de sport. Il m'a proposé de m'entraîner pour améliorer ma santé physique et de me faire découvrir son concept. 'Christopher', m'a-t-il dit, 'si tu t'entraînes avec moi, je t'emmènerai au sommet.' Flédéric m'a expliqué sa vision de la musculation et de la santé. Il observait mes entraînements depuis un moment. Il m'a présenté son concept en détail et m'a fait comprendre l'importance de s'entraîner intelligemment pour en récolter les bénéfices sur le long terme et en vieillissant. L'important n'est pas de charger lourdement les machines, mais d'effectuer des mouvements utiles au quotidien qui préviennent les blessures et la baisse de forme prématurée. Il m'a également élaboré un plan nutritionnel. Son concept vise à évacuer les mauvaises énergies et les sensations négatives du corps. L'entraînement doit aussi prévenir la maladie ou, après une épreuve de santé, ramener de l'énergie positive.",
+      "Dans les jours qui ont suivi, Flédéric a conçu un programme spécialement adapté à mes besoins. Travaillant au sein des douanes allemandes, je porte environ 8 kg d'équipement sur moi (gilet pare-balles, arme de service, matériel opérationnel). Ce poids quotidien sollicite fortement mes articulations et ma colonne vertébrale (genoux, hanches, disques intervertébraux).",
+      "Flédéric a commencé par le programme d'échauffement en m'expliquant précisément son rôle (environ 20 à 30 minutes). Nous sommes ensuite passés aux exercices ciblés... Nous nous entraînions quatre fois par semaine, avec une séance hebdomadaire très intense. Chaque séance durait au maximum une heure. En sortant, je me sentais frais, tonique, sans aucune douleur ni tension. J'étais toujours curieux de découvrir la séance suivante.",
+      "Flédéric personnalise entièrement son accompagnement. Les progrès sont très rapides. J'ai découvert de nouveaux exercices très motivants. D'un côté, l'entraînement nous fait sortir de notre zone de confort ; de l'autre, on se sent parfaitement encadré et en sécurité. J'ai été surpris de voir à quel point je me sentais bien après chaque séance — fatigué, mais heureux et plein d'énergie. Depuis que je m'entraîne avec Flédéric, mes douleurs articulaires et vertébrales ont totalement disparu.",
+      "En résumé : je recommande à 100 % le concept et les entraînements de Flédéric."
+    ]
+  },
+  {
+    "id": "genevieve-jelsch",
+    "name": "Geneviève Jelsch",
+    "role": "Cancer du sein, fibromyalgie et maladie de Lyme",
+    "age": 57,
+    "category": "sante",
+    "short_quote": "J'ai rapidement commencé à me sentir mieux et à revivre. J'étais à nouveau pleine d'énergie et je me sentais capable de soulever des montagnes... Aujourd'hui, je continue à m'entraîner et je mène une vie normale.",
+    "gallery_type": "before_after",
+    "before_image": "/images/testimonials/profil_2_before.jpg",
+    "after_image": "/images/testimonials/profil_2_after.jpg",
+    "full_story": [
+      "Permettez-moi de me présenter. Je m'appelle Geneviève. Je suis née en Alsace, en France, en 1962. En 2009, j'ai commencé à ressentir des douleurs articulaires et, au fil des années, la douleur est devenue insupportable. Je hurlais la nuit en raison d'interminables crises de douleur sans raison apparente, effrayant mon mari au passage. C'était extrêmement violent. Les mots ne peuvent exprimer la souffrance que j'ai subie. Je ne comprenais pas ce qui m'arrivait. Les médecins n'avaient pas non plus de réponse concrète : ils disaient seulement que c'était probablement une séquelle de mon ancien cancer du sein. J'ai dû réduire mon temps de travail pour finalement arrêter complètement, car je pouvais à peine marcher.",
+      "Quelques années plus tard, mon médecin traitant a enfin diagnostiqué une fibromyalgie et, par-dessus tout, la maladie de Lyme ! J'ai ensuite été hospitalisée à la suite d'une paralysie faciale qui m'a fait bégayer pendant plus d'un an.",
+      "C'est à ce moment-là que j'ai rencontré Flédéric Payet grâce à une amie qui suivait déjà son programme. J'ai commencé à m'entraîner avec lui et à modifier mon alimentation. J'ai rapidement commencé à me sentir mieux et à reprendre goût à la vie. J'étais à nouveau pleine d'énergie et je me sentais capable de déplacer des montagnes. Mon mari n'en croyait pas ses yeux !! Il était stupéfait de constater ces changements positifs spectaculaires après de nombreuses années d'agonie. Ni mes frères et sœurs, ni mes amis ne me reconnaissaient. Je n'étais plus la même personne. Cela a changé ma vie. J'ai même repris le travail !!",
+      "J'ai suivi le programme de Flédéric pendant 2 ans, à raison de 5 jours d'entraînement par semaine sous sa supervision. Aujourd'hui, je continue de pratiquer une activité physique et je mène une vie normale. Je ne remercierai jamais assez Flédéric pour tout ce qu'il a fait pour moi, notamment pour m'avoir réconfortée et soutenue dans les moments de découragement. Il n'a jamais hésité à venir me rendre visite chez moi lorsque j'en avais besoin. Je lui en serai éternellement reconnaissante."
+    ]
+  },
+  {
+    "id": "julia-eichmann",
+    "name": "Julia Eichmann",
+    "role": "Dépression et recherche de performance physique",
+    "age": 35,
+    "category": "performance",
+    "short_quote": "Durant l'une des périodes les plus difficiles de ma vie, son entraînement était la seule chose qui me permettait de tenir et de me lever le matin... Avec lui, j'ai obtenu des résultats extraordinaires en très peu de temps.",
+    "image": "/images/testimonials/profil_3.jpg",
+    "full_story": [
+      "Lorsque j'ai rencontré Flé pour la première fois, j'ai vu un groupe de personnes courir dans la salle de sport pendant qu'il criait 'allez allez'. Cela ne ressemblait pas à une séance de gym ordinaire, mais tout le monde avait l'air tellement heureux après ! J'ai décidé d'aller lui parler et je lui en serai éternellement reconnaissante !",
+      "Avec Flé, je n'ai pas seulement appris des choses sur le sport, l'entraînement et la santé, mais aussi sur la façon de repousser mes limites et de retenir d'importantes leçons de vie. Durant l'une des périodes les plus difficiles de ma vie, son entraînement était la seule chose qui me permettait de tenir et de me lever le matin.",
+      "Je ne sais pas où j'en serais aujourd'hui si je ne l'avais pas rencontré. Je ne peux exprimer toute ma gratitude. Avec lui, j'ai obtenu des résultats extraordinaires en très peu de temps et j'ai appris à maintenir ce niveau par moi-même après avoir déménagé et n'avoir plus eu Flé comme coach.",
+      "C'était aussi impressionnant d'observer la transformation des autres personnes dans la salle. Voir des personnes qui pouvaient à peine marcher se mettre à courir et à soulever des charges.",
+      "Je ne peux que recommander à tout le monde de rencontrer Flé, tant comme coach que comme personne — cela changera votre vie pour toujours !"
+    ]
+  },
+  {
+    "id": "juan-carlos-carignani",
+    "name": "Juan Carlos Carignani",
+    "role": "Pilote de Rallye Dakar",
+    "category": "performance",
+    "short_quote": "Grâce à l'entraînement de Flédéric... j'ai atteint une excellente condition physique générale. Les résultats pendant la course ont dépassé mes attentes : je suis resté fort et capable de faire face à des conditions extrêmes.",
+    "gallery_type": "gallery",
+    "images": [
+      "/images/testimonials/profil_4_1.jpg",
+      "/images/testimonials/profil_4_2.jpg"
+    ],
+    "full_story": [
+      "Bonjour, je m'appelle Juan Carlos Carignani, je suis pilote au Rallye Dakar et je souhaite partager mon expérience sur l'entraînement suivi avec Flédéric.",
+      "Le Rallye Dakar est le rallye le plus dur, le plus grand et le plus long au monde, au cours duquel les participants font face à de nombreuses situations dangereuses et sont exposés à deux semaines d'efforts extrêmes nécessitant une grande endurance. À cela s'ajoutent de nombreuses complications qui exigent d'être parfaitement préparé mentalement et physically pour aller au bout de l'épreuve.",
+      "Grâce à l'entraînement de Flédéric, qui m'a préparé avec des exercices ciblés et efficaces, j'ai atteint une très bonne forme physique globale. Ce fut une préparation extrêmement productive en termes de force physique et d'endurance.",
+      "Les résultats pendant la course ont dépassé toutes mes attentes, dans le sens où j'ai pu rester fort et capable de résister aux conditions les plus rudes.",
+      "Je suis très satisfait de ce programme de préparation et je le recommande vivement pour n'importe quel sport."
+    ]
+  }
+]========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\data\testimonials.tsx  
+========================================  
+import testimonialsFR from './testimonials_fr.json';
+import testimonialsEN from './testimonials_en.json';
+import testimonialsEL from './testimonials_el.json';
+
+export interface Testimonial {
+  id: string;
+  name: string;
+  role: string;
+  age?: number;
+  category: string;
+  short_quote: string;
+  image?: string;
+  images?: string[];
+  gallery_type?: 'before_after' | 'gallery';
+  before_image?: string;
+  after_image?: string;
+  full_story: string[];
+}
+
+export function getTestimonials(locale: string = 'fr'): Testimonial[] {
+  switch (locale) {
+    case 'en':
+      return testimonialsEN as Testimonial[];
+    case 'el':
+      return testimonialsEL as Testimonial[];
+    case 'fr':
+    default:
+      return testimonialsFR as Testimonial[];
+  }
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\el.json  
+========================================  
+{
+  "Header": {
+    "nav_home": "Αρχική",
+    "nav_about": "Σχετικά",
+    "nav_method": "Η Μέθοδος SM",
+    "nav_testimonials": "Μαρτυρίες",
+    "nav_contact": "Επικοινωνία",
+    "method_submenu": {
+      "what_is_sm": "Τι είναι το SM;",
+      "who_is_concerned": "Ποιος αφορά;",
+      "what_sm_does_not_do": "Τι δεν κάνει το SM",
+      "metabolic_effort": "Μεταβολική Προσπάθεια",
+      "equipment_used": "Εξοπλισμός που χρησιμοποιείται"
+    }
+  },
+  "Hero": {
+    "badge": "Μεταβολικός Συγχρονισμός",
+    "title": "MetaboSync HealthTech",
+    "subtitle": "Ειδικός Μεταβολισμού & Δημιουργός της Μεθόδου Μεταβολικής Προσπάθειας",
+    "description": "Μια καινοτόμος μεθοδολογία με αποδεδειγμένα αποτελέσματα, σχεδιασμένη για την τόνωση του ενδοκρινούς συστήματος, την επανενεργοποίηση και επαναβαθμονόμηση του μεταβολισμού για αυξημένη ενέργεια, ζωτικότητα, αντοχή και ταχύτερη αποκατάσταση.",
+    "outcomes": "Ορμονική ισορροπία και απελευθέρωση νευροδιαβιβαστών (ντοπαμίνη, ενδορφίνες, σεροτονίνη).",
+    "btn_discover": "Ανακαλύψτε τη Μέθοδος SM",
+    "btn_contact": "Αίτηση δωρεάν αξιολόγησης",
+    "card_method_title": "Η Μέθοδος SM",
+    "card_method_desc": "Ανακαλύψτε πώς λειτουργεί η Μεταβολική Προσπάθεια και ο εξοπλισμός που χρησιμοποιείται.",
+    "card_testimonials_title": "Μαρτυρίες",
+    "card_testimonials_desc": "Στοχευμένα σχόλια ανά τομέα (Υγεία, Απόδοση, Ενέργεια...)",
+    "card_contact_title": "Επικοινωνία & Αξιολόγηση",
+    "card_contact_desc": "Δωρεάν αξιολόγηση για πελάτες ή γενικές ερωτήσεις."
+  },
+  "Method": {
+    "page_title": "Η Μέθοδος SM — Μεταβολική Προσπάθεια",
+    "subtitle": "Μεταβολικός Συγχρονισμός",
+    "definition": "Μια καινοτόμος μεθοδολογία με αποδεδειγμένα αποτελέσματα, σχεδιασμένη για την τόνωση του ενδοκρινούς συστήματος και την επανενεργοποίηση και επαναβαθμονόμηση του μεταβολισμού για αυξημένη ενέργεια, ζωτικότητα, αντοχή και ταχύτερη αποκατάσταση (ορμονική ισορροπία και απελευθέρωση νευροδιαβιβαστών).",
+    "explore_title": "Εξερευνήστε τις ενότητες της Μεθόδου",
+    "link_qecqs": "Τι είναι το SM;",
+    "link_pec": "Ποιος αφορά;",
+    "link_qcsmndf": "Τι δεν κάνει το SM",
+    "link_em": "Μεταβολική Προσπάθεια",
+    "link_eeb": "Εξοπλισμός & Δικαιούχοι",
+    "nav_overview": "Γενική επισκόπηση",
+    "cta": "Είστε έτοιμοι να επανεκκινήσετε τον μεταβολισμό σας; Επικοινωνήστε μαζί μου για μια δωρεάν αξιολόγηση.",
+    "cta_button": "Επικοινωνία",
+    "biography": {
+      "title": "Βιογραφικό του ιδρυτή",
+      "title_line1": "Βιογραφικό",
+      "title_line2": "του ιδρυτή",
+      "name": "Flédéric Payet",
+      "p1": "Τις τελευταίες δύο δεκαετίες, έχω συναντήσει αναρίθμητους ανθρώπους σε δυσκολία σε διάφορα μέρη του κόσμου. Προέρχομαι και ο ίδιος από ένα έντονο γαλλικό νησί, τη Ρενιόν, γεμάτο πολυμορφία.",
+      "p2": "Έχω έρθει αντιμέτωπος με ασθενείς που πάσχουν από πολλά και ποικίλα προβλήματα υγείας, καθώς και με τις προκλήσεις που αντιμετωπίζουν αθλητές ή μονάδες ελίτ. Από τότε, αναπτύσσω συνεχώς νέες μεθόδους για να προσαρμόζομαι σε κάθε άτομο μετά από πολλή έρευνα και πειραματισμό.",
+      "p3": "Το γυμναστήριο έχει γίνει ένα είδος προληπτικού και θεραπευτικού νοσοκομείου για μένα, καθώς πλέον κατανοώ τις αρχές του μεταβολικού συγχρονισμού και της φυσικής διέγερσης του ενδοκρινούς συστήματος. Τα αποτελέσματα σε όλους τους τύπους προφίλ ήταν εξαιρετικά πειστικά."
+    },
+    "analogy": {
+      "title": "Η Αναλογία του Ποδηλάτου",
+      "chain": "Αντιπροσωπεύει τη ροή του αίματος",
+      "chainring": "Αντιπροσωπεύει την καρδιακή αντίσταση",
+      "cogs": "Αντιπροσωπεύουν τον καρδιακό ρυθμό"
+    }
+  },
+  "MethodPages": {
+    "what_is_sm": {
+      "title": "Τι είναι ο Μεταβολικός Συγχρονισμός;",
+      "subtitle": "Ένα μοναδικό πρωτόκολλο ενδοκρινολογικής και καρδιαγγειακής διέγερσης",
+      "intro": "Πρόκειται για ένα μοναδικό πρωτόκολλο σχεδιασμένο να διεγείρει φυσικά το ενδοκρινολογικό σύστημα και να πυροδοτεί την απελευθέρωση νευροδιαβιβαστών χρησιμοποιώντας πολύ συγκεκριμένες και προσαρμοστικές καρδιακές συχνότητες μέσω στοχευμένων προσπαθειών.",
+      "dopamine_title": "Ντοπαμίνη",
+      "dopamine": "Κίνητρο, πνευματική διαύγεια και ανανεωμένη δυναμική.",
+      "endorphins_title": "Ενδορφίνες",
+      "endorphins": "Ανακούφιση από τον πόνο και βαθιά αποκατάσταση.",
+      "serotonin_title": "Σεροτονίνη",
+      "serotonin": "Ισορροπία διάθεσης και ρύθμιση του ύπνου."
+    },
+    "who_is_concerned": {
+      "title": "Ποιος αφορά;",
+      "subtitle": "Μια καθολική εφαρμογή επικυρωμένη στο πεδίο",
+      "intro": "Ο άμεσος και θετικός αντίκτυπος του μεταβολικού συγχρονισμού στην υγεία των ασθενών και των αθλητών αποτελεί σημαντικό ορόσημο, απευθυνόμενος σε τρία κύρια προφίλ:",
+      "target1_title": "1. Άτομα με προβλήματα υγείας (από ήσσονος έως μείζονος σημασίας)",
+      "target1_desc": "Πρόγραμμα που ακολουθήθηκε με επιτυχία από άτομα που πάσχουν από σοβαρή χρόνια κόπωση, ινομυαλγία, ημικρανίες, καρδιακά προβλήματα, υπέρταση, burnout, κατάθλιψη κ.λπ.",
+      "target2_title": "2. Επαγγελματίες και ερασιτέχνες αθλητές",
+      "target2_desc": "Αύξηση της απόδοσης και επιτάχυνση του χρόνου αποκατάστασης πριν, κατά τη διάρκεια και μετά την προσπάθεια — χωρίς τη χρήση συμπληρωμάτων (νόμιμων ή μη). Χρησιμοποιείται σε μηχανοκίνητο αθλητισμό, τένις, ποδόσφαιρο κ.λπ.",
+      "target3_title": "3. Στρατός & Ειδικές Δυνάμεις",
+      "target3_desc": "Προσαρμοσμένο για χειριστές ειδικών δυνάμεων, τακτικές μονάδες, πυροσβέστες και επαγγελματίες που εκτίθενται σε ακραίες σωματικές και ψυχολογικές απαιτήσεις."
+    },
+    "what_sm_does_not_do": {
+      "title": "Τι ΔΕΝ κάνει ο Μεταβολικός Συγχρονισμός",
+      "subtitle": "Πλαίσιο παρέμβασης και ιατρική συμπληρωματικότητα",
+      "main_text": "Η μέθοδος έχει σχεδιαστεί για να διεγείρει φυσικά το ενδοκρινολογικό σύστημα, με θετικά αποτελέσματα στην υγεία και την απόδοση. Έρχεται σε συμπλήρωση, και όχι σε αντικατάσταση, των παραδοσιακών ιατρικών συστημάτων.",
+      "progress_title": "Εξατομικευμένη και προοδευτική διαχείριση",
+      "progress_desc": "Οι συνεδρίες προσαρμόζονται αυστηρά ανάλογα με το επίπεδο, τους στόχους και τους περιορισμούς κάθε ατόμου, ενσωματώνοντας προοδευτική διαχείριση της έντασης σε συνδυασμό με ενεργό αποκατάσταση."
+    },
+    "metabolic_effort": {
+      "title": "Μέθοδος: «Μεταβολική Προσπάθεια»",
+      "subtitle": "Καρδιαγγειακή καθοδήγηση & σωματική ακεραιότητα",
+      "intro": "Η μέθοδός μου συνδυάζει πρωτόκολλα στα οποία καθοδηγώ τις καρδιακές συχνότητες και τους παλμούς κατά την προσπάθεια, με στόχο τη βελτιστοποίηση των νευρικών και γνωστικών λειτουργιών.",
+      "objective_title": "Θεμελιώδεις στόχοι",
+      "obj1": "Διατήρηση ή ανάκτηση της σωματικής ακεραιότητας και διασφάλιση της άμυνάς της.",
+      "obj2": "Προώθηση της αποκατάστασης των ιστικών βλαβών.",
+      "obj3": "Τόνωση της ενεργειακής δαπάνης για σαφή βελτίωση της σύστασης του σώματος."
+    },
+    "equipment": {
+      "title": "Εξοπλισμός που χρησιμοποιείται & Δικαιούχοι",
+      "subtitle": "Εργαλεία εργασίας και καθολική προσβασιμότητα",
+      "tools_title": "Ενσωματωμένος εξοπλισμός",
+      "tools_desc": "Στατικά ποδήλατα, διάδρομοι, ελλειπτικά, μηχανήματα σκάλας, μηχανήματα βαρών και καθοδηγούμενος εξοπλισμός ενδυνάμωσης. Η ενσωμάτωση αυτών των εργαλείων επιτρέπει τη διαφοροποίηση της διέγερσης και τη μεγιστοποίηση της αποτελεσματικότητας της μεταβολικής προσπάθειας.",
+      "access_title": "Προσβασιμότητα",
+      "access_desc": "Όλα τα προφίλ από 14 έως 99 ετών, με ή χωρίς αναπηρίες.",
+      "ip_title": "Πνευματική ιδιοκτησία",
+      "ip_desc": "Σημείωση: Για λόγους εμπιστευτικότητας, όλα τα πρωτόκολλα παραμένουν αυστηρά στον τομέα της πνευματικής ιδιοκτησίας."
+    }
+  },
+  "TestimonialsUI": {
+    "title": "Μαρτυρίες & Ανατροφοδότηση",
+    "subtitle": "Ανακαλύψτε τα παρατηρούμενα αποτελέσματα ανάλογα με τον τομέα ενδιαφέροντός σας.",
+    "searchPlaceholder": "Αναζήτηση ανά όνομα, πόλη, λέξη-κλειδί...",
+    "allProfiles": "Όλα τα προφίλ",
+    "profilesFound": "προφίλ που ταιριάζουν",
+    "resetFilter": "Επαναφορά φίλτρου",
+    "yearsOld": "ετών",
+    "before": "Πριν",
+    "after": "Μετά",
+    "viewRecord": "Προβολή πλήρους αρχείου ➔",
+    "noResults": "Δεν βρέθηκαν μαρτυρίες που να ταιριάζουν στην αναζήτησή σας.",
+    "showAll": "Εμφάνιση όλων των μαρτυριών",
+    "detailedFeedback": "Λεπτομερής μαρτυρία",
+    "documentation": "Συνημμένα ιατρικά έγγραφα & αναφορές",
+    "loading": "Φόρτωση...",
+    "categories": {
+      "sante": "Υγεία",
+      "convalescence": "Αποκατάσταση",
+      "perte_de_poids": "Απώλεια Βάρους",
+      "performance": "Απόδοση",
+      "fatigue": "Κόπωση",
+      "energie": "Ενέργεια"
+    }
+  },
+  "Contact": {
+    "title": "Επικοινωνήστε μαζί μας",
+    "subtitle": "Για δωρεάν αξιολόγηση ή οποιαδήποτε πληροφορία.",
+    "form_name": "Το όνομά σας",
+    "form_name_placeholder": "Το όνομά σας",
+    "form_email": "Το email σας",
+    "form_email_placeholder": "votre@email.com",
+    "form_message": "Το μήνυμά σας",
+    "form_message_placeholder": "Το μήνυμά σας...",
+    "form_submit": "Αποστολή"
+  }
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\en.json  
+========================================  
+{
+  "Header": {
+    "nav_home": "Home",
+    "nav_about": "About",
+    "nav_method": "The SM Method",
+    "nav_testimonials": "Testimonials",
+    "nav_contact": "Contact",
+    "method_submenu": {
+      "what_is_sm": "What is SM?",
+      "who_is_concerned": "Who is concerned?",
+      "what_sm_does_not_do": "What SM does not do",
+      "metabolic_effort": "Metabolic Effort",
+      "equipment_used": "Equipment & Beneficiaries"
+    }
+  },
+  "Hero": {
+    "badge": "Metabolic Synchronization",
+    "title": "MetaboSync HealthTech",
+    "subtitle": "Metabolism Specialist & Creator of the Metabolic Effort Method",
+    "description": "An innovative methodology with proven results, designed to stimulate the endocrine system, reactivate and recalibrate the metabolism for increased energy, vitality, endurance, and faster recovery.",
+    "outcomes": "Hormonal balance and release of neurotransmitters (dopamine, endorphins, serotonin).",
+    "btn_discover": "Discover the SM Method",
+    "btn_contact": "Request a Free Assessment",
+    "card_method_title": "The SM Method",
+    "card_method_desc": "Discover how Metabolic Effort works and the equipment used.",
+    "card_testimonials_title": "Testimonials",
+    "card_testimonials_desc": "Targeted feedback by field (Health, Performance, Energy...)",
+    "card_contact_title": "Contact & Assessment",
+    "card_contact_desc": "Free assessment offered for clients or general inquiries."
+  },
+  "Method": {
+    "page_title": "The SM Method — Metabolic Effort",
+    "subtitle": "Metabolic Synchronization",
+    "definition": "An innovative methodology with proven results designed to naturally stimulate the endocrine system, reactivate and recalibrate the metabolism for renewed energy, vitality, endurance, and faster recovery (hormonal balance and neurotransmitter release).",
+    "explore_title": "Explore the sections of the Method",
+    "link_qecqs": "What is SM?",
+    "link_pec": "Target Audience",
+    "link_qcsmndf": "What SM does not do",
+    "link_em": "Metabolic Effort",
+    "link_eeb": "Equipment & Beneficiaries",
+    "nav_overview": "Overview",
+    "cta": "Ready to reboot your metabolism? Contact me for a free assessment.",
+    "cta_button": "Get in touch",
+    "biography": {
+      "title": "Founder Biography",
+      "title_line1": "Founder",
+      "title_line2": "Biography",
+      "name": "Flédéric Payet",
+      "p1": "Over the past two decades, I have met countless people in distress in various parts of the world. I come from an intense French island myself, Réunion, full of diversity.",
+      "p2": "I have been confronted with patients suffering from many diverse health issues, as well as with challenges faced by athletes or elite units. Since then, I have continuously developed new methods to adapt to each individual following much research and experimentation.",
+      "p3": "The gym has become a kind of preventive and curative hospital for me as I now understand the principles of metabolic synchronization and the natural stimulation of the endocrine system. The results across all types of profiles have been extremely convincing."
+    },
+    "analogy": {
+      "title": "The Bicycle Analogy",
+      "chain": "Represents blood flow",
+      "chainring": "Represents heart resistance",
+      "cogs": "Represent heart rate"
+    }
+  },
+  "MethodPages": {
+    "what_is_sm": {
+      "title": "What is Metabolic Synchronization?",
+      "subtitle": "A unique endocrine and cardiovascular stimulation protocol",
+      "intro": "It is a unique protocol designed to naturally stimulate the endocrine system and trigger the release of neurotransmitters using very specific and adaptive heart rates during targeted efforts.",
+      "dopamine_title": "Dopamine",
+      "dopamine": "Motivation, mental clarity, and renewed drive.",
+      "endorphins_title": "Endorphins",
+      "endorphins": "Pain relief and deep recovery.",
+      "serotonin_title": "Serotonin",
+      "serotonin": "Mood balance and sleep regulation."
+    },
+    "who_is_concerned": {
+      "title": "Target Audience",
+      "subtitle": "A universal application validated in the field",
+      "intro": "The direct and positive impact of metabolic synchronization on the health of patients and athletes constitutes a major breakthrough, addressing three main profiles:",
+      "target1_title": "1. People with Health Issues (Minor to Major)",
+      "target1_desc": "Program successfully followed by individuals suffering from severe chronic fatigue, fibromyalgia, migraines, heart problems, hypertension, burnouts, depression, etc.",
+      "target2_title": "2. Professional and Amateur Athletes",
+      "target2_desc": "Performance increase and recovery time acceleration before, during, and after exertion — without the use of supplements (legal or not). Used in motorsports, tennis, football, etc.",
+      "target3_title": "3. Army & Special Forces",
+      "target3_desc": "Adapted for special forces operators, tactical units, firefighters, and professionals exposed to extreme physical and psychological demands."
+    },
+    "what_sm_does_not_do": {
+      "title": "What Metabolic Synchronization DOES NOT Do",
+      "subtitle": "Intervention framework and medical complementarity",
+      "main_text": "The method has been designed to naturally stimulate the endocrine system, resulting in positive effects on health and performance. It comes in addition to, and not as a replacement for, traditional medical systems.",
+      "progress_title": "Personalized and Progressive Management",
+      "progress_desc": "Sessions are rigorously adjusted according to the level, objectives, and constraints of each individual, integrating progressive management of intensity coupled with active recovery."
+    },
+    "metabolic_effort": {
+      "title": "Method: 'Metabolic Effort'",
+      "subtitle": "Cardiovascular guidance & body integrity",
+      "intro": "My method combines protocols in which I guide cardiovascular frequencies and heartbeats during exertion in order to optimize nervous and cognitive functions.",
+      "objective_title": "Fundamental Objectives",
+      "obj1": "Maintain or restore body integrity and ensure its defense.",
+      "obj2": "Promote the repair of tissue lesions.",
+      "obj3": "Stimulate energy expenditure for a clear improvement in body composition."
+    },
+    "equipment": {
+      "title": "Equipment used & Beneficiaries",
+      "subtitle": "Work tools and universal accessibility",
+      "tools_title": "Integrated Equipment",
+      "tools_desc": "Stationary bikes, treadmills, ellipticals, stair climbers, weight machines, and guided strength equipment. Integrating these tools allows for varied stimulation and maximizes metabolic effort effectiveness.",
+      "access_title": "Accessibility",
+      "access_desc": "All profiles from 14 to 99 years old, with or without disabilities.",
+      "ip_title": "Intellectual Property",
+      "ip_desc": "Note: For confidentiality reasons, all protocols remain strictly within the domain of intellectual property."
+    }
+  },
+  "TestimonialsUI": {
+    "title": "Testimonials & Feedback",
+    "subtitle": "Discover the observed results based on your field of interest.",
+    "searchPlaceholder": "Search by name, city, keyword...",
+    "allProfiles": "All profiles",
+    "profilesFound": "profiles found",
+    "resetFilter": "Reset filter",
+    "yearsOld": "years old",
+    "before": "Before",
+    "after": "After",
+    "viewRecord": "View full file ➔",
+    "noResults": "No testimonials matched your search.",
+    "showAll": "Show all testimonials",
+    "detailedFeedback": "Detailed feedback",
+    "documentation": "Attached medical documents & reports",
+    "loading": "Loading...",
+    "categories": {
+      "sante": "Health",
+      "convalescence": "Convalescence",
+      "perte_de_poids": "Weight Loss",
+      "performance": "Performance",
+      "fatigue": "Fatigue",
+      "energie": "Energy"
+    }
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "For a free assessment or any information.",
+    "form_name": "Your Name",
+    "form_name_placeholder": "Your Name",
+    "form_email": "Your Email",
+    "form_email_placeholder": "your@email.com",
+    "form_message": "Your Message",
+    "form_message_placeholder": "Your message...",
+    "form_submit": "Send"
+  }
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\fr.json  
+========================================  
+{
+  "Header": {
+    "nav_home": "Accueil",
+    "nav_about": "À propos",
+    "nav_method": "La Méthode SM",
+    "nav_testimonials": "Témoignages",
+    "nav_contact": "Contact",
+    "method_submenu": {
+      "what_is_sm": "Qu'est-ce que SM ?",
+      "who_is_concerned": "Qui est concerné ?",
+      "what_sm_does_not_do": "Ce que SM ne fait pas",
+      "metabolic_effort": "Effort Métabolique",
+      "equipment_used": "Équipements & Bénéficiaires"
+    }
+  },
+  "Hero": {
+    "badge": "Synchronisation Métabolique",
+    "title": "MetaboSync HealthTech",
+    "subtitle": "Spécialiste du Métabolisme & Créateur de la Méthode Effort Métabolique",
+    "description": "Une méthodologie innovante aux résultats probants, conçue pour stimuler le système endocrinien, réactiver et recalibrer le métabolisme pour un regain d'énergie, de vitalité, d'endurance et une récupération plus rapide.",
+    "outcomes": "Équilibre hormonal et libération des neurotransmetteurs (dopamine, endorphines, sérotonine).",
+    "btn_discover": "Découvrir la Méthode SM",
+    "btn_contact": "Demander un bilan gratuit",
+    "card_method_title": "La Méthode SM",
+    "card_method_desc": "Découvrez le fonctionnement de l'Effort Métabolique et le matériel utilisé.",
+    "card_testimonials_title": "Témoignages",
+    "card_testimonials_desc": "Retours ciblés par domaine (Santé, Performance, Énergie...)",
+    "card_contact_title": "Contact & Bilan",
+    "card_contact_desc": "Bilan gratuit offert pour les clients ou demandes d'information."
+  },
+  "Method": {
+    "page_title": "La Méthode SM — Effort Métabolique",
+    "subtitle": "Synchronisation Métabolique",
+    "definition": "Une méthodologie innovante conçue pour stimuler naturellement le système endocrinien, réactiver et recalibrer le métabolisme pour un regain d'énergie, de vitalité, d'endurance et une récupération plus rapide (équilibre hormonal et libération de neurotransmetteurs).",
+    "explore_title": "Explorez les sections de la Méthode",
+    "link_qecqs": "Qu'est-ce que SM ?",
+    "link_pec": "Public concerné",
+    "link_qcsmndf": "Ce que SM ne fait pas",
+    "link_em": "Effort Métabolique",
+    "link_eeb": "Équipements & Bénéficiaires",
+    "nav_overview": "Vue générale",
+    "cta": "Prêt à relancer votre métabolisme ? Contactez-moi pour un bilan gratuit.",
+    "cta_button": "Prendre contact",
+    "biography": {
+      "title": "Biographie du fondateur",
+      "title_line1": "Biographie",
+      "title_line2": "du fondateur",
+      "name": "Flédéric Payet",
+      "p1": "Au cours des deux dernières décennies, je me suis mis à rencontrer énormément de personnes en détresse dans multiples parties du monde. Je viens moi-même d'une île française intense, La Réunion, pleine de diversité.",
+      "p2": "J'ai été confronted à des patients souffrant de divers problèmes de santé, ainsi qu'aux défis rencontrés par des athlètes ou des unités d'élite. Depuis lors, je n'ai eu de cesse d'élaborer de nouvelles méthodes afin de m'adapter à tout un chacun après de nombreuses recherches et expérimentations.",
+      "p3": "La salle de sport est devenue une sorte d'hôpital préventif et curatif pour moi, car je comprends désormais les principes de la synchronisation métabolique et de la stimulation naturelle du système endocrinien. Les résultats sur toutes formes de profil ont été extrêmement probants."
+    },
+    "analogy": {
+      "title": "L'Analogie de la Bicyclette",
+      "chain": "Représente le flux sanguin",
+      "chainring": "Représente la résistance cardiaque",
+      "cogs": "Représentent la fréquence cardiaque"
+    }
+  },
+  "MethodPages": {
+    "what_is_sm": {
+      "title": "Qu'est-ce que la Synchronisation Métabolique ?",
+      "subtitle": "Protocole de stimulation endocrinienne et libération de neurotransmetteurs",
+      "intro": "Il s'agit d'un protocole unique conçu pour stimuler naturellement le système endocrinien, et déclencher la libération de neurotransmetteurs en utilisant des fréquences cardiaques très spécifiques et adaptatives à travers des efforts ciblés.",
+      "dopamine_title": "Dopamine",
+      "dopamine": "Motivation, clarté mentale et dynamisme renouvelé.",
+      "endorphins_title": "Endorphines",
+      "endorphins": "Apaisement de la douleur et récupération profonde.",
+      "serotonin_title": "Sérotonine",
+      "serotonin": "Équilibre de l'humeur et régulation du sommeil."
+    },
+    "who_is_concerned": {
+      "title": "Public Concerné",
+      "subtitle": "Une application universelle validée sur le terrain",
+      "intro": "L'impact direct et positif de la synchronisation métabolique sur la santé des patients et des athlètes constitue une avancée majeure, s'adressant à trois grands profils :",
+      "target1_title": "1. Personnes avec des Problèmes de Santé (Mineurs à Majeurs)",
+      "target1_desc": "Programme suivi avec succès par des individus souffrant de fatigue chronique sévère, fibromyalgie, migraines, problèmes cardiaques, hypertension, burnouts, dépression, etc.",
+      "target2_title": "2. Athlètes Professionnels et Amateurs",
+      "target2_desc": "Augmentation des performances et accélération du temps de récupération avant, pendant et après l'effort — sans recours à des suppléments (légaux ou non). Utilisé en sport automobile, tennis, football, etc.",
+      "target3_title": "3. Armée & Forces Spéciales",
+      "target3_desc": "Adapté aux opérateurs des forces spéciales, unités tactiques, pompiers et professionnels exposés à des exigences physiques et psychologiques extrêmes."
+    },
+    "what_sm_does_not_do": {
+      "title": "Ce que la Synchronisation Métabolique NE FAIT PAS",
+      "subtitle": "Cadre d'intervention et complémentarité médicale",
+      "main_text": "La méthode a été conçue pour stimuler naturellement le système endocrinien, entraînant des effets positifs sur la santé et les performances. Elle vient en complément, et non en remplacement, des systèmes médicaux traditionnels.",
+      "progress_title": "Gestion Personnalisée et Progressive",
+      "progress_desc": "Les séances sont rigoureusement ajustées selon le niveau, les objectifs et les contraintes de chaque individu, intégrant une gestion progressive de l'intensité couplée à une récupération active."
+    },
+    "metabolic_effort": {
+      "title": "Méthode : « Effort Métabolique »",
+      "subtitle": "Guidage cardiovasculaire et intégrité corporelle",
+      "intro": "Ma méthode combine des protocoles dans lesquels je guide les fréquences cardiovasculaires et les pulsations pendant l'effort afin d'optimiser les fonctions nerveuses et cognitives.",
+      "objective_title": "Objectifs Fondamentaux",
+      "obj1": "Maintenir ou récupérer l'intégrité du corps et assurer sa défense.",
+      "obj2": "Favoriser la réparation des lésions tissulaires.",
+      "obj3": "Stimuler la dépense énergétique pour une nette amélioration de la composition corporelle."
+    },
+    "equipment": {
+      "title": "Équipements utilisés & Bénéficiaires",
+      "subtitle": "Outils de travail et accessibilité universelle",
+      "tools_title": "Équipements Intégrés",
+      "tools_desc": "Vélos d'appartement, tapis de course, elliptiques, escaliers, machines de musculation et équipements de force guidés. L'intégration de ces outils permet de varier les stimulations et de maximiser l'efficacité de l'effort métabolique.",
+      "access_title": "Accessibilité",
+      "access_desc": "Tous les profils de 14 à 99 ans, avec ou sans handicap.",
+      "ip_title": "Propriété Intellectuelle",
+      "ip_desc": "Remarque : Pour des raisons de confidentialité, l'ensemble des protocoles reste strictement dans le domaine de la propriété intellectuelle."
+    }
+  },
+  "TestimonialsUI": {
+    "title": "Témoignages & Retours d'expérience",
+    "subtitle": "Découvrez les résultats observés selon votre domaine d'intérêt.",
+    "searchPlaceholder": "Rechercher par nom, ville, mot-clé...",
+    "allProfiles": "Tous les profils",
+    "profilesFound": "profils correspondants",
+    "resetFilter": "Réinitialiser le filtre",
+    "yearsOld": "ans",
+    "before": "Avant",
+    "after": "Après",
+    "viewRecord": "Consulter la fiche complète ➔",
+    "noResults": "Aucun témoignage ne correspond à votre recherche.",
+    "showAll": "Afficher tous les témoignages",
+    "detailedFeedback": "Témoignage détaillé",
+    "documentation": "Documents & rapports médicaux joints",
+    "loading": "Chargement...",
+    "categories": {
+      "sante": "Santé",
+      "convalescence": "Convalescence",
+      "perte_de_poids": "Perte de Poids",
+      "performance": "Performance",
+      "fatigue": "Fatigue",
+      "energie": "Énergie"
+    }
+  },
+  "Contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Pour un bilan gratuit ou toute demande d'information.",
+    "form_name": "Votre Nom",
+    "form_name_placeholder": "Votre nom",
+    "form_email": "Votre Email",
+    "form_email_placeholder": "votre@email.com",
+    "form_message": "Votre Message",
+    "form_message_placeholder": "Votre message...",
+    "form_submit": "Envoyer"
+  }
+}========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\lib\layout.tsx  
+========================================  
+export type Locale = "fr" | "en";
+
+export const dictionaries = {
+  fr: {
+    nav: {
+      vision: "La Vision",
+      methode: "La Méthode SM™",
+      investors: "Investisseurs",
+      dealroom: "Accès Deal Room",
+    },
+    hero: {
+      tag: "20 Ans de Recherche • Une Architecture",
+      title1: "METABOSYNC",
+      title2: "HEALTHTECH",
+      desc: "La première méthodologie de reconditionnement métabolique et de performance globale pilotée par la modulation cardio-endocrinienne.",
+      btnDeck: "Demander le Pitch Deck",
+      btnSM: "Découvrir la Méthode SM™",
+    },
+    story: {
+      tag: "L'Architecte Métabolique",
+      title: "D'une blessure majeure à 20 ans d'innovation scientifique",
+      quote: "\"À la suite d'un accident de montagne ayant gravement endommagé mes deux genoux, les diagnostics médicaux m'orientaient vers l'arrêt définitif du sport. Refusant cette fatalité, j'ai consacré plus de deux décennies à concevoir des mécaniSMes avancés de régénération.\"",
+      stat1Title: "20+ Ans",
+      stat1Sub: "D'expérimentation et de recherche empirique",
+      stat2Title: "3 Axes",
+      stat2Sub: "Cardio, Neuro-Endocrinien, Résilience Émotionnelle",
+      stat3Title: "VAE / Patent",
+      stat3Sub: "Certification déposée auprès de l'État Français",
+    },
+  },
+  en: {
+    nav: {
+      vision: "Vision",
+      methode: "SM™ Method",
+      investors: "Investors",
+      dealroom: "Deal Room Access",
+    },
+    hero: {
+      tag: "20 Years of Research • One Architecture",
+      title1: "METABOSYNC",
+      title2: "HEALTHTECH",
+      desc: "The pioneering metabolic reconditioning and performance methodology driven by cardio-endocrine modulation.",
+      btnDeck: "Request Pitch Deck",
+      btnSM: "Discover SM™ Method",
+    },
+    story: {
+      tag: "The Metabolic Architect",
+      title: "From a major injury to 20 years of scientific innovation",
+      quote: "\"Following a severe mountain accident that heavily damaged both my knees, medical prognosis pointed to a permanent stop to sports. Refusing this outcome, I dedicated over two decades to designing advanced regenerative mechaniSMs.\"",
+      stat1Title: "20+ Years",
+      stat1Sub: "Empirical research & experimentation",
+      stat2Title: "3 Pillars",
+      stat2Sub: "Cardio, Neuro-Endocrine, Emotional Resilience",
+      stat3Title: "Certification",
+      stat3Sub: "Patent/Certification filed with French Authorities",
+    },
+  },
+};========================================  
+FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\lib\get-dictionary.ts  
+========================================  
+import fr from "@/dictionaries/fr.json";
+import en from "@/dictionaries/en.json";
+
+export type Locale = "fr" | "en";
+export type Dictionary = typeof fr;
+
+const dictionaries = {
+  fr,
+  en,
+};
+
+export const getDictionary = (locale: Locale): Dictionary => {
+  return dictionaries[locale] || dictionaries.fr;
+};
