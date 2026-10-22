@@ -4,7 +4,14 @@
     "nav_about": "À propos",
     "nav_method": "La Méthode SM",
     "nav_testimonials": "Témoignages",
-    "nav_contact": "Contact"
+    "nav_contact": "Contact",
+    "method_submenu": {
+      "what_is_sm": "Qu'est-ce que SM ?",
+      "who_is_concerned": "Qui est concerné ?",
+      "what_sm_does_not_do": "Ce que SM ne fait pas",
+      "metabolic_effort": "Effort Métabolique",
+      "equipment_used": "Équipements & Bénéficiaires"
+    }
   },
   "Hero": {
     "badge": "Synchronisation Métabolique",
@@ -25,6 +32,7 @@
     "page_title": "La Méthode SM — Effort Métabolique",
     "subtitle": "Synchronisation Métabolique",
     "definition": "Une méthodologie innovante aux résultats probants conçue pour stimuler naturellement le système endocrinien, réactiver et réétalonner le métabolisme pour un regain d'énergie, de vitalité, d'endurance et une récupération plus rapide (équilibre hormonal et libération de neurotransmetteurs).",
+    "nav_overview": "Vue d'ensemble",
     "biography": {
       "title": "Biographie du fondateur",
       "title_line1": "Biographie",
@@ -53,7 +61,7 @@
         "athletes_title": "Athlètes professionnels et amateurs",
         "athletes_desc": "Les athlètes peuvent augmenter leurs performances et accélérer leur temps de récupération avant, pendant et après l'entraînement ou les compétitions — sans recours à des compléments (autorisés ou non).",
         "special_forces_title": "Armée & Forces Spéciales",
-        "special_forces_desc": "Méthodologie conçue pour stimuler naturellement le système endocrinien et réétalonner les fonctions métaboliques. Ce processus déclenche la libération de neurotransmetteurs clés — dopamine, endorphines, sérotonine — entraînant une augmentation des niveaux d'énergie, une plus grande endurance, une clarté cognitive accrue et une récupération considérablement accélérée."
+        "special_forces_desc": "Méthodologie conçue pour stimuler naturellement le système endocrinien et réétalonner les fonctions métaboliques. Ce processus déclenche la libération de neurotransmetteurs clés — dopamine, endorphines, sérotonine — entraînant une augmentation des niveaux d'énergie, une plus grande endurance, une clarté cognitive accrue et une récupération considérablement accelerated."
       }
     },
     "disclaimer_title": "Ce que la Synchronisation Métabolique NE FAIT PAS",
