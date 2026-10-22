@@ -35,7 +35,7 @@
       "p3": "La salle de sport est devenue pour moi une sorte d'hôpital préventif et curatif, car je comprends désormais les principes de la synchronisation métabolique et de la stimulation naturelle du système endocrinien. Les résultats sur tous types de profils ont été extrêmement probants, qu'il s'agisse d'athlètes, de personnes souffrant de diverses pathologies ou d'amateurs."
     },
     "analogy": {
-	  "title": "Introduction du logo",
+      "title": "Introduction du logo",
       "intro": "Imaginez que votre corps soit un vélo et que pour bien fonctionner, il nécessite un entretien régulier. Vous devez huiler la chaîne, resserrer les freins, changer les pneus, resserrer les vis et vérifier le bon état des suspensions.",
       "why": "Pourquoi cette analogie ? Parce qu'elle reflète le fonctionnement métabolique du corps.",
       "chain": "La chaîne représente la circulation sanguine.",
@@ -74,6 +74,51 @@
     "ip_notice": "Remarque : Pour des raisons de confidentialité, les protocoles restent la propriété de la propriété intellectuelle.",
     "cta": "Prêt à relancer votre métabolisme et à vous libérer de certaines pathologies ? Contactez-moi pour un bilan gratuit.",
     "cta_button": "Prendre contact"
+  },
+  "MethodPages": {
+    "what_is_sm": {
+      "title": "Qu'est-ce que la Synchronisation Métabolique ?",
+      "subtitle": "Un protocole unique de stimulation endocrinienne et cardiovasculaire",
+      "intro": "Il s'agit d'un protocole unique conçu pour stimuler naturellement le système endocrinien et déclencher la libération de neurotransmetteurs en utilisant des fréquences cardiaques très spécifiques et adaptatives lors d'efforts ciblés.",
+      "dopamine_title": "Dopamine",
+      "dopamine": "Motivation, clarté mentale et dynamisme renouvelé.",
+      "endorphins_title": "Endorphines",
+      "endorphins": "Soulagement de la douleur et récupération profonde.",
+      "serotonin_title": "Sérotonine",
+      "serotonin": "Équilibre de l'humeur et régulation du sommeil."
+    },
+    "who_is_concerned": {
+      "title": "Public concerné",
+      "subtitle": "Une application universelle validée sur le terrain",
+      "intro": "L'impact direct et positif de la synchronisation métabolique sur la santé des patients et des athlètes constitue une avancée majeure, s'adressant à trois profils principaux :",
+      "target1_title": "1. Personnes avec des problèmes de santé (mineurs à majeurs)",
+      "target1_desc": "Programme suivi avec succès par des personnes souffrant de fatigue chronique sévère, de fibromyalgie, de migraines, de problèmes cardiaques, d'hypertension, de burnouts, de dépression, etc.",
+      "target2_title": "2. Athlètes professionnels et amateurs",
+      "target2_desc": "Augmentation des performances et accélération du temps de récupération avant, pendant et après l'effort — sans recours à des compléments (légaux ou non). Utilisé en sport automobile, tennis, football, etc.",
+      "target3_title": "3. Armée & Forces Spéciales",
+      "target3_desc": "Adapté pour les opérateurs des forces spéciales, les unités tactiques, les pompiers et les professionnels exposés à des exigences physiques et psychologiques extrêmes."
+    },
+    "what_sm_does_not_do": {
+      "title": "Ce que la Synchronisation Métabolique NE FAIT PAS",
+      "subtitle": "Cadre d'intervention et complémentarité médicale",
+      "main_text": "La méthode a été conçue pour stimuler naturellement le système endocrinien, avec des résultats positifs sur la santé et la performance. Elle vient en complément, et non en remplacement, des systèmes médicaux traditionnels.",
+      "progress_title": "Gestion personnalisée et progressive",
+      "progress_desc": "Les séances sont rigoureusement ajustées selon le niveau, les objectifs et les contraintes de chaque individu, en intégrant une gestion progressive de l'intensité couplée à une récupération active."
+    },
+    "metabolic_effort": {
+      "title": "Méthode : « Effort Métabolique »",
+      "subtitle": "Guidage cardiovasculaire & intégrité corporelle",
+      "intro": "Ma méthode combine des protocoles dans lesquels je guide les fréquences cardiaques et les pulsations pendant l'effort afin d'optimiser les fonctions nerveuses et cognitives."
+    },
+    "equipment": {
+      "title": "Équipement utilisé & Bénéficiaires",
+      "subtitle": "Outils de travail et accessibilité universelle",
+      "tools_title": "Équipements intégrés",
+      "tools_desc": "Vélos stationnaires, tapis de course, elliptiques, steppers, machines de musculation et équipements guidés. L'intégration de ces outils permet de diversifier la stimulation et de maximiser l'efficacité de l'effort métabolique.",
+      "access_title": "Accessibilité",
+      "access_desc": "Tous les profils de 14 à 99 ans, avec ou sans handicap.",
+      "ip_desc": "Remarque : Pour des raisons de confidentialité, tous les protocoles relèvent strictement du domaine de la propriété intellectuelle."
+    }
   },
   "TestimonialsUI": {
     "title": "Témoignages & Retours d'Expérience",

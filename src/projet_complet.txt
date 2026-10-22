@@ -16,7 +16,6 @@ C:.
 |   |   page.tsx
 |   |   
 |   +---a-propos
-|   |       page - Copie.tsx
 |   |       page.tsx
 |   |       
 |   +---contact
@@ -40,9 +39,6 @@ C:.
 |   |   \---qecqs
 |   |           page.tsx
 |   |           
-|   +---public-concerne
-|   |       page.tsx
-|   |       
 |   \---temoignages
 |           page.tsx
 |           
@@ -275,89 +271,6 @@ export default function HomePage() {
     </main>
   );
 }========================================  
-FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\a-propos\page - Copie.tsx  
-========================================  
-'use client';
-
-import Link from 'next/link';
-import Image from 'next/image';
-import { useLanguage } from '@/context/LanguageContext';
-
-export default function AProposPage() {
-  const { lang, t } = useLanguage();
-  const isEn = lang === 'en';
-  const bio = t.Method.biography;
-
-  return (
-    <main className="min-h-screen bg-slate-950 text-slate-100 py-12 px-4 SM:px-6 lg:px-8">
-      <div className="max-w-5xl mx-auto space-y-12">
-        
-        {/* En-tête */}
-        <section className="text-center space-y-4">
-          <h1 className="text-3xl SM:text-5xl font-extrabold text-blue-400 tracking-tight">
-            {isEn ? 'About Flédéric Payet' : 'À propos de Flédéric Payet'}
-          </h1>
-          <p className="text-xl text-slate-300 font-medium">
-            {t.Hero.subtitle}
-          </p>
-        </section>
-
-        {/* Disposition avec photo à gauche et bloc texte à droite */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
-          
-          {/* Photo de Flédéric à gauche (Cadre rouge) */}
-          <div className="lg:col-span-5 relative w-full min-h-[350px] lg:min-h-full rounded-2xl overflow-hidden border-2 border-blue-500/50 shadow-2xl">
-            <Image
-              src="/flederic-payet.jpg"
-              alt="Flédéric Payet"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-
-          {/* Carte Parcours & Engagement à droite */}
-          <section className="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 SM:p-8 space-y-6 shadow-xl flex flex-col justify-between">
-            <h2 className="text-2xl font-bold text-white border-b border-slate-800 pb-3">
-              {isEn ? 'My Commitment & My Journey' : 'Mon Engagement & Mon Parcours'}
-            </h2>
-            
-            <div className="space-y-4 text-slate-300 leading-relaxed text-base SM:text-lg">
-              <p>{bio?.p1 || t.Hero.bio}</p>
-              {bio?.p2 && <p>{bio.p2}</p>}
-              {bio?.p3 && <p>{bio.p3}</p>}
-            </div>
-          </section>
-
-        </div>
-
-        {/* Encadré Philosophie */}
-        <section className="bg-gradient-to-r from-blue-950/40 to-slate-900 border border-blue-800/50 rounded-2xl p-6 SM:p-8 space-y-4">
-          <h3 className="text-xl font-bold text-blue-300">
-            {isEn ? 'A Preventive Sanctuary' : 'Une approche préventive et curative'}
-          </h3>
-          <p className="text-slate-300 leading-relaxed">
-            {isEn 
-              ? 'By adapting metabolic protocols to individual capacities, the gym turns into a space for rehabilitation, performance optimization, and lasting health recovery.'
-              : 'En adaptant les protocoles d’effort métabolique aux capacités de chacun, la salle de sport devient un espace de réhabilitation, d’optimisation des performances et de reconquête de la santé durable.'
-            }
-          </p>
-        </section>
-
-        {/* Appel à l'action */}
-        <div className="text-center pt-4">
-          <Link
-            href="/methode-SM"
-            className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-xl shadow-lg transition-all"
-          >
-            {isEn ? 'Discover the SM Method →' : 'Découvrir la Méthode SM →'}
-          </Link>
-        </div>
-
-      </div>
-    </main>
-  );
-}========================================  
 FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\a-propos\page.tsx  
 ========================================  
 'use client';
@@ -559,24 +472,24 @@ export default function MethodeSMPage() {
 
         <AvatarBicyclette />
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
-          <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
-            <div className="text-3xl">⛓️</div>
-            <h3 className="font-bold text-[#0f2851]">La Chaîne</h3>
-            <p className="text-slate-700 text-sm">{method.analogy?.chain}</p>
-          </div>
-          <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
-            <div className="text-3xl">⚙️</div>
-            <h3 className="font-bold text-[#0f2851]">Le Plateau</h3>
-            <p className="text-slate-700 text-sm">{method.analogy?.chainring}</p>
-          </div>
-          <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
-            <div className="text-3xl">🚴</div>
-            <h3 className="font-bold text-[#0f2851]">Les Pignons</h3>
-            <p className="text-slate-700 text-sm">{method.analogy?.cogs}</p>
-          </div>
-        </div>
-      </section>
+			<div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+			  <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
+				<div className="text-3xl">⛓️</div>
+				<h3 className="font-bold text-[#0f2851]">{method.analogy?.chain_label || "La Chaîne"}</h3>
+				<p className="text-slate-700 text-sm">{method.analogy?.chain}</p>
+			  </div>
+			  <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
+				<div className="text-3xl">⚙️</div>
+				<h3 className="font-bold text-[#0f2851]">{method.analogy?.chainring_label || "Le Plateau"}</h3>
+				<p className="text-slate-700 text-sm">{method.analogy?.chainring}</p>
+			  </div>
+			  <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
+				<div className="text-3xl">🚴</div>
+				<h3 className="font-bold text-[#0f2851]">{method.analogy?.cogs_label || "Les Pignons"}</h3>
+				<p className="text-slate-700 text-sm">{method.analogy?.cogs}</p>
+			  </div>
+			</div>      
+		</section>
 
       {/* Appel à l'action */}
       <section className="text-center bg-white/80 backdrop-blur-sm border border-[#8ea0be]/50 rounded-2xl p-8 space-y-6 shadow-md">
@@ -688,23 +601,23 @@ export default function EmPage() {
 
           <AvatarBicyclette />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
-            <div className="p-4 bg-white border border-[#8ea0be] rounded-2xl text-center space-y-1">
-              <span className="text-2xl">⛓️</span>
-              <h4 className="font-bold text-[#0f2851] text-sm">La Chaîne</h4>
-              <p className="text-xs text-slate-600">{method?.analogy?.chain}</p>
-            </div>
-            <div className="p-4 bg-white border border-[#8ea0be] rounded-2xl text-center space-y-1">
-              <span className="text-2xl">⚙️</span>
-              <h4 className="font-bold text-[#0f2851] text-sm">Le Plateau</h4>
-              <p className="text-xs text-slate-600">{method?.analogy?.chainring}</p>
-            </div>
-            <div className="p-4 bg-white border border-[#8ea0be] rounded-2xl text-center space-y-1">
-              <span className="text-2xl">🚴</span>
-              <h4 className="font-bold text-[#0f2851] text-sm">Les Pignons</h4>
-              <p className="text-xs text-slate-600">{method?.analogy?.cogs}</p>
-            </div>
-          </div>
+			<div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+			  <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
+				<div className="text-3xl">⛓️</div>
+				<h3 className="font-bold text-[#0f2851]">{method.analogy?.chain_label || "La Chaîne"}</h3>
+				<p className="text-slate-700 text-sm">{method.analogy?.chain}</p>
+			  </div>
+			  <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
+				<div className="text-3xl">⚙️</div>
+				<h3 className="font-bold text-[#0f2851]">{method.analogy?.chainring_label || "Le Plateau"}</h3>
+				<p className="text-slate-700 text-sm">{method.analogy?.chainring}</p>
+			  </div>
+			  <div className="p-5 bg-white/60 border border-[#8ea0be] rounded-xl space-y-2">
+				<div className="text-3xl">🚴</div>
+				<h3 className="font-bold text-[#0f2851]">{method.analogy?.cogs_label || "Les Pignons"}</h3>
+				<p className="text-slate-700 text-sm">{method.analogy?.cogs}</p>
+			  </div>
+			</div>
         </section>
 
         {/* Navigation inter-pages traduisible */}
@@ -951,92 +864,6 @@ export default function QecqsPage() {
     </main>
   );
 }========================================  
-FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\public-concerne\page.tsx  
-========================================  
-'use client';
-
-import React from 'react';
-import { useLanguage } from '@/context/LanguageContext';
-
-export default function PublicConcernePage() {
-  const { t } = useLanguage();
-  const targets = t.Method?.targets_slide;
-
-  return (
-    <main className="min-h-screen bg-gradient-to-br from-[#dbe5f3] via-[#d5e2f1] to-[#c8d8ec] text-slate-900 py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center min-h-[80vh]">
-        
-        {/* COLONNE GAUCHE : Logo + Cercles géométriques */}
-        <div className="lg:col-span-5 flex flex-col justify-between items-center lg:items-start h-full space-y-12">
-          
-          {/* Bloc Logo en haut à gauche */}
-          <div className="w-full max-w-[340px] bg-[#0a1930] p-6 rounded-2xl shadow-2xl border border-slate-800 flex items-center justify-center">
-            <img
-              src="/logo_metabo.png"
-              alt="MetaboSync HealthTech"
-              className="w-full h-auto object-contain"
-            />
-          </div>
-
-          {/* Motif géométrique en bas à gauche : Cercle bleu plein superposé au cercle hachuré */}
-          <div className="relative w-64 h-64 sm:w-80 sm:h-80 my-auto flex items-center justify-center">
-            <svg viewBox="0 0 200 200" className="w-full h-full">
-              <defs>
-                <pattern id="slideStripes" width="10" height="200" patternUnits="userSpaceOnUse">
-                  <rect x="0" y="0" width="5" height="200" fill="#2b427b" />
-                  <rect x="5" y="0" width="5" height="200" fill="transparent" />
-                </pattern>
-              </defs>
-              {/* Cercle hachuré en arrière-plan */}
-              <circle cx="115" cy="115" r="70" fill="url(#slideStripes)" opacity="0.85" />
-              {/* Cercle bleu foncé au premier plan à gauche */}
-              <circle cx="75" cy="75" r="55" fill="#0f2851" />
-              {/* Évidement central du cercle bleu */}
-              <circle cx="75" cy="75" r="32" fill="#d5e2f1" />
-            </svg>
-          </div>
-
-        </div>
-
-        {/* COLONNE DROITE : Les 3 sections de texte */}
-        <div className="lg:col-span-7 space-y-8 py-4">
-          
-          {/* Section 1 : Problèmes de santé */}
-          <section className="space-y-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f2851] tracking-tight">
-              {targets?.health_title || "Personnes avec des problèmes de santé (mineurs à majeurs)"}
-            </h2>
-            <p className="text-slate-800 text-sm sm:text-base leading-relaxed text-justify">
-              {targets?.health_desc}
-            </p>
-          </section>
-
-          {/* Section 2 : Athlètes */}
-          <section className="space-y-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f2851] tracking-tight">
-              {targets?.athletes_title || "Athlètes professionnels et amateurs"}
-            </h2>
-            <p className="text-slate-800 text-sm sm:text-base leading-relaxed text-justify">
-              {targets?.athletes_desc}
-            </p>
-          </section>
-
-          {/* Section 3 : Forces Spéciales */}
-          <section className="space-y-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f2851] tracking-tight">
-              {targets?.forces_title || "Armée & Forces Spéciales"}
-            </h2>
-            <p className="text-slate-800 text-sm sm:text-base leading-relaxed text-justify">
-              {targets?.forces_desc}
-            </p>
-          </section>
-
-        </div>
-
-      </div>
-    </main>
-  );
-}========================================  
 FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\app\temoignages\page.tsx  
 ========================================  
 'use client';
@@ -1084,11 +911,11 @@ function TestimonialsContent() {
 
   const ui = t.TestimonialsUI;
   
-  // Sélection des données selon la langue active (fr, en, el)
   const testimonialsData: Testimonial[] = useMemo(() => {
-    if (lang === 'en') return testimonialsEn as Testimonial[];
-    if (lang === 'el') return testimonialsEl as Testimonial[];
-    return testimonialsFr as Testimonial[];
+    let data = testimonialsFr;
+    if (lang === 'en') data = testimonialsEn;
+    if (lang === 'el') data = testimonialsEl;
+    return (data || []).filter((item: any) => item && typeof item === 'object' && item.id);
   }, [lang]);
 
   const selectedCategory = searchParams.get('category') as CategoryKey | null;
@@ -1276,7 +1103,7 @@ function TestimonialsContent() {
             </div>
 
             {/* Affichage des images dans la modale */}
-            {activeTestimonial.gallery_type === 'before_after' ? (
+            {activeTestimonial?.gallery_type === 'before_after' ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-1.5">
                   <span className="text-xs font-bold text-slate-600 block text-center uppercase">
@@ -1303,7 +1130,7 @@ function TestimonialsContent() {
                   </div>
                 </div>
               </div>
-            ) : activeTestimonial.gallery_type === 'gallery' && activeTestimonial.images ? (
+            ) : activeTestimonial?.gallery_type === 'gallery' && activeTestimonial?.images ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {activeTestimonial.images.map((img, idx) => (
                   <div key={idx} className="relative h-60 rounded-xl overflow-hidden bg-white border border-[#8ea0be]">
@@ -1316,13 +1143,15 @@ function TestimonialsContent() {
                 ))}
               </div>
             ) : (
-              <div className="relative h-72 rounded-xl overflow-hidden bg-white border border-[#8ea0be] max-w-sm mx-auto">
-                <img
-                  src={activeTestimonial.image}
-                  alt={activeTestimonial.name}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              activeTestimonial?.image && (
+                <div className="relative h-72 rounded-xl overflow-hidden bg-white border border-[#8ea0be] max-w-sm mx-auto">
+                  <img
+                    src={activeTestimonial.image}
+                    alt={activeTestimonial.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              )
             )}
 
             {/* Histoire complète paragraphe par paragraphe */}
@@ -1592,30 +1421,17 @@ FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\components\Testimonia
 
 import React from 'react';
 
-interface Testimonial {
-  id: string;
-  name: string;
-  role: string;
-  age?: number;
-  category: string;
-  short_quote: string;
-  image?: string;
-  images?: string[];
-  gallery_type?: 'before_after' | 'gallery';
-  before_image?: string;
-  after_image?: string;
-  full_story: string[];
-}
-
 export default function TestimonialCard({
   testimonial,
   onOpenModal,
   labels,
 }: {
-  testimonial: Testimonial;
-  onOpenModal?: (t: Testimonial) => void;
+  testimonial: any;
+  onOpenModal?: (t: any) => void;
   labels?: any;
 }) {
+  if (!testimonial) return null;
+
   const isBeforeAfter =
     testimonial.gallery_type === 'before_after' ||
     Boolean(testimonial.before_image && testimonial.after_image);
@@ -1629,7 +1445,7 @@ export default function TestimonialCard({
     <div className="bg-white/90 backdrop-blur-md border border-[#8ea0be] rounded-3xl p-6 shadow-xl flex flex-col justify-between hover:-translate-y-1 transition-all">
       <div className="space-y-4">
         
-        {/* CAS 1 : Photos Avant / Après (ex: Geneviève Jelsch) */}
+        {/* CAS 1 : Photos Avant / Après */}
         {isBeforeAfter ? (
           <div className="grid grid-cols-2 gap-2">
             <div className="space-y-1 text-center">
@@ -1639,7 +1455,7 @@ export default function TestimonialCard({
               <div className="relative h-36 w-full rounded-2xl overflow-hidden border border-slate-200">
                 <img
                   src={testimonial.before_image}
-                  alt={`${testimonial.name} - Avant`}
+                  alt={`${testimonial.name || 'Témoin'} - Avant`}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -1651,34 +1467,34 @@ export default function TestimonialCard({
               <div className="relative h-36 w-full rounded-2xl overflow-hidden border border-slate-200">
                 <img
                   src={testimonial.after_image}
-                  alt={`${testimonial.name} - Après`}
+                  alt={`${testimonial.name || 'Témoin'} - Après`}
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
           </div>
         ) : isGallery ? (
-          /* CAS 2 : Galerie de 2 photos simples sans texte "Avant / Après" (ex: Juan Carlos) */
+          /* CAS 2 : Galerie de photos */
           <div className="grid grid-cols-2 gap-2">
-            {testimonial.images?.slice(0, 2).map((imgUrl, index) => (
+            {testimonial.images?.slice(0, 2).map((imgUrl: string, index: number) => (
               <div
                 key={index}
                 className="relative h-36 w-full rounded-2xl overflow-hidden border border-slate-200"
               >
                 <img
                   src={imgUrl}
-                  alt={`${testimonial.name} ${index + 1}`}
+                  alt={`${testimonial.name || 'Témoin'} ${index + 1}`}
                   className="w-full h-full object-cover"
                 />
               </div>
             ))}
           </div>
         ) : (
-          /* CAS 3 : Une seule photo portrait classique (ex: Christopher & Julia) */
+          /* CAS 3 : Une seule photo portrait */
           <div className="relative h-48 w-full rounded-2xl overflow-hidden border border-slate-200">
             <img
               src={testimonial.image}
-              alt={testimonial.name}
+              alt={testimonial.name || 'Témoin'}
               className="w-full h-full object-cover"
             />
           </div>
@@ -1697,7 +1513,7 @@ export default function TestimonialCard({
           <p className="text-xs text-slate-500 font-medium mt-0.5">{testimonial.role}</p>
         </div>
 
-        {/* Citation courte / Accroche */}
+        {/* Citation courte */}
         <p className="text-sm text-slate-700 italic leading-relaxed border-l-2 border-[#0f2851]/30 pl-3">
           « {testimonial.short_quote} »
         </p>
@@ -1974,9 +1790,9 @@ FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\data\data_fr.json
 ]========================================  
 FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\data\testimonials.tsx  
 ========================================  
-import testimonialsFR from './testimonials_fr.json';
-import testimonialsEN from './testimonials_en.json';
-import testimonialsEL from './testimonials_el.json';
+import testimonialsFR from './data_fr.json';
+import testimonialsEN from './data_en.json';
+import testimonialsEL from './data_el.json';
 
 export interface Testimonial {
   id: string;
@@ -2059,10 +1875,13 @@ FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\el.json
       "p3": "Το γυμναστήριο έχει γίνει ένα είδος προληπτικού και θεραπευτικού νοσοκομείου για μένα, καθώς πλέον κατανοώ τις αρχές του μεταβολικού συγχρονισμού και της φυσικής διέγερσης του ενδοκρινούς συστήματος. Τα αποτελέσματα σε όλους τους τύπους προφίλ ήταν εξαιρετικά πειστικά."
     },
     "analogy": {
-      "title": "Η Αναλογία του Ποδηλάτου",
+      "title": "Εισαγωγή του λογοτύπου",
       "chain": "Αντιπροσωπεύει τη ροή του αίματος",
       "chainring": "Αντιπροσωπεύει την καρδιακή αντίσταση",
-      "cogs": "Αντιπροσωπεύουν τον καρδιακό ρυθμό"
+      "cogs": "Αντιπροσωπεύουν τον καρδιακό ρυθμό",
+      "chain_label": "Η Αλυσίδα",
+      "chainring_label": "Ο Δίσκος",
+      "cogs_label": "Τα Γρανάζια"
     }
   },
   "MethodPages": {
@@ -2207,10 +2026,13 @@ FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\en.json
       "p3": "The gym has become a kind of preventive and curative hospital for me as I now understand the principles of metabolic synchronization and the natural stimulation of the endocrine system. The results across all types of profiles have been extremely convincing."
     },
     "analogy": {
-      "title": "The Bicycle Analogy",
+      "title": "Introducing the logo",
       "chain": "Represents blood flow",
       "chainring": "Represents heart resistance",
-      "cogs": "Represent heart rate"
+      "cogs": "Represent heart rate",
+      "chain_label": "The Chain",
+      "chainring_label": "The Chainring",
+      "cogs_label": "The Cogs"
     }
   },
   "MethodPages": {
@@ -2308,112 +2130,80 @@ FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\fr.json
     "nav_about": "À propos",
     "nav_method": "La Méthode SM",
     "nav_testimonials": "Témoignages",
-    "nav_contact": "Contact",
-    "method_submenu": {
-      "what_is_sm": "Qu'est-ce que SM ?",
-      "who_is_concerned": "Qui est concerné ?",
-      "what_sm_does_not_do": "Ce que SM ne fait pas",
-      "metabolic_effort": "Effort Métabolique",
-      "equipment_used": "Équipements & Bénéficiaires"
-    }
+    "nav_contact": "Contact"
   },
   "Hero": {
     "badge": "Synchronisation Métabolique",
     "title": "MetaboSync HealthTech",
-    "subtitle": "Spécialiste du Métabolisme & Créateur de la Méthode Effort Métabolique",
-    "description": "Une méthodologie innovante aux résultats probants, conçue pour stimuler le système endocrinien, réactiver et recalibrer le métabolisme pour un regain d'énergie, de vitalité, d'endurance et une récupération plus rapide.",
+    "subtitle": "Spécialiste du Métabolisme & Créateur de la Méthode d'Effort Métabolique",
+    "description": "Une méthodologie innovante aux résultats probants, conçue pour stimuler le système endocrinien, réactiver et réétalonner le métabolisme pour un regain d'énergie, de vitalité, d'endurance et une récupération plus rapide.",
     "outcomes": "Équilibre hormonal et libération des neurotransmetteurs (dopamine, endorphines, sérotonine).",
     "btn_discover": "Découvrir la Méthode SM",
     "btn_contact": "Demander un bilan gratuit",
     "card_method_title": "La Méthode SM",
     "card_method_desc": "Découvrez le fonctionnement de l'Effort Métabolique et le matériel utilisé.",
     "card_testimonials_title": "Témoignages",
-    "card_testimonials_desc": "Retours ciblés par domaine (Santé, Performance, Énergie...)",
+    "card_testimonials_desc": "Des retours ciblés par domaine (Santé, Performance, Énergie...)",
     "card_contact_title": "Contact & Bilan",
-    "card_contact_desc": "Bilan gratuit offert pour les clients ou demandes d'information."
+    "card_contact_desc": "Bilan gratuit offert pour les clients ou questions générales."
   },
   "Method": {
     "page_title": "La Méthode SM — Effort Métabolique",
     "subtitle": "Synchronisation Métabolique",
-    "definition": "Une méthodologie innovante conçue pour stimuler naturellement le système endocrinien, réactiver et recalibrer le métabolisme pour un regain d'énergie, de vitalité, d'endurance et une récupération plus rapide (équilibre hormonal et libération de neurotransmetteurs).",
-    "explore_title": "Explorez les sections de la Méthode",
-    "link_qecqs": "Qu'est-ce que SM ?",
-    "link_pec": "Public concerné",
-    "link_qcsmndf": "Ce que SM ne fait pas",
-    "link_em": "Effort Métabolique",
-    "link_eeb": "Équipements & Bénéficiaires",
-    "nav_overview": "Vue générale",
-    "cta": "Prêt à relancer votre métabolisme ? Contactez-moi pour un bilan gratuit.",
-    "cta_button": "Prendre contact",
+    "definition": "Une méthodologie innovante aux résultats probants conçue pour stimuler naturellement le système endocrinien, réactiver et réétalonner le métabolisme pour un regain d'énergie, de vitalité, d'endurance et une récupération plus rapide (équilibre hormonal et libération de neurotransmetteurs).",
     "biography": {
       "title": "Biographie du fondateur",
       "title_line1": "Biographie",
       "title_line2": "du fondateur",
       "name": "Flédéric Payet",
-      "p1": "Au cours des deux dernières décennies, je me suis mis à rencontrer énormément de personnes en détresse dans multiples parties du monde. Je viens moi-même d'une île française intense, La Réunion, pleine de diversité.",
-      "p2": "J'ai été confronted à des patients souffrant de divers problèmes de santé, ainsi qu'aux défis rencontrés par des athlètes ou des unités d'élite. Depuis lors, je n'ai eu de cesse d'élaborer de nouvelles méthodes afin de m'adapter à tout un chacun après de nombreuses recherches et expérimentations.",
-      "p3": "La salle de sport est devenue une sorte d'hôpital préventif et curatif pour moi, car je comprends désormais les principes de la synchronisation métabolique et de la stimulation naturelle du système endocrinien. Les résultats sur toutes formes de profil ont été extrêmement probants."
+      "p1": "Au cours des deux dernières décennies, j'ai rencontré d'innombrables personnes en détresse dans diverses parties du monde ou sur différents continents. Je viens moi-même d'une île française intense et pleine de diversité, La Réunion.",
+      "p2": "J'ai été confronté à des patients souffrant de problèmes de santé très divers, ainsi qu'aux défis rencontrés par des athlètes ou des unités d'élite. Depuis lors, je n'ai cessé de développer de nouvelles méthodes pour m'adapter à chaque individu à la suite de nombreuses recherches et expérimentations.",
+      "p3": "La salle de sport est devenue pour moi une sorte d'hôpital préventif et curatif, car je comprends désormais les principes de la synchronisation métabolique et de la stimulation naturelle du système endocrinien. Les résultats sur tous types de profils ont été extrêmement probants, qu'il s'agisse d'athlètes, de personnes souffrant de diverses pathologies ou d'amateurs."
     },
     "analogy": {
-      "title": "L'Analogie de la Bicyclette",
-      "chain": "Représente le flux sanguin",
-      "chainring": "Représente la résistance cardiaque",
-      "cogs": "Représentent la fréquence cardiaque"
-    }
-  },
-  "MethodPages": {
-    "what_is_sm": {
+	  "title": "Introduction du logo",
+      "intro": "Imaginez que votre corps soit un vélo et que pour bien fonctionner, il nécessite un entretien régulier. Vous devez huiler la chaîne, resserrer les freins, changer les pneus, resserrer les vis et vérifier le bon état des suspensions.",
+      "why": "Pourquoi cette analogie ? Parce qu'elle reflète le fonctionnement métabolique du corps.",
+      "chain": "La chaîne représente la circulation sanguine.",
+      "chainring": "Le plateau représente la résistance cardiaque.",
+      "cogs": "Les pignons et le grand pignon représentent le rythme cardiaque ou la fréquence cardiaque.",
+      "conclusion": "Cela signifie que je vais régler l'effort pour que le corps atteigne un certain confort, ce que j'appelle un effort métabolique, car il apporte un regain d'énergie immédiat au lieu d'épuiser."
+    },
+    "definition_section": {
       "title": "Qu'est-ce que la Synchronisation Métabolique ?",
-      "subtitle": "Protocole de stimulation endocrinienne et libération de neurotransmetteurs",
-      "intro": "Il s'agit d'un protocole unique conçu pour stimuler naturellement le système endocrinien, et déclencher la libération de neurotransmetteurs en utilisant des fréquences cardiaques très spécifiques et adaptatives à travers des efforts ciblés.",
-      "dopamine_title": "Dopamine",
-      "dopamine": "Motivation, clarté mentale et dynamisme renouvelé.",
-      "endorphins_title": "Endorphines",
-      "endorphins": "Apaisement de la douleur et récupération profonde.",
-      "serotonin_title": "Sérotonine",
-      "serotonin": "Équilibre de l'humeur et régulation du sommeil."
+      "p1": "Il s'agit d'un protocole unique conçu pour stimuler naturellement le système endocrinien et déclencher la libération de neurotransmetteurs en utilisant des fréquences cardiaques très spécifiques et adaptatives lors d'efforts ciblés. En conséquence, les niveaux d'énergie, d'endurance et de vitalité augmentent considérablement, permettant une récupération complète et plus rapide de la fatigue, qu'elle soit due à des problèmes de santé ou à un entraînement sportif intense.",
+      "p2": "Cette méthode peut être suivie universellement et avec succès par des personnes de tout âge ou de toute condition physique. Son impact direct et positif sur la santé des patients constitue une étape majeure dans l'entraînement sportif, car elle s'applique aux :",
+      "targets": {
+        "health_title": "Personnes ayant des problèmes de santé mineurs à majeurs",
+        "health_desc": "Ce programme a été suivi avec succès par des personnes souffrant de fatigue chronique sévère, de fibromyalgie, de migraines, de problèmes cardiaques, d'hypertension, de burnout, de dépression, etc.",
+        "athletes_title": "Athlètes professionnels et amateurs",
+        "athletes_desc": "Les athlètes peuvent augmenter leurs performances et accélérer leur temps de récupération avant, pendant et après l'entraînement ou les compétitions — sans recours à des compléments (autorisés ou non).",
+        "special_forces_title": "Armée & Forces Spéciales",
+        "special_forces_desc": "Méthodologie conçue pour stimuler naturellement le système endocrinien et réétalonner les fonctions métaboliques. Ce processus déclenche la libération de neurotransmetteurs clés — dopamine, endorphines, sérotonine — entraînant une augmentation des niveaux d'énergie, une plus grande endurance, une clarté cognitive accrue et une récupération considérablement accélérée."
+      }
     },
-    "who_is_concerned": {
-      "title": "Public Concerné",
-      "subtitle": "Une application universelle validée sur le terrain",
-      "intro": "L'impact direct et positif de la synchronisation métabolique sur la santé des patients et des athlètes constitue une avancée majeure, s'adressant à trois grands profils :",
-      "target1_title": "1. Personnes avec des Problèmes de Santé (Mineurs à Majeurs)",
-      "target1_desc": "Programme suivi avec succès par des individus souffrant de fatigue chronique sévère, fibromyalgie, migraines, problèmes cardiaques, hypertension, burnouts, dépression, etc.",
-      "target2_title": "2. Athlètes Professionnels et Amateurs",
-      "target2_desc": "Augmentation des performances et accélération du temps de récupération avant, pendant et après l'effort — sans recours à des suppléments (légaux ou non). Utilisé en sport automobile, tennis, football, etc.",
-      "target3_title": "3. Armée & Forces Spéciales",
-      "target3_desc": "Adapté aux opérateurs des forces spéciales, unités tactiques, pompiers et professionnels exposés à des exigences physiques et psychologiques extrêmes."
-    },
-    "what_sm_does_not_do": {
-      "title": "Ce que la Synchronisation Métabolique NE FAIT PAS",
-      "subtitle": "Cadre d'intervention et complémentarité médicale",
-      "main_text": "La méthode a été conçue pour stimuler naturellement le système endocrinien, entraînant des effets positifs sur la santé et les performances. Elle vient en complément, et non en remplacement, des systèmes médicaux traditionnels.",
-      "progress_title": "Gestion Personnalisée et Progressive",
-      "progress_desc": "Les séances sont rigoureusement ajustées selon le niveau, les objectifs et les contraintes de chaque individu, intégrant une gestion progressive de l'intensité couplée à une récupération active."
-    },
-    "metabolic_effort": {
-      "title": "Méthode : « Effort Métabolique »",
-      "subtitle": "Guidage cardiovasculaire et intégrité corporelle",
-      "intro": "Ma méthode combine des protocoles dans lesquels je guide les fréquences cardiovasculaires et les pulsations pendant l'effort afin d'optimiser les fonctions nerveuses et cognitives.",
-      "objective_title": "Objectifs Fondamentaux",
-      "obj1": "Maintenir ou récupérer l'intégrité du corps et assurer sa défense.",
-      "obj2": "Favoriser la réparation des lésions tissulaires.",
-      "obj3": "Stimuler la dépense énergétique pour une nette amélioration de la composition corporelle."
-    },
-    "equipment": {
-      "title": "Équipements utilisés & Bénéficiaires",
-      "subtitle": "Outils de travail et accessibilité universelle",
-      "tools_title": "Équipements Intégrés",
-      "tools_desc": "Vélos d'appartement, tapis de course, elliptiques, escaliers, machines de musculation et équipements de force guidés. L'intégration de ces outils permet de varier les stimulations et de maximiser l'efficacité de l'effort métabolique.",
-      "access_title": "Accessibilité",
-      "access_desc": "Tous les profils de 14 à 99 ans, avec ou sans handicap.",
-      "ip_title": "Propriété Intellectuelle",
-      "ip_desc": "Remarque : Pour des raisons de confidentialité, l'ensemble des protocoles reste strictement dans le domaine de la propriété intellectuelle."
-    }
+    "disclaimer_title": "Ce que la Synchronisation Métabolique NE FAIT PAS",
+    "disclaimer_body": "La méthode est conçue pour stimuler naturellement le système endocrinien, avec des résultats positifs sur la santé et la performance. Elle complète — et ne remplace pas — les systèmes médicaux traditionnels.",
+    "objectives_title": "Objectifs de la Méthode",
+    "objectives_list": [
+      "Réactivation du métabolisme",
+      "Amélioration de l'endurance et de la force",
+      "Renforcement de la santé générale",
+      "Séances personnalisées et progressives"
+    ],
+    "effort_title": "Méthode : « Effort Métabolique »",
+    "effort_desc": "Ma méthode combine des protocoles dans lesquels je guide les fréquences cardiaques et les pulsations pendant l'effort, visant à optimiser les fonctions nerveuses et cognitives et à maintenir ou restaurer l'intégrité du corps.",
+    "equipment_title": "Équipement utilisé",
+    "equipment_desc": "Vélos d'appartement, tapis de course, elliptiques, escaliers, machines de musculation, matériel guidé, etc.",
+    "eligibility_title": "Qui peut accéder et bénéficier de cette méthode ?",
+    "eligibility_desc": "Tous les profils de 14 à 99 ans, avec ou sans handicap.",
+    "ip_notice": "Remarque : Pour des raisons de confidentialité, les protocoles restent la propriété de la propriété intellectuelle.",
+    "cta": "Prêt à relancer votre métabolisme et à vous libérer de certaines pathologies ? Contactez-moi pour un bilan gratuit.",
+    "cta_button": "Prendre contact"
   },
   "TestimonialsUI": {
-    "title": "Témoignages & Retours d'expérience",
-    "subtitle": "Découvrez les résultats observés selon votre domaine d'intérêt.",
+    "title": "Témoignages & Retours d'Expérience",
+    "subtitle": "Découvrez les résultats observés selon le domaine qui vous intéresse.",
     "searchPlaceholder": "Rechercher par nom, ville, mot-clé...",
     "allProfiles": "Tous les profils",
     "profilesFound": "profils correspondants",
@@ -2421,11 +2211,11 @@ FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\fr.json
     "yearsOld": "ans",
     "before": "Avant",
     "after": "Après",
-    "viewRecord": "Consulter la fiche complète ➔",
+    "viewRecord": "Voir la fiche complète ➔",
     "noResults": "Aucun témoignage ne correspond à votre recherche.",
     "showAll": "Afficher tous les témoignages",
     "detailedFeedback": "Témoignage détaillé",
-    "documentation": "Documents & rapports médicaux joints",
+    "documentation": "Documents médicaux & comptes-rendus joints",
     "loading": "Chargement...",
     "categories": {
       "sante": "Santé",
@@ -2439,11 +2229,11 @@ FICHIER: C:\Sites\Flederic_Payet\metabosync-healthtech\src\dictionaries\fr.json
   "Contact": {
     "title": "Contactez-nous",
     "subtitle": "Pour un bilan gratuit ou toute demande d'information.",
-    "form_name": "Votre Nom",
+    "form_name": "Votre nom",
     "form_name_placeholder": "Votre nom",
-    "form_email": "Votre Email",
+    "form_email": "Votre email",
     "form_email_placeholder": "votre@email.com",
-    "form_message": "Votre Message",
+    "form_message": "Votre message",
     "form_message_placeholder": "Votre message...",
     "form_submit": "Envoyer"
   }
