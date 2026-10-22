@@ -33,11 +33,11 @@ export default function TestimonialCard({
               <span className="text-xs font-bold text-slate-500 uppercase">
                 {labels?.before || 'AVANT'}
               </span>
-              <div className="relative h-36 w-full rounded-2xl overflow-hidden border border-slate-200">
+              <div className="relative h-40 w-full rounded-2xl overflow-hidden border border-slate-200 bg-slate-50">
                 <img
                   src={testimonial.before_image}
                   alt={`${testimonial.name || 'Témoin'} - Avant`}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
             </div>
@@ -45,22 +45,22 @@ export default function TestimonialCard({
               <span className="text-xs font-bold text-slate-500 uppercase">
                 {labels?.after || 'APRÈS'}
               </span>
-              <div className="relative h-36 w-full rounded-2xl overflow-hidden border border-slate-200">
+              <div className="relative h-40 w-full rounded-2xl overflow-hidden border border-slate-200 bg-slate-50">
                 <img
                   src={testimonial.after_image}
                   alt={`${testimonial.name || 'Témoin'} - Après`}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
             </div>
           </div>
         ) : isGallery ? (
-          /* CAS 2 : Galerie de photos */
+          /* CAS 2 : Galerie de photos (ex: Juan Carlos) */
           <div className="grid grid-cols-2 gap-2">
             {testimonial.images?.slice(0, 2).map((imgUrl: string, index: number) => (
               <div
                 key={index}
-                className="relative h-36 w-full rounded-2xl overflow-hidden border border-slate-200"
+                className="relative h-40 w-full rounded-2xl overflow-hidden border border-slate-200 bg-slate-100"
               >
                 <img
                   src={imgUrl}
@@ -71,12 +71,12 @@ export default function TestimonialCard({
             ))}
           </div>
         ) : (
-          /* CAS 3 : Une seule photo portrait */
-          <div className="relative h-48 w-full rounded-2xl overflow-hidden border border-slate-200">
+          /* CAS 3 : Portrait individuel (ex: Julia Eichmann) */
+          <div className="relative h-56 w-full rounded-2xl overflow-hidden border border-slate-200 bg-slate-50">
             <img
               src={testimonial.image}
               alt={testimonial.name || 'Témoin'}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-top"
             />
           </div>
         )}
